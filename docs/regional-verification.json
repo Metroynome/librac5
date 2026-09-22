@@ -1,0 +1,164 @@
+{
+  "method": "Host C resolver on PT_LOAD-mapped real boot ELFs; not runtime execution.",
+  "regions": [
+    {
+      "region": "ntscu",
+      "serial": "SCUS_976.15",
+      "version": "1.00",
+      "elf_sha256": "d8f1794a5b4f6bd7f70ca62ae11fb790d1c300c2a877ef1aef4c1855fd6575ac",
+      "entry_point": 31859976,
+      "symbol_table": 32550144,
+      "symbol_count": 1804,
+      "named_symbols": 1802,
+      "anchors": {
+        "memset": 32269044,
+        "printf": 32272696,
+        "MCP_LoadLevelModule__Fi": 31879904,
+        "MCPI_SendNewLevel__Fi": 31870768
+      },
+      "all_named_symbols_resolved": 1802,
+      "level_sources_checked": 21,
+      "boot_resolvable_import_records": 5516,
+      "imports_absent_from_boot": {
+        "PAUSEMODE_GetCurrentPauseScreen__Fv": [
+          "FRONTEND.REL"
+        ]
+      },
+      "current_level_global": "0x1ede348",
+      "runtime_level_paths": [
+        "cdrom0:/LVL/FRONTEND.REL",
+        "cdrom0:/LVL/LEVEL_01.REL",
+        "cdrom0:/LVL/LEVEL_02.REL",
+        "cdrom0:/LVL/LEVEL_03.REL",
+        "cdrom0:/LVL/LEVEL_04.REL",
+        "cdrom0:/LVL/LEVEL_05.REL",
+        "cdrom0:/LVL/LEVEL_06.REL",
+        "cdrom0:/LVL/LEVEL_07.REL",
+        "cdrom0:/LVL/LEVEL_08.REL",
+        "cdrom0:/LVL/LEVEL_09.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_13.REL",
+        "cdrom0:/LVL/LEVEL_14.REL",
+        "cdrom0:/LVL/LEVEL_15.REL",
+        "cdrom0:/LVL/LEVEL_16.REL",
+        "cdrom0:/LVL/LEVEL_17.REL",
+        "cdrom0:/LVL/LEVEL_18.REL",
+        "cdrom0:/LVL/LEVEL_19.REL",
+        "cdrom0:/LVL/LEVEL_20.REL",
+        "cdrom0:/LVL/LEVEL_21.REL",
+        "cdrom0:/LVL/LEVEL_22.REL",
+        "cdrom0:/LVL/LEVEL_23.REL",
+        "cdrom0:/LVL/LEVEL_24.REL"
+      ],
+      "variable_address_slots_checked": 25
+    },
+    {
+      "region": "pal",
+      "serial": "SCES_550.19",
+      "version": "1.00",
+      "elf_sha256": "2b33e2d66e144ceb63fd8348ba85f560abace4449c3109ee54719c9e3e462c1f",
+      "entry_point": 31859208,
+      "symbol_table": 32550144,
+      "symbol_count": 1805,
+      "named_symbols": 1803,
+      "anchors": {
+        "memset": 32268516,
+        "printf": 32272168,
+        "MCP_LoadLevelModule__Fi": 31879176,
+        "MCPI_SendNewLevel__Fi": 31870040
+      },
+      "all_named_symbols_resolved": 1803,
+      "level_sources_checked": 21,
+      "boot_resolvable_import_records": 5537,
+      "imports_absent_from_boot": {
+        "PAUSEMODE_GetCurrentPauseScreen__Fv": [
+          "FRONTEND.REL"
+        ]
+      },
+      "current_level_global": "0x1ede348",
+      "runtime_level_paths": [
+        "cdrom0:/LVL/FRONTEND.REL",
+        "cdrom0:/LVL/LEVEL_01.REL",
+        "cdrom0:/LVL/LEVEL_02.REL",
+        "cdrom0:/LVL/LEVEL_03.REL",
+        "cdrom0:/LVL/LEVEL_04.REL",
+        "cdrom0:/LVL/LEVEL_05.REL",
+        "cdrom0:/LVL/LEVEL_06.REL",
+        "cdrom0:/LVL/LEVEL_07.REL",
+        "cdrom0:/LVL/LEVEL_08.REL",
+        "cdrom0:/LVL/LEVEL_09.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_13.REL",
+        "cdrom0:/LVL/LEVEL_14.REL",
+        "cdrom0:/LVL/LEVEL_15.REL",
+        "cdrom0:/LVL/LEVEL_16.REL",
+        "cdrom0:/LVL/LEVEL_17.REL",
+        "cdrom0:/LVL/LEVEL_18.REL",
+        "cdrom0:/LVL/LEVEL_19.REL",
+        "cdrom0:/LVL/LEVEL_20.REL",
+        "cdrom0:/LVL/LEVEL_21.REL",
+        "cdrom0:/LVL/LEVEL_22.REL",
+        "cdrom0:/LVL/LEVEL_23.REL",
+        "cdrom0:/LVL/LEVEL_24.REL"
+      ],
+      "variable_address_slots_checked": 25
+    },
+    {
+      "region": "ntscj",
+      "serial": "SCPS_151.20",
+      "version": "1.00",
+      "elf_sha256": "8e68423602029b2ab392894a82211acafec4f4510518cbff7bc4d27c41f289d0",
+      "entry_point": 31867528,
+      "symbol_table": 32557440,
+      "symbol_count": 1801,
+      "named_symbols": 1799,
+      "anchors": {
+        "memset": 32276388,
+        "printf": 32280040,
+        "MCP_LoadLevelModule__Fi": 31887640,
+        "MCPI_SendNewLevel__Fi": 31878504
+      },
+      "all_named_symbols_resolved": 1799,
+      "level_sources_checked": 21,
+      "boot_resolvable_import_records": 5523,
+      "imports_absent_from_boot": {
+        "PAUSEMODE_GetCurrentPauseScreen__Fv": [
+          "FRONTEND.REL"
+        ]
+      },
+      "current_level_global": "0x1ee0068",
+      "runtime_level_paths": [
+        "cdrom0:/LVL/FRONTEND.REL",
+        "cdrom0:/LVL/LEVEL_01.REL",
+        "cdrom0:/LVL/LEVEL_02.REL",
+        "cdrom0:/LVL/LEVEL_03.REL",
+        "cdrom0:/LVL/LEVEL_04.REL",
+        "cdrom0:/LVL/LEVEL_05.REL",
+        "cdrom0:/LVL/LEVEL_06.REL",
+        "cdrom0:/LVL/LEVEL_07.REL",
+        "cdrom0:/LVL/LEVEL_08.REL",
+        "cdrom0:/LVL/LEVEL_09.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_10.REL",
+        "cdrom0:/LVL/LEVEL_13.REL",
+        "cdrom0:/LVL/LEVEL_14.REL",
+        "cdrom0:/LVL/LEVEL_15.REL",
+        "cdrom0:/LVL/LEVEL_16.REL",
+        "cdrom0:/LVL/LEVEL_17.REL",
+        "cdrom0:/LVL/LEVEL_18.REL",
+        "cdrom0:/LVL/LEVEL_19.REL",
+        "cdrom0:/LVL/LEVEL_20.REL",
+        "cdrom0:/LVL/LEVEL_21.REL",
+        "cdrom0:/LVL/LEVEL_22.REL",
+        "cdrom0:/LVL/LEVEL_23.REL",
+        "cdrom0:/LVL/LEVEL_24.REL"
+      ],
+      "variable_address_slots_checked": 25
+    }
+  ]
+}

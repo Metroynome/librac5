@@ -1,0 +1,2 @@
+REGION := pal
+include Makefile.region

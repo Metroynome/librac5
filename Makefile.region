@@ -1,0 +1,33 @@
+REGION ?= auto
+ifeq ($(filter $(REGION),auto ntscu pal ntscj),)
+$(error REGION must be auto, ntscu, pal, or ntscj)
+endif
+EE_PREFIX ?= mips64r5900el-ps2-elf-
+EE_CC = $(EE_PREFIX)gcc
+EE_AR = $(EE_PREFIX)ar
+REGION_auto = -DRAC5_AUTO
+REGION_ntscu = -DRAC5_NTSCU -DRAC_NTSCU -DNTSCU
+REGION_pal = -DRAC5_PAL -DRAC_PAL -DPAL
+REGION_ntscj = -DRAC5_NTSCJ -DRAC_NTSCJ -DNTSCJ
+CFLAGS = -std=c99 -Os -G0 -Wall -Wextra -Werror -ffreestanding -fno-builtin -fno-pic -mno-abicalls -ffunction-sections -fdata-sections -D_EE $(REGION_$(REGION))
+OBJS = $(addprefix obj/$(REGION)/,rac5.o symbols.o level.o region.o interop.o)
+LIB = lib/librac5$(REGION).a
+.PHONY: all clean install
+all: $(LIB)
+$(LIB): $(OBJS)
+	@mkdir -p $(@D)
+	$(EE_AR) rcs $@ $^
+obj/$(REGION)/%.o: src/%.c $(wildcard include/*.h)
+	@mkdir -p $(@D)
+	$(EE_CC) $(CFLAGS) -Iinclude -MMD -MP -c $< -o $@
+install: all
+	@test -n "$(PS2SDK)" || (echo 'Set PS2SDK for installation'; exit 1)
+	mkdir -p "$(DESTDIR)$(PS2SDK)/ports/include/librac5" "$(DESTDIR)$(PS2SDK)/ports/lib"
+	cp include/*.h "$(DESTDIR)$(PS2SDK)/ports/include/librac5/"
+	cp $(LIB) "$(DESTDIR)$(PS2SDK)/ports/lib/"
+clean:
+	rm -rf obj/$(REGION)
+	rm -f $(LIB)
+-include $(OBJS:.o=.d)
+
+obj/$(REGION)/region.o: src/region_profiles.inc

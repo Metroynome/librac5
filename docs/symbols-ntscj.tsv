@@ -1,0 +1,1800 @@
+address	kind	section	name	demangled
+01f78bb0	data	.bss	db_dlist	db_dlist
+01e93868	function	.text	SND_PlayPositionalSound__FP9GDE_SoundPC4VEC3fPP14SND_PositionalUi	SND_PlayPositionalSound(GDE_Sound *, VEC3 const *, float, SND_Positional **, unsigned int)
+01e9f178	function	.text	ceilf	ceilf
+01e83010	function	.text	RENDEREFFECT_RestoreScreenEffectsState__Fv	RENDEREFFECT_RestoreScreenEffectsState(void)
+01e66ce8	function	.text	MCPI_SendProgress__Fii	MCPI_SendProgress(int, int)
+01e91be8	function	.text	GLOBALWAD_FindAssetsByType__F14WAD_ASSET_TYPE	GLOBALWAD_FindAssetsByType(WAD_ASSET_TYPE)
+01e93b68	function	.text	SND_FixupSoundSignaturesIOP__FPUiPvPFP13WadLocationIDUi14WAD_ASSET_TYPE13WadLocationID_P15WAD_FILE_HEADERb	SND_FixupSoundSignaturesIOP(unsigned int *, void *, WAD_FILE_HEADER *(*)(WadLocationID *, unsigned int, WAD_ASSET_TYPE, WadLocationID), bool)
+01e95d90	function	.text	dlib_displist_set_blend_state__FP13DLIB_DISPLISTUl	dlib_displist_set_blend_state(DLIB_DISPLIST *, unsigned long)
+01ef2d4c	data	.data	g_TextureMemory	g_TextureMemory
+01ec805c	function	.text	strcat	strcat
+01ef755c	data	.data	g_ALPHASORT_nBatchesToRender	g_ALPHASORT_nBatchesToRender
+01ebd790	function	.text	ps2fioOpen	ps2fioOpen
+01f78c20	data	.bss	g_GSSettings	g_GSSettings
+01e9fb48	function	.text	fmodf	fmodf
+01e84ee0	function	.text	ReleaseBufferCache__Fv	ReleaseBufferCache(void)
+01e9eea8	function	.text	floor	floor
+01e84828	function	.text	Perspective__Q34scee3Psp3Gumffff	scee::Psp::Gum::Perspective(float, float, float, float)
+01e9fdd0	function	.text	powf	powf
+01ef2d74	data	.data	g_RENDEREFFECT_VIGNETTE_Intensity	g_RENDEREFFECT_VIGNETTE_Intensity
+01e80560	function	.text	RENDEREFFECT_HDR__Fv	RENDEREFFECT_HDR(void)
+01e84cc8	function	.text	BufferCacheInUse__Fv	BufferCacheInUse(void)
+01e84cf8	function	.text	GetBufferCachePtr__Fv	GetBufferCachePtr(void)
+01f02390	data	.data	simple_vu_code_microcode	simple_vu_code_microcode
+01e849c8	function	.text	TexPerspective__Q34scee3Psp3Gumffffff	scee::Psp::Gum::TexPerspective(float, float, float, float, float, float)
+01f08da0	data	.data	tie_vu_renderer	tie_vu_renderer
+01e9f8a8	function	.text	atan2f	atan2f
+01e94458	function	.text	SND_FadeAllATRAC__Fff	SND_FadeAllATRAC(float, float)
+01e95b08	function	.text	dlib_displist_add_data_ul64__FP13DLIB_DISPLISTUlUl	dlib_displist_add_data_ul64(DLIB_DISPLIST *, unsigned long, unsigned long)
+01e94220	function	.text	SND_PlayATRAC__FPCcPifb	SND_PlayATRAC(char const *, int *, float, bool)
+01ea8ee0	function	.text	BinkSetVolume	BinkSetVolume
+01ecc130	function	.text	strncasecmp	strncasecmp
+01f05f00	data	.data	staticmesh_vu_renderer_scissoring_shadow	staticmesh_vu_renderer_scissoring_shadow
+01e919d0	function	.text	PS2HEAP_MaxFreeMemSize__Fv	PS2HEAP_MaxFreeMemSize(void)
+01e93a58	function	.text	SND_IsLooping__FPC9GDE_Sound	SND_IsLooping(GDE_Sound const *)
+01ed2810	function	.text	GetThreadId	GetThreadId
+01e7f2e0	function	.text	FOG_PreUpdate__Fv	FOG_PreUpdate(void)
+01e93488	function	.text	SND_SetGlobalSoundRegister__FUiScUi	SND_SetGlobalSoundRegister(unsigned int, signed char, unsigned int)
+01e936e0	function	.text	SND_PlayPositionalSound__FP14SND_PositionalUi	SND_PlayPositionalSound(SND_Positional *, unsigned int)
+01e94668	function	.text	SND_IsAllAtracPaused__Fv	SND_IsAllAtracPaused(void)
+01e84248	function	.text	LookAt__Q34scee3Psp3GumPC14ScePspFVector3N21	scee::Psp::Gum::LookAt(ScePspFVector3 const *, ScePspFVector3 const *, ScePspFVector3 const *)
+01e83bf8	function	.text	PopMatrix__Q34scee3Psp3Gumv	scee::Psp::Gum::PopMatrix(void)
+01e9f598	function	.text	sqrt	sqrt
+01e82fd8	function	.text	RENDEREFFECT_SaveScreenEffectsState__Fv	RENDEREFFECT_SaveScreenEffectsState(void)
+01e64540	function	.text	MEMCARD_Busy__Fv	MEMCARD_Busy(void)
+01e64718	function	.text	MEMCARD_Saving__Fv	MEMCARD_Saving(void)
+01e95b70	function	.text	dlib_displist_mpg__FP13DLIB_DISPLISTP6QWdata	dlib_displist_mpg(DLIB_DISPLIST *, QWdata *)
+01ecaf08	function	.text	rand	rand
+01e64578	function	.text	MEMCARD_GetDanSkinUnlocked__Fv	MEMCARD_GetDanSkinUnlocked(void)
+01ec9f98	function	.text	__assert	__assert
+01ec7ea8	function	.text	memmove	memmove
+01ef86ac	data	.data	g_pCurrentRenderTarget	g_pCurrentRenderTarget
+01e943f0	function	.text	SND_StopAllATRAC__Fv	SND_StopAllATRAC(void)
+01ef7554	data	.data	g_bTryFastStaticMesh	g_bTryFastStaticMesh
+01e83bc0	function	.text	PushMatrix__Q34scee3Psp3Gumv	scee::Psp::Gum::PushMatrix(void)
+01e84b58	function	.text	DirtyAllMatricies__Q34scee3Psp3Gumv	scee::Psp::Gum::DirtyAllMatricies(void)
+01e935f0	function	.text	SND_CreatePositionalSound__FPP14SND_Positional	SND_CreatePositionalSound(SND_Positional **)
+01e95b28	function	.text	dlib_displist_add_call__FP13DLIB_DISPLISTP6QWdata	dlib_displist_add_call(DLIB_DISPLIST *, QWdata *)
+01ec7498	function	.text	sceSdRemote	sceSdRemote
+01e838b0	function	.text	SetMatrixStack__Q34scee3Psp3GumP14ScePspFMatrix4UiUiUiUiUiUi	scee::Psp::Gum::SetMatrixStack(ScePspFMatrix4 *, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+01e64638	function	.text	MEMCARD_GetSlotStatus__FUi	MEMCARD_GetSlotStatus(unsigned int)
+01fd3118	data	.bss	gRT_AuxBuffer	gRT_AuxBuffer
+01e66668	function	.text	MEMCARD_Test__Fi	MEMCARD_Test(int)
+01ec8a58	function	.text	strncpy	strncpy
+01ef742c	data	.data	g_ENG_ClearColor	g_ENG_ClearColor
+01ec9f88	function	.text	abort	abort
+01e7f320	function	.text	FOG_Update__FUi	FOG_Update(unsigned int)
+01e83a48	function	.text	LoadIdentity__Q34scee3Psp3Gumv	scee::Psp::Gum::LoadIdentity(void)
+01e83c20	function	.text	MultMatrix__Q34scee3Psp3GumPC14ScePspFMatrix4	scee::Psp::Gum::MultMatrix(ScePspFMatrix4 const *)
+01e9da88	function	.text	sceGsResetPath	sceGsResetPath
+01e92d28	function	.text	SND_LevelShutdown__Fv	SND_LevelShutdown(void)
+01e84e98	function	.text	AllocateBufferCache__FUi	AllocateBufferCache(unsigned int)
+01ea8490	function	.text	BinkNextFrame	BinkNextFrame
+01fd3100	data	.bss	gRT_ShadowBuffer	gRT_ShadowBuffer
+01e81628	function	.text	RENDEREFFECT_SwirlyEdgeBlur__Ff	RENDEREFFECT_SwirlyEdgeBlur(float)
+01ea5e90	function	.text	scePadSetActDirect	scePadSetActDirect
+01ea5c88	function	.text	scePadGetState	scePadGetState
+01e93058	function	.text	SND_LevelUpdate__FPC7MATRIX4T0	SND_LevelUpdate(MATRIX4 const *, MATRIX4 const *)
+01e919e0	function	.text	PS2HEAP_TotalFreeMemSize__Fv	PS2HEAP_TotalFreeMemSize(void)
+01f04be0	data	.data	staticmesh_vu_renderer_fast	staticmesh_vu_renderer_fast
+01e83ab0	function	.text	LoadMatrix__Q34scee3Psp3GumPC14ScePspFMatrix4	scee::Psp::Gum::LoadMatrix(ScePspFMatrix4 const *)
+01ef8690	data	.data	gRT_BackBuffer	gRT_BackBuffer
+01e94518	function	.text	SND_AtracOpen__FPCc	SND_AtracOpen(char const *)
+01f03f90	data	.data	smesh_vu_renderer_scissoring	smesh_vu_renderer_scissoring
+01ef2d77	data	.data	g_bRenderPlayerShadow	g_bRenderPlayerShadow
+01e93ac0	function	.text	SND_Fixup__FUiPFP13WadLocationIDUi14WAD_ASSET_TYPE13WadLocationID_P15WAD_FILE_HEADER	SND_Fixup(unsigned int, WAD_FILE_HEADER *(*)(WadLocationID *, unsigned int, WAD_ASSET_TYPE, WadLocationID))
+01e82838	function	.text	RENDEREFFECT_DoFilmNoise__Fv	RENDEREFFECT_DoFilmNoise(void)
+01ef2d7c	data	.data	g_RENDEREFFECT_SWIRLY_InnerRadius	g_RENDEREFFECT_SWIRLY_InnerRadius
+01ec8590	function	.text	strlen	strlen
+01ea02d8	function	.text	sqrtf	sqrtf
+01e90e60	function	.text	MBOX_Poll__FiPP12HigMsgPacket	MBOX_Poll(int, HigMsgPacket **)
+01fd33a0	data	.bss	g_cntTag	g_cntTag
+01e93440	function	.text	SND_SetGlobalVolume__Ff	SND_SetGlobalVolume(float)
+01e926b8	function	.text	GlobalWad_ResetLoadedFlags__Fv	GlobalWad_ResetLoadedFlags(void)
+01e95a88	function	.text	dlib_displist_direct_end__FP13DLIB_DISPLIST	dlib_displist_direct_end(DLIB_DISPLIST *)
+01e945c0	function	.text	SND_PauseAtrac__Fbi	SND_PauseAtrac(bool, int)
+01e7f298	function	.text	FOG_SetProperties__FUiffUif	FOG_SetProperties(unsigned int, float, float, unsigned int, float)
+01eca088	function	.text	atoi	atoi
+01ed3730	function	.text	DelayThread	DelayThread
+01e916d8	function	.text	PS2HEAP_Malloc__FUi	PS2HEAP_Malloc(unsigned int)
+01ed2940	function	.text	SignalSema	SignalSema
+01e94138	function	.text	SND_IsATRACPlaying__FPCcPi	SND_IsATRACPlaying(char const *, int *)
+01ec7d68	function	.text	memcmp	memcmp
+01ef8678	data	.data	gRT_FrontBuffer	gRT_FrontBuffer
+01ebd850	function	.text	ps2fioRead	ps2fioRead
+01ef861c	data	.data	G_TransitionWadCompacted	G_TransitionWadCompacted
+01e92f10	function	.text	SND_Update__FPC7MATRIX4N30	SND_Update(MATRIX4 const *, MATRIX4 const *, MATRIX4 const *, MATRIX4 const *)
+01e84188	function	.text	Scale__Q34scee3Psp3GumPC14ScePspFVector3	scee::Psp::Gum::Scale(ScePspFVector3 const *)
+01e92d70	function	.text	SND_FlushAndSync__FUi	SND_FlushAndSync(unsigned int)
+01edf7ba	data	.data	MCP_BypassMemcardCheckOnComingBack	MCP_BypassMemcardCheckOnComingBack
+01ea5a00	function	.text	scePadPortClose	scePadPortClose
+01ec86d8	function	.text	strncat	strncat
+01e7fe38	function	.text	RENDEREFFECT_Bloom__FUcb	RENDEREFFECT_Bloom(unsigned char, bool)
+01ec8de8	function	.text	printf	printf
+01ef73d4	data	.data	g_CurLoadedScreenMatrix	g_CurLoadedScreenMatrix
+01e906b0	function	.text	readTexPSMCT16__FiiiiiiPv	readTexPSMCT16(int, int, int, int, int, int, void *)
+01ef7434	data	.data	g_bInFrame	g_bInFrame
+01ea5dd8	function	.text	scePadSetMainMode	scePadSetMainMode
+01f779b0	data	.bss	gMatrixStack	gMatrixStack
+01e9db28	function	.text	sceGsSyncPath	sceGsSyncPath
+01ef2d6c	data	.data	g_RENDEREFFECT_COLORMUL_Enable	g_RENDEREFFECT_COLORMUL_Enable
+01ec5578	function	.text	sceCdReadClock	sceCdReadClock
+01ef2d50	data	.data	g_PaletteMemory	g_PaletteMemory
+01f03840	data	.data	smesh_vu_renderer	smesh_vu_renderer
+01e945b0	function	.text	SND_PauseAtracResetLockId__Fv	SND_PauseAtracResetLockId(void)
+01e908a0	function	.text	writeTexPSMT8__FiiiiiiPv	writeTexPSMT8(int, int, int, int, int, int, void *)
+01f05140	data	.data	staticmesh_vu_renderer_scissoring	staticmesh_vu_renderer_scissoring
+01f09850	data	.data	tie_vu_renderer_clip_normalize	tie_vu_renderer_clip_normalize
+01e91bb8	function	.text	GLOBALWAD_GetTransitionBankIndex__FP15WAD_FILE_HEADER	GLOBALWAD_GetTransitionBankIndex(WAD_FILE_HEADER *)
+01ef2d78	data	.data	g_RENDEREFFECT_SWIRLY_Active	g_RENDEREFFECT_SWIRLY_Active
+01ef8674	data	.data	g_AspectRatioMult	g_AspectRatioMult
+01e93468	function	.text	SND_GetGlobalMusicVolume__Fv	SND_GetGlobalMusicVolume(void)
+01e9eac0	function	.text	sceDmaReset	sceDmaReset
+01eca100	function	.text	free	free
+01ec7fa4	function	.text	memset	memset
+01f083e0	data	.data	shrub_vu_renderer_fast	shrub_vu_renderer_fast
+01ea53c0	function	.text	scePadInit	scePadInit
+01e9f7a8	function	.text	asinf	asinf
+01e93f28	function	.text	SND_UpdateATRAC__Fv	SND_UpdateATRAC(void)
+01e83b90	function	.text	StoreMatrix__Q34scee3Psp3GumP14ScePspFMatrix4	scee::Psp::Gum::StoreMatrix(ScePspFMatrix4 *)
+01e934a8	function	.text	SND_SetOutputMode__Fi	SND_SetOutputMode(int)
+01ec8fd8	function	.text	snprintf	snprintf
+01ec7d10	function	.text	sceScfGetLocalTimefromRTC	sceScfGetLocalTimefromRTC
+01ec832c	function	.text	strcmp	strcmp
+01e88eb8	function	.text	LIGHT_Reset__Fv	LIGHT_Reset(void)
+01e83048	function	.text	RENDEREFFECT_DisableScreenEffects__Fv	RENDEREFFECT_DisableScreenEffects(void)
+01e933b8	function	.text	SND_UnlockPositionalArray__Fv	SND_UnlockPositionalArray(void)
+01e95a08	function	.text	dlib_displist_direct_begin__FP13DLIB_DISPLIST	dlib_displist_direct_begin(DLIB_DISPLIST *)
+01e66d68	function	.text	MCPI_SendNewLevel__Fi	MCPI_SendNewLevel(int)
+01e95c18	function	.text	dlib_displist_base_offset_mscal__FP13DLIB_DISPLISTiii	dlib_displist_base_offset_mscal(DLIB_DISPLIST *, int, int, int)
+01f06ea0	data	.data	PAR_vu_renderer_scissoring	PAR_vu_renderer_scissoring
+01ef2aa1	data	.data	g_DRAW_Do2D	g_DRAW_Do2D
+01e64650	function	.text	MEMCARD_SetHeaderDetail__FUiUiUiUiUi	MEMCARD_SetHeaderDetail(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+01e944d0	function	.text	SND_FadeATRACInstance__FP13ATRACInstanceff	SND_FadeATRACInstance(ATRACInstance *, float, float)
+01e91ac8	function	.text	GLOBALWAD_UploadTransitionBank__Fv	GLOBALWAD_UploadTransitionBank(void)
+01f06d80	data	.data	PAR_throughmode_vu_code_microcode	PAR_throughmode_vu_code_microcode
+01e95718	function	.text	dlib_displist_db_init__FP16DLIB_DISPLIST_DBi	dlib_displist_db_init(DLIB_DISPLIST_DB *, int)
+01ec9080	function	.text	sprintf	sprintf
+01e9f420	function	.text	sinf	sinf
+01f07e90	data	.data	shrub_vu_renderer	shrub_vu_renderer
+01f0ac50	data	.data	tie_vu_renderer_scissoring_shadow	tie_vu_renderer_scissoring_shadow
+01e933f0	function	.text	SND_GetNumPositionalSounds__Fv	SND_GetNumPositionalSounds(void)
+01e95990	function	.text	dlib_displist_db_send_dma__FP16DLIB_DISPLIST_DB	dlib_displist_db_send_dma(DLIB_DISPLIST_DB *)
+01eca528	function	.text	qsort	qsort
+01f09d80	data	.data	tie_vu_renderer_scissoring	tie_vu_renderer_scissoring
+01e93250	function	.text	SND_StopSoundsImmediate__Fb	SND_StopSoundsImmediate(bool)
+01e96a40	function	.text	snd_UnloadBank	snd_UnloadBank
+01fd18d0	data	.bss	g_snd	g_snd
+01e95dd8	function	.text	dlib_displist_set_tex_clamp__FP13DLIB_DISPLISTbT1	dlib_displist_set_tex_clamp(DLIB_DISPLIST *, bool, bool)
+01e7f038	function	.text	RENDEREFFECT_Init__Fv	RENDEREFFECT_Init(void)
+01ef74d4	data	.data	g_PS2_VSYNC_COUNT	g_PS2_VSYNC_COUNT
+01ef2aa0	data	.data	g_bDoDraw	g_bDoDraw
+01e90da0	function	.text	MBOX_Receive__FiPP12HigMsgPacketPUi	MBOX_Receive(int, HigMsgPacket **, unsigned int *)
+01f09380	data	.data	tie_vu_renderer_clip	tie_vu_renderer_clip
+01e838a0	function	.text	SetMirroring__Q34scee3Psp3Gumb	scee::Psp::Gum::SetMirroring(bool)
+01e93678	function	.text	SND_ConstructPositionalSound__FP14SND_PositionalP9GDE_SoundPP14SND_PositionalPC4VEC3bT4ffffffUc	SND_ConstructPositionalSound(SND_Positional *, GDE_Sound *, SND_Positional **, VEC3 const *, bool, bool, float, float, float, float, float, float, unsigned char)
+01e93180	function	.text	SND_PauseSoundsImmediate__Fv	SND_PauseSoundsImmediate(void)
+01e88e80	function	.text	LIGHT_BeginFrame__Fv	LIGHT_BeginFrame(void)
+01e94128	function	.text	SND_IsATRACPlaying__FP13ATRACInstance	SND_IsATRACPlaying(ATRACInstance *)
+01ea7e80	function	.text	BinkDoFrame	BinkDoFrame
+01ef2aac	data	.data	g_par_hackUpdateOnlyRun	g_par_hackUpdateOnlyRun
+01ef2aa2	data	.data	g_DRAW_Do3D	g_DRAW_Do3D
+01e645c8	function	.text	MEMCARD_SetHardcoreModeBit__FUib	MEMCARD_SetHardcoreModeBit(unsigned int, bool)
+01e9f6a8	function	.text	acosf	acosf
+01ef7440	data	.data	g_bProgressive	g_bProgressive
+01e95cc0	function	.text	dlib_displist_set_texture_state__FP13DLIB_DISPLISTiUlUlUlUl	dlib_displist_set_texture_state(DLIB_DISPLIST *, int, unsigned long, unsigned long, unsigned long, unsigned long)
+01e9fc88	function	.text	logf	logf
+01ebf5b0	function	.text	asyncPs2fioOpen	asyncPs2fioOpen
+01ef8644	data	.data	g_vo_vol_range	g_vo_vol_range
+01e9ea98	function	.text	sceDmaGetChan	sceDmaGetChan
+01edf7b8	data	.data	MCP_WideScreenMaster	MCP_WideScreenMaster
+01ebf6a0	function	.text	asyncPs2fioLseek	asyncPs2fioLseek
+01edb6f0	function	.text	GetTimerSystemTime	GetTimerSystemTime
+01e64618	function	.text	MEMCARD_SetWriteHeaderOnlyMode__Fb	MEMCARD_SetWriteHeaderOnlyMode(bool)
+01e645b8	function	.text	MEMCARD_GetWideScreenFromMemcard__Fv	MEMCARD_GetWideScreenFromMemcard(void)
+01e933d0	function	.text	SND_LockPositionalArray__Fv	SND_LockPositionalArray(void)
+01e939f8	function	.text	SND_PausePositionalSounds__Fb	SND_PausePositionalSounds(bool)
+01e95fc8	function	.text	dlib_displist_add_ref__FP13DLIB_DISPLISTP6QWdatai	dlib_displist_add_ref(DLIB_DISPLIST *, QWdata *, int)
+01e93cc8	function	.text	SND_FixupSoundSignatures__FPUiPvPFP13WadLocationIDUi14WAD_ASSET_TYPE13WadLocationID_P15WAD_FILE_HEADER	SND_FixupSoundSignatures(unsigned int *, void *, WAD_FILE_HEADER *(*)(WadLocationID *, unsigned int, WAD_ASSET_TYPE, WadLocationID))
+01e8c008	function	.text	ANIM_GetBufferUsedSize__Fv	ANIM_GetBufferUsedSize(void)
+01ec7dfc	function	.text	memcpy	memcpy
+01ea77f0	function	.text	BinkCopyToBufferRect	BinkCopyToBufferRect
+01e95e98	function	.text	dlib_displist_add_data_block__FP13DLIB_DISPLISTP6QWdatai	dlib_displist_add_data_block(DLIB_DISPLIST *, QWdata *, int)
+01e9e148	function	.text	sceGsSyncV	sceGsSyncV
+01ef2d5c	data	.data	g_TEXMGR_LastTex	g_TEXMGR_LastTex
+01e944e8	function	.text	SND_FadeAndStopATRACInstance__FP13ATRACInstanceff	SND_FadeAndStopATRACInstance(ATRACInstance *, float, float)
+01e91898	function	.text	PS2HEAP_Free__FPv	PS2HEAP_Free(void *)
+01f0bbc0	data	.data	DEFORM_vu_renderer_scissoring	DEFORM_vu_renderer_scissoring
+01ea5650	function	.text	scePadEnd	scePadEnd
+01ed27b0	function	.text	ChangeThreadPriority	ChangeThreadPriority
+01e9f250	function	.text	cosf	cosf
+01e93478	function	.text	SND_SetVOVolume__Ff	SND_SetVOVolume(float)
+01e91b30	function	.text	GLOBALWAD_ReleaseTransitionBank__Fv	GLOBALWAD_ReleaseTransitionBank(void)
+01f7e2e0	data	.bss	g_JointMatrixBuffers	g_JointMatrixBuffers
+01ef2d76	data	.data	g_RENDEREFFECT_BLOOM_bFullScreen	g_RENDEREFFECT_BLOOM_bFullScreen
+01e95588	function	.text	dlib_ms_screen_matrix__FPfiiiiii	dlib_ms_screen_matrix(float *, int, int, int, int, int, int)
+01e97728	function	.text	snd_StreamSafeCheckCDIdle_CB	snd_StreamSafeCheckCDIdle_CB
+01ecc0b0	function	.text	strcasecmp	strcasecmp
+01ef2d70	data	.data	g_RENDEREFFECT_COLORMUL_Color	g_RENDEREFFECT_COLORMUL_Color
+01ebd8b0	function	.text	ps2fioLseek	ps2fioLseek
+01f06bf0	data	.data	throughmode_vu_code_microcode	throughmode_vu_code_microcode
+01e93918	function	.text	SND_StopPositionalSound__FP14SND_Positionalb	SND_StopPositionalSound(SND_Positional *, bool)
+01ef7638	data	.data	g_MaterialHasBloomedThisFrame	g_MaterialHasBloomedThisFrame
+01ec8890	function	.text	strncmp	strncmp
+01ea5818	function	.text	scePadPortOpen	scePadPortOpen
+01edf7b9	data	.data	MCP_BypassBootMoviesOnComingBack	MCP_BypassBootMoviesOnComingBack
+01e963b0	function	.text	snd_FlushSoundCommands	snd_FlushSoundCommands
+01e9ed80	function	.text	sceDmaSend	sceDmaSend
+01e66670	function	.text	MEMCARD_SetMultiplayerSave__Fb	MEMCARD_SetMultiplayerSave(bool)
+01e93408	function	.text	SND_GetPositionalSoundAt__FUi	SND_GetPositionalSoundAt(unsigned int)
+01e94750	function	.text	SND_StopATRACInstance__FP13ATRACInstance	SND_StopATRACInstance(ATRACInstance *)
+01ea6520	function	.text	BinkOpen	BinkOpen
+01e91c50	function	.text	GLOBALWAD_FindAssetsBySignature__FUi14WAD_ASSET_TYPE	GLOBALWAD_FindAssetsBySignature(unsigned int, WAD_ASSET_TYPE)
+01e85f60	function	.text	SYSTEM_SwapFrame__FP10GSSettingsiiibUi	SYSTEM_SwapFrame(GSSettings *, int, int, int, bool, unsigned int)
+01e80be8	function	.text	RENDEREFFECT_Color__FUi	RENDEREFFECT_Color(unsigned int)
+01e93458	function	.text	SND_SetGlobalMusicVolume__Ff	SND_SetGlobalMusicVolume(float)
+01e83af0	function	.text	LoadMatrix__Q34scee3Psp3GumPC7MATRIX4	scee::Psp::Gum::LoadMatrix(MATRIX4 const *)
+01e84650	function	.text	Ortho__Q34scee3Psp3Gumffffff	scee::Psp::Gum::Ortho(float, float, float, float, float, float)
+01e93988	function	.text	SND_PausePositionalSound__FP14SND_Positionalb	SND_PausePositionalSound(SND_Positional *, bool)
+01e92778	function	.text	SND_StopSoundThread__Fv	SND_StopSoundThread(void)
+01e946d0	function	.text	SND_PauseAndSyncATRAC__Fi	SND_PauseAndSyncATRAC(int)
+01e93540	function	.text	SND_Play__FP9GDE_SoundffPP14SND_PositionalUi	SND_Play(GDE_Sound *, float, float, SND_Positional **, unsigned int)
+01e96008	function	.text	get_psm_from_pixel_mode__Fi	get_psm_from_pixel_mode(int)
+01f07af0	data	.data	PAR_vu_renderer_fast	PAR_vu_renderer_fast
+01e64590	function	.text	MEMCARD_SetWideScreenToMemcard__FUi	MEMCARD_SetWideScreenToMemcard(unsigned int)
+01e84b80	function	.text	UpdateMatrix__Q34scee3Psp3Gumv	scee::Psp::Gum::UpdateMatrix(void)
+01ebf4e0	function	.text	asyncCmdSync	asyncCmdSync
+01e9f338	function	.text	floorf	floorf
+01ec8478	function	.text	strcpy	strcpy
+01ebd960	function	.text	ps2fioClose	ps2fioClose
+01ec818c	function	.text	strchr	strchr
+01e92770	function	.text	SND_StartSoundThread__Fv	SND_StartSoundThread(void)
+01e95b90	function	.text	dlib_displist_mscal__FP13DLIB_DISPLISTi	dlib_displist_mscal(DLIB_DISPLIST *, int)
+01e931f0	function	.text	SND_ContinueSoundsImmediate__Fv	SND_ContinueSoundsImmediate(void)
+01f02b70	data	.data	skinnedmesh_vu_renderer	skinnedmesh_vu_renderer
+01e64700	function	.text	MEMCARD_GetSlotHeaderDetail__FUi	MEMCARD_GetSlotHeaderDetail(unsigned int)
+01e80f28	function	.text	RENDEREFFECT_Vignette__FUc	RENDEREFFECT_Vignette(unsigned char)
+01e90510	function	.text	readTexPSMCT32__FiiiiiiPv	readTexPSMCT32(int, int, int, int, int, int, void *)
+01ef7560	data	.data	g_ALPHASORT_CurrentView	g_ALPHASORT_CurrentView
+01e9f510	function	.text	tanf	tanf
+01e7f288	function	.text	RENDEREFFECT_Reset__Fv	RENDEREFFECT_Reset(void)
+01eca0b0	function	.text	malloc	malloc
+01e9f9d0	function	.text	expf	expf
+01e90a68	function	.text	writeTexPSMT4__FiiiiiiPv	writeTexPSMT4(int, int, int, int, int, int, void *)
+01e83888	function	.text	GetMatrix__Q34scee3Psp3GumQ44scee3Psp2Gu11EMatrixType	scee::Psp::Gum::GetMatrix(scee::Psp::Gu::EMatrixType)
+01ec9f18	function	.text	vsnprintf	vsnprintf
+01e929e8	function	.text	SND_LevelInit__Fv	SND_LevelInit(void)
+01f030e0	data	.data	skinnedmesh_vu_renderer_clip	skinnedmesh_vu_renderer_clip
+01ebf630	function	.text	asyncPs2fioRead	asyncPs2fioRead
+01e925d8	function	.text	GLOBALWAD_FindGlobalSound__FUi	GLOBALWAD_FindGlobalSound(unsigned int)
+01f08930	data	.data	shrub_vu_renderer_shadow	shrub_vu_renderer_shadow
+01e64550	function	.text	MEMCARD_SetDanSkinUnlocked__FUi	MEMCARD_SetDanSkinUnlocked(unsigned int)
+01f03b10	data	.data	smesh_vu_renderer_nearclip	smesh_vu_renderer_nearclip
+01ea8758	function	.text	BinkClose	BinkClose
+01ea5c10	function	.text	scePadRead	scePadRead
+01ef7430	data	.data	cur_MC	cur_MC
+01e95ed0	function	.text	dlib_displist_qw__FP13DLIB_DISPLISTiP6QWdatai	dlib_displist_qw(DLIB_DISPLIST *, int, QWdata *, int)
+01ef7438	data	.data	g_AspectRatioID	g_AspectRatioID
+01e645f8	function	.text	MEMCARD_GetHardcoreModeBit__FUi	MEMCARD_GetHardcoreModeBit(unsigned int)
+01ec9108	function	.text	sscanf	sscanf
+01e83a10	function	.text	MatrixMode__Q34scee3Psp3GumQ44scee3Psp2Gu11EMatrixType	scee::Psp::Gum::MatrixMode(scee::Psp::Gu::EMatrixType)
+01ef2d75	data	.data	g_RENDEREFFECT_BLOOM_Intensity	g_RENDEREFFECT_BLOOM_Intensity
+01ea5f58	function	.text	scePadSetActAlign	scePadSetActAlign
+01ea8918	function	.text	BinkWait	BinkWait
+01e97700	function	.text	snd_StreamSafeCheckCDIdle	snd_StreamSafeCheckCDIdle
+01f024a0	data	.data	skinnedmesh_vu_renderer_fast	skinnedmesh_vu_renderer_fast
+01e91b90	function	.text	GLOBALWAD_GetTransitionBank__FUi	GLOBALWAD_GetTransitionBank(unsigned int)
+01ed2ba0	function	.text	FlushCache	FlushCache
+01ea9028	function	.text	BinkSetMemory	BinkSetMemory
+00008000	unmapped	None	_stack_size	_stack_size
+01ff8000	unmapped	None	_stack	_stack
+00008000	unmapped	None	_heap_size	_heap_size
+01ff0000	unmapped	None	_end	_end
+01e64288	function	.text	ENTRYPOINT	ENTRYPOINT
+0018bd80	unmapped	None	_code_size	_code_size
+00100000	unmapped	None	_jmsheap_start	_jmsheap_start
+01e64280	function	.text	_jmsheap_end	_jmsheap_end
+01f0c980	data	.sndata	sn_dll_header_root	sn_dll_header_root
+01f31d70	data	.bss	_gp	_gp
+01f29d80	data	.bss	_fbss	_fbss
+01fefb2c	unmapped	None	end	end
+01e64520	function	.text	MEMCARD_Idle__Fv	MEMCARD_Idle(void)
+01e64628	function	.text	MEMCARD_GetWriteHeaderOnlyModeStatus__Fv	MEMCARD_GetWriteHeaderOnlyModeStatus(void)
+01e64688	function	.text	MEMCARD_SetHeaderCreationDateDetail__FUi	MEMCARD_SetHeaderCreationDateDetail(unsigned int)
+01e64750	function	.text	MEMCARD_InitStateNode__FP19tMEMCARD_STATE_NODE	MEMCARD_InitStateNode(tMEMCARD_STATE_NODE *)
+01e64768	function	.text	MEMCARD_Init__FP12tMEMCARD_CMD	MEMCARD_Init(tMEMCARD_CMD *)
+01f4a088	data	.bss	MEMCARD_sg_SaveIconData	MEMCARD_sg_SaveIconData
+01f4a08c	data	.bss	MEMCARD_sg_SaveIconDataSize	MEMCARD_sg_SaveIconDataSize
+01e667f8	function	.text	Push__t5Stack2Z19tMEMCARD_STATE_NODEUi8G19tMEMCARD_STATE_NODE	Stack<tMEMCARD_STATE_NODE, 8>::Push(tMEMCARD_STATE_NODE)
+01f3e084	data	.bss	MEMCARD_sg_SaveDataSize	MEMCARD_sg_SaveDataSize
+01f3e080	data	.bss	MEMCARD_sg_SaveData	MEMCARD_sg_SaveData
+01f4a454	data	.bss	MEMCARD_sg_SaveSysData	MEMCARD_sg_SaveSysData
+01f4a458	data	.bss	MEMCARD_sg_SaveSysDataSize	MEMCARD_sg_SaveSysDataSize
+01f29f40	data	.bss	g_PS2_SlotBuffer	g_PS2_SlotBuffer
+01e653d8	function	.text	MC_SetError__Fi	MC_SetError(int)
+01e65438	function	.text	MEMCARD_SetErrorIfWeStartedOperationFlow__Fv	MEMCARD_SetErrorIfWeStartedOperationFlow(void)
+01e655b8	function	.text	MEMCARD_Update__Fv	MEMCARD_Update(void)
+01e66680	function	.text	MEMCARD_ProcessClientRequests__Fv	MEMCARD_ProcessClientRequests(void)
+01e668a8	function	.text	_GLOBAL_$I$SYSTEMS_memcard_ps2.cppoieaaa	global constructors keyed to SYSTEMS_memcard_ps2.cppoieaaa
+01e8f8f8	function	.text	PLATSYS_HIGSYS_TranslateLanguageCommonParam__FUi	PLATSYS_HIGSYS_TranslateLanguageCommonParam(unsigned int)
+01f4a580	data	.bss	g_McpGlobals	g_McpGlobals
+01e8e358	function	.text	HIT_fopen_internal__FPCcT0	HIT_fopen_internal(char const *, char const *)
+01e8e508	function	.text	HIT_fread__FPvUiUiPi	HIT_fread(void *, unsigned int, unsigned int, int *)
+01e8e660	function	.text	HIT_fclose__FPi	HIT_fclose(int *)
+01ec5728	function	.text	sceMcInit	sceMcInit
+01ec62a8	function	.text	sceMcGetInfo	sceMcGetInfo
+01ec6428	function	.text	sceMcGetDir	sceMcGetDir
+01ec5c70	function	.text	sceMcMkdir	sceMcMkdir
+01ec6650	function	.text	sceMcDelete	sceMcDelete
+01ec5b48	function	.text	sceMcOpen	sceMcOpen
+01ec5d68	function	.text	sceMcSeek	sceMcSeek
+01ec6010	function	.text	sceMcWrite	sceMcWrite
+01ec5ef8	function	.text	sceMcRead	sceMcRead
+01ec5ca8	function	.text	sceMcClose	sceMcClose
+01ec6580	function	.text	sceMcFormat	sceMcFormat
+01ec6990	function	.text	sceMcUnformat	sceMcUnformat
+01ec6a60	function	.text	sceMcGetEntSpace	sceMcGetEntSpace
+01ec7068	function	.text	sceMcConvertError	sceMcConvertError
+01ec6188	function	.text	sceMcSync	sceMcSync
+01e8ef30	function	.text	SIG_CalcSignature__FPCci	SIG_CalcSignature(char const *, int)
+01e668c8	function	.text	CMD_ParseCommandLine__FiPPcPi	CMD_ParseCommandLine(int, char **, int *)
+01e66b50	function	.text	_GLOBAL_$I$CORE_cmdline.cppNteaaa	global constructors keyed to CORE_cmdline.cppNteaaa
+01e66cc8	function	.text	MCPI_SetGameId__Fi	MCPI_SetGameId(int)
+01e66e20	function	.text	MCPI_SetMyMsgBoxId__Fi	MCPI_SetMyMsgBoxId(int)
+01e66e30	function	.text	MCPI_SetTheirMsgBoxId__Fi	MCPI_SetTheirMsgBoxId(int)
+01e66b70	function	.text	MCPI_InitializeMcpGlobals__Fv	MCPI_InitializeMcpGlobals(void)
+01e66f88	function	.text	Reset__t5Queue2Z14tHUDPROMQ_NODEUi8	Queue<tHUDPROMQ_NODE, 8>::Reset(void)
+01e66cd8	function	.text	MCPI_GetGameId__Fv	MCPI_GetGameId(void)
+01e66d40	function	.text	MCPI_ResetLoadProgress__Fv	MCPI_ResetLoadProgress(void)
+01e66d58	function	.text	MCPI_GetLoadProgress__Fv	MCPI_GetLoadProgress(void)
+01e66db0	function	.text	MCPI_CreateMsgBoxes__Fv	MCPI_CreateMsgBoxes(void)
+01e66e40	function	.text	MCPI_GetMyMsgBoxId__Fv	MCPI_GetMyMsgBoxId(void)
+01e66e50	function	.text	MCPI_GetTheirMsgBoxId__Fv	MCPI_GetTheirMsgBoxId(void)
+01e66e60	function	.text	MCPI_HandleMessages__Fb	MCPI_HandleMessages(bool)
+01e66f78	function	.text	MCPI_PowerLock__Fv	MCPI_PowerLock(void)
+01e66f80	function	.text	MCPI_PowerUnlock__Fv	MCPI_PowerUnlock(void)
+01e66fb8	function	.text	Reset__t5Stack2Z19tMEMCARD_STATE_NODEUi8	Stack<tMEMCARD_STATE_NODE, 8>::Reset(void)
+01e66fe0	function	.text	__t5Stack2Z19tMEMCARD_STATE_NODEUi8	Stack<tMEMCARD_STATE_NODE, 8>::Stack(void)
+01e67008	function	.text	_$_t5Stack2Z19tMEMCARD_STATE_NODEUi8	Stack<tMEMCARD_STATE_NODE, 8>::~Stack(void)
+01e67030	function	.text	__t5Queue2Z14tHUDPROMQ_NODEUi8	Queue<tHUDPROMQ_NODE, 8>::Queue(void)
+01e67058	function	.text	_$_t5Queue2Z14tHUDPROMQ_NODEUi8	Queue<tHUDPROMQ_NODE, 8>::~Queue(void)
+01e671f8	function	.text	_GLOBAL_$I$CORE_mcpclient.cpps2daaa	global constructors keyed to CORE_mcpclient.cpps2daaa
+01e67218	function	.text	_GLOBAL_$D$CORE_mcpclient.cppKUhaaa	global destructors keyed to CORE_mcpclient.cppKUhaaa
+01e8f8b0	function	.text	CB_ARRAY_Init__FP14tCB_ARRAY_DATA	CB_ARRAY_Init(tCB_ARRAY_DATA *)
+01edf840	data	.data	FontTableNormal	FontTableNormal
+01edfc40	data	.data	FontTableJapanNormal	FontTableJapanNormal
+01f61e70	data	.bss	MCPTRANS_planetNames	MCPTRANS_planetNames
+01f62170	data	.bss	MCPTRANS_cityNames	MCPTRANS_cityNames
+01f62470	data	.bss	MCPTRANS_mpHelpHints	MCPTRANS_mpHelpHints
+01e67850	function	.text	HEROSKIN_Init__Fv	HEROSKIN_Init(void)
+01e90d50	function	.text	MBOX_Send__FiP12HigMsgPacket	MBOX_Send(int, HigMsgPacket *)
+01e90cc8	function	.text	MBOX_Create__FPCcUiPv	MBOX_Create(char const *, unsigned int, void *)
+01e91220	function	.text	MODULE_StopModule__FiiPCvPiT2	MODULE_StopModule(int, int, void const *, int *, void const *)
+01e912e8	function	.text	MODULE_UnloadModule__Fi	MODULE_UnloadModule(int)
+01e67f40	function	.text	MCP_SetState__F10mcpState_t	MCP_SetState(mcpState_t)
+01e98c38	function	.text	__builtin_delete	__builtin_delete
+01e677c0	function	.text	__8HIGMutex	HIGMutex::HIGMutex(void)
+01e67800	function	.text	_$_8HIGMutex	HIGMutex::~HIGMutex(void)
+01ede534	data	.data	g_nOpenFileHandles	g_nOpenFileHandles
+01ede53c	data	.data	g_higIoOpenFilesMutex	g_higIoOpenFilesMutex
+01ede540	data	.data	g_higIoOpenAsyncFilesMutex	g_higIoOpenAsyncFilesMutex
+01e67238	function	.text	UMD_checkState__Fb	UMD_checkState(bool)
+01e67240	function	.text	UMD_Init__Fv	UMD_Init(void)
+01e67248	function	.text	UMD_Deinit__Fv	UMD_Deinit(void)
+01e67250	function	.text	higIoInit__Fv	higIoInit(void)
+01e67268	function	.text	higIoShutdown__Fv	higIoShutdown(void)
+01e67290	function	.text	higIoRead__FiPvUi	higIoRead(int, void *, unsigned int)
+01e672b0	function	.text	higIoLseek__Fiii	higIoLseek(int, int, int)
+01e672d8	function	.text	higIoReadAsync__FiPvUi	higIoReadAsync(int, void *, unsigned int)
+01e672f8	function	.text	higIoWaitAsync__FiPUi	higIoWaitAsync(int, unsigned int *)
+01e67330	function	.text	higIoOpenInternal__FPCciUib	higIoOpenInternal(char const *, int, unsigned int, bool)
+01e674c8	function	.text	UMD_ExpandFilename__FPcUiPCcb	UMD_ExpandFilename(char *, unsigned int, char const *, bool)
+01f5f8f0	data	.bss	g_openFiles	g_openFiles
+01e67440	function	.text	higIoClose__Fi	higIoClose(int)
+01e677a0	function	.text	_GLOBAL_$I$CORE_umd.cppOaeaaa	global constructors keyed to CORE_umd.cppOaeaaa
+01ebdb60	function	.text	ps2fioGetStat	ps2fioGetStat
+01ed2920	function	.text	CreateSema	CreateSema
+01ed2930	function	.text	DeleteSema	DeleteSema
+01ed2960	function	.text	WaitSema	WaitSema
+01e679d0	function	.text	HEROSKIN_InitSinglePlayer__Fv	HEROSKIN_InitSinglePlayer(void)
+01e67a18	function	.text	HEROSKIN_TermSinglePlayer__Fv	HEROSKIN_TermSinglePlayer(void)
+01e67a98	function	.text	_GLOBAL_$I$CORE_heroSkin.cppEJdaaa	global constructors keyed to CORE_heroSkin.cppEJdaaa
+01e8ef98	function	.text	SIG_CalcCaseInsensitiveSignature__FPCc	SIG_CalcCaseInsensitiveSignature(char const *)
+01eded24	data	.data	cdloading_gim_size	cdloading_gim_size
+01eded31	data	.data	g_MainThreadOn	g_MainThreadOn
+01e67ab8	function	.text	main	main
+01eded40	data	.data	cdloading_gim	cdloading_gim
+01e67d50	function	.text	stopAndUnloadModules__Fv	stopAndUnloadModules(void)
+01e67d90	function	.text	_GLOBAL_$I$MCP_mcp.cppIDeaaa	global constructors keyed to MCP_mcp.cppIDeaaa
+01e97a68	function	.text	__main	__main
+01e6ac68	function	.text	APP_Init__Fv	APP_Init(void)
+01e9d788	function	.text	snInitDllSystem	snInitDllSystem
+01e85ca8	function	.text	SYSTEM_InitializeMcp__Fi	SYSTEM_InitializeMcp(int)
+01e85e30	function	.text	SYSTEM_InitGraphicsMCP__Fi	SYSTEM_InitGraphicsMCP(int)
+01e7ecf8	function	.text	TEXMGR_LoadTextureFromMemory__FPCUcUibN22P29tTEXMGR_ALPHA_COLOR_TOLERANCE	TEXMGR_LoadTextureFromMemory(unsigned char const *, unsigned int, bool, bool, bool, tTEXMGR_ALPHA_COLOR_TOLERANCE *)
+01e85e78	function	.text	SYSTEM_BeginFrame__Fb	SYSTEM_BeginFrame(bool)
+01e7e0c0	function	.text	TEXMGR_SetCurrent__FUi	TEXMGR_SetCurrent(unsigned int)
+01e8d058	function	.text	UTIL_DrawTexturedRect__FssssffffUiUi	UTIL_DrawTexturedRect(short, short, short, short, float, float, float, float, unsigned int, unsigned int)
+01e866e0	function	.text	SYSTEM_EndFrame__FbUi	SYSTEM_EndFrame(bool, unsigned int)
+01e67e98	function	.text	MCP_Update__Fv	MCP_Update(void)
+01e8e190	function	.text	MEM_DeinitializeMemory__Fv	MEM_DeinitializeMemory(void)
+01e927b8	function	.text	SND_InitScream__Fv	SND_InitScream(void)
+01e91dd8	function	.text	GLOBALWAD_Load__Fv	GLOBALWAD_Load(void)
+01e67db0	function	.text	MCP_StateSystemInit__Fv	MCP_StateSystemInit(void)
+01e8b718	function	.text	ANIM_Init__FPC21ANIM_CursorPoolConfigUi	ANIM_Init(ANIM_CursorPoolConfig const *, unsigned int)
+01e79e50	function	.text	DRAW_Init__Fv	DRAW_Init(void)
+01e79e88	function	.text	DRAW_ReserveMemory__Fiii	DRAW_ReserveMemory(int, int, int)
+01e7c180	function	.text	PAR_Init__Fv	PAR_Init(void)
+01e7c198	function	.text	PAR_ReserveMemory__Fi	PAR_ReserveMemory(int)
+01e8ba30	function	.text	ANIM_PostInit__Fv	ANIM_PostInit(void)
+01e79f00	function	.text	DRAW_PostInit__Fv	DRAW_PostInit(void)
+01edf6d0	data	.data	g_nStaticDirectionalLights	g_nStaticDirectionalLights
+01edf6d4	data	.data	g_StaticDirectionalLights	g_StaticDirectionalLights
+01edf6d8	data	.data	g_nStaticPointLights	g_nStaticPointLights
+01edf6dc	data	.data	g_StaticPointLights	g_StaticPointLights
+01edf6e0	data	.data	g_UseLocalRelFiles	g_UseLocalRelFiles
+01edf6e8	data	.data	localLevelExecs	localLevelExecs
+01edf750	data	.data	levelExecs	levelExecs
+01edf7c4	data	.data	g_TransVignette	g_TransVignette
+01edf7c8	data	.data	g_MCP_FrameSwapColor	g_MCP_FrameSwapColor
+01edf7d0	data	.data	g_mcpState	g_mcpState
+01edf7d4	data	.data	g_queuedState	g_queuedState
+01edf7d8	data	.data	g_substate	g_substate
+01edf7ec	data	.data	g_transMode	g_transMode
+01edf7f0	data	.data	g_mcpFrameCount	g_mcpFrameCount
+01e67de0	function	.text	MCP_UpdateCameraCB__FPfT014CameraSystemIDPv	MCP_UpdateCameraCB(float *, float *, CameraSystemID, void *)
+01e67f50	function	.text	MCP_GetState__Fv	MCP_GetState(void)
+01edf7f4	data	.data	g_FadeLevel	g_FadeLevel
+01edf7f8	data	.data	g_FadeInRate	g_FadeInRate
+01e68e50	function	.text	MCP_HasLevelBeenSeen__FUi	MCP_HasLevelBeenSeen(unsigned int)
+01e690f8	function	.text	_GLOBAL_$I$MCP_mcpupdate.cpp6peaaa	global constructors keyed to MCP_mcpupdate.cpp6peaaa
+01e6f720	function	.text	MCPTRANS_DREAM_UpdateCamera__Ff	MCPTRANS_DREAM_UpdateCamera(float)
+01e6e258	function	.text	MCPTRANS_SHRINK_UpdateCamera__Ff	MCPTRANS_SHRINK_UpdateCamera(float)
+01e6ed10	function	.text	MCPTRANS_FALL_UpdateCamera__Ff	MCPTRANS_FALL_UpdateCamera(float)
+01e6bdb0	function	.text	MCPTRANS_UpdateCamera__Ff	MCPTRANS_UpdateCamera(float)
+01e93020	function	.text	SND_MCPUpdate__FPC7MATRIX4T0	SND_MCPUpdate(MATRIX4 const *, MATRIX4 const *)
+01e6f7c8	function	.text	MCPTRANS_DREAM_Animate__Ff	MCPTRANS_DREAM_Animate(float)
+01e6a660	function	.text	CAMERA_PreUpdate__Fv	CAMERA_PreUpdate(void)
+01e6a6f0	function	.text	CAMERA_Update__Fv	CAMERA_Update(void)
+01e6a950	function	.text	CAMERA_CommitToDisplay__Fv	CAMERA_CommitToDisplay(void)
+01e6a938	function	.text	CAMERA_GetDisplayMatrix__Fv	CAMERA_GetDisplayMatrix(void)
+01f7a8c0	data	.bss	g_projMat	g_projMat
+01f7a900	data	.bss	g_clipMat	g_clipMat
+01e7a9d8	function	.text	DRAW_ApplyDisplay__FPC7MATRIX4N20Ui	DRAW_ApplyDisplay(MATRIX4 const *, MATRIX4 const *, MATRIX4 const *, unsigned int)
+01e6f908	function	.text	MCPTRANS_DREAM_Render__Fv	MCPTRANS_DREAM_Render(void)
+01e6edb8	function	.text	MCPTRANS_FALL_Animate__Ff	MCPTRANS_FALL_Animate(float)
+01e6ee80	function	.text	MCPTRANS_FALL_Render__Fv	MCPTRANS_FALL_Render(void)
+01e6e300	function	.text	MCPTRANS_SHRINK_Animate__Ff	MCPTRANS_SHRINK_Animate(float)
+01e6e630	function	.text	MCPTRANS_SHRINK_Render__Fv	MCPTRANS_SHRINK_Render(void)
+01e6c128	function	.text	MCPTRANS_Animate__Ff	MCPTRANS_Animate(float)
+01e6c820	function	.text	MCPTRANS_Render__Fv	MCPTRANS_Render(void)
+01e691b8	function	.text	MCP_StartLevelModule__Fv	MCP_StartLevelModule(void)
+01e6b920	function	.text	MCPTRANS_SetLanding__Fb	MCPTRANS_SetLanding(bool)
+01e6ad38	function	.text	MCPTRANS_IsComplete__Fv	MCPTRANS_IsComplete(void)
+01e6ad70	function	.text	MCPTRANS_ShouldFade__Fv	MCPTRANS_ShouldFade(void)
+01e7cfc0	function	.text	PAR_UpdateAndTesselate__F10DRAW_LayerT0Uib	PAR_UpdateAndTesselate(DRAW_Layer, DRAW_Layer, unsigned int, bool)
+01e7bea0	function	.text	DRAW_RenderBegin__FUi	DRAW_RenderBegin(unsigned int)
+01e7bef8	function	.text	DRAW_Render__F10DRAW_LayerT0Ui	DRAW_Render(DRAW_Layer, DRAW_Layer, unsigned int)
+01e7a840	function	.text	DRAW_EndUpdate__Fv	DRAW_EndUpdate(void)
+01e7afd0	function	.text	DRAW_PostUpdate__FUi	DRAW_PostUpdate(unsigned int)
+01e87300	function	.text	SYSTEM_SetDepthTestMode__FbUi	SYSTEM_SetDepthTestMode(bool, unsigned int)
+01e8daa0	function	.text	UTIL_DrawFlatShadedRect__FssssUiUi	UTIL_DrawFlatShadedRect(short, short, short, short, unsigned int, unsigned int)
+01e6e188	function	.text	MCPTRANS_TextTransition__Fv	MCPTRANS_TextTransition(void)
+01e954e8	function	.text	VRAM_SetOffset__Fii	VRAM_SetOffset(int, int)
+01e95538	function	.text	VRAM_SetViewport__Fiiii	VRAM_SetViewport(int, int, int, int)
+01e6e148	function	.text	MCPTRANS_Shutdown__Fv	MCPTRANS_Shutdown(void)
+01e6e5b8	function	.text	MCPTRANS_SHRINK_Shutdown__Fv	MCPTRANS_SHRINK_Shutdown(void)
+01e6ee38	function	.text	MCPTRANS_FALL_Shutdown__Fv	MCPTRANS_FALL_Shutdown(void)
+01e6f8c0	function	.text	MCPTRANS_DREAM_Shutdown__Fv	MCPTRANS_DREAM_Shutdown(void)
+01e7a698	function	.text	DRAW_BeginUpdate__Fv	DRAW_BeginUpdate(void)
+01e836a8	function	.text	TexScale__Q34scee3Psp2Guff	scee::Psp::Gu::TexScale(float, float)
+01e83690	function	.text	TexFilter__Q34scee3Psp2GuQ44scee3Psp2Gu18ETextureFilterModeT1	scee::Psp::Gu::TexFilter(scee::Psp::Gu::ETextureFilterMode, scee::Psp::Gu::ETextureFilterMode)
+01e83558	function	.text	Enable__Q34scee3Psp2GuQ44scee3Psp2Gu13EFunctionName	scee::Psp::Gu::Enable(scee::Psp::Gu::EFunctionName)
+01e83578	function	.text	Disable__Q34scee3Psp2GuQ44scee3Psp2Gu13EFunctionName	scee::Psp::Gu::Disable(scee::Psp::Gu::EFunctionName)
+01e83698	function	.text	TexFunc__Q34scee3Psp2GuQ44scee3Psp2Gu16ETextureFunctionQ44scee3Psp2Gu22ETextureColorComponent	scee::Psp::Gu::TexFunc(scee::Psp::Gu::ETextureFunction, scee::Psp::Gu::ETextureColorComponent)
+01e83608	function	.text	DepthOffset__Q34scee3Psp2Gui	scee::Psp::Gu::DepthOffset(int)
+01e92de8	function	.text	SND_ClearListenerData__Fv	SND_ClearListenerData(void)
+01e7dce8	function	.text	TEXMGR_Initialize__Fv	TEXMGR_Initialize(void)
+01e7dde0	function	.text	TEXMGR_Soil__Fv	TEXMGR_Soil(void)
+01e69c50	function	.text	MCP_InitMaxCharDrop__Fv	MCP_InitMaxCharDrop(void)
+01e88dc0	function	.text	LIGHT_Init__Fv	LIGHT_Init(void)
+01e8c7b8	function	.text	MATERIAL_Init__Fv	MATERIAL_Init(void)
+01e6a468	function	.text	CAMERA_Init__Fv	CAMERA_Init(void)
+01e6a8e8	function	.text	CAMERA_SetSystemUpdate__F14CameraSystemIDPFPfPf14CameraSystemIDPv_P7MATRIX4Pv	CAMERA_SetSystemUpdate(CameraSystemID, MATRIX4 *(*)(float *, float *, CameraSystemID, void *), void *)
+01e7dc28	function	.text	PART_Init__Fv	PART_Init(void)
+01e6b8e0	function	.text	MCPTRANS_SetLevel__F16LEVEL_IDENTIFIER	MCPTRANS_SetLevel(LEVEL_IDENTIFIER)
+01e6b910	function	.text	MCPTRANS_SetPrevLevel__F16LEVEL_IDENTIFIER	MCPTRANS_SetPrevLevel(LEVEL_IDENTIFIER)
+01e6e1f8	function	.text	MCPTRANS_SHRINK_Init__Fb	MCPTRANS_SHRINK_Init(bool)
+01e6ec78	function	.text	MCPTRANS_FALL_Init__Fb	MCPTRANS_FALL_Init(bool)
+01e6f6a8	function	.text	MCPTRANS_DREAM_Init__Fb	MCPTRANS_DREAM_Init(bool)
+01e6b930	function	.text	MCPTRANS_Init__Fb	MCPTRANS_Init(bool)
+01e7c2d0	function	.text	PAR_PostInit__Fv	PAR_PostInit(void)
+01e69118	function	.text	MCP_LoadLevelModule__Fi	MCP_LoadLevelModule(int)
+01e6b8d0	function	.text	MCPTRANS_GetLevel__Fv	MCPTRANS_GetLevel(void)
+01edf804	data	.data	g_LevelToLaunch	g_LevelToLaunch
+01edf808	data	.data	g_GameLoadThread	g_GameLoadThread
+01edf80c	data	.data	g_LevelLauncherState	g_LevelLauncherState
+01f5fb90	data	.bss	gameLoadThreadStack	gameLoadThreadStack
+01e692f8	function	.text	MCP_UpdateRCPMLoadState__Fi	MCP_UpdateRCPMLoadState(int)
+01e694b8	function	.text	_GLOBAL_$I$MCP_mcputil.cpp9Adaaa	global constructors keyed to MCP_mcputil.cpp9Adaaa
+01e8e2e8	function	.text	MEM_malloc__FUi12MEMAssetTypePcUi	MEM_malloc(unsigned int, MEMAssetType, char *, unsigned int)
+01e8e320	function	.text	MEM_free__FPvPcUi	MEM_free(void *, char *, unsigned int)
+01ed2720	function	.text	CreateThread	CreateThread
+01ed37f8	function	.text	StartThread	StartThread
+01e91058	function	.text	MODULE_StartModule__FiiPCvi	MODULE_StartModule(int, int, void const *, int)
+01e92548	function	.text	GLOBALWAD_ReleasePlayerWad__Fv	GLOBALWAD_ReleasePlayerWad(void)
+01e92348	function	.text	GLOBALWAD_LoadPlayerWad__F13PlayerWadType	GLOBALWAD_LoadPlayerWad(PlayerWadType)
+01e8e2e0	function	.text	MEM_PrintMemoryMap__FPc	MEM_PrintMemoryMap(char *)
+01e90ec8	function	.text	MODULE_LoadModule__FPCc	MODULE_LoadModule(char const *)
+01ed2760	function	.text	ExitDeleteThread	ExitDeleteThread
+01e694d8	function	.text	MCPHUD_UpdateViewTransform__FUiP11tHUD_OFFSET	MCPHUD_UpdateViewTransform(unsigned int, tHUD_OFFSET *)
+01e694e0	function	.text	MCPFONT_DrawTextureSimpleArea__FUissssUsUsUsUsUi	MCPFONT_DrawTextureSimpleArea(unsigned int, short, short, short, short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned int)
+01e695d8	function	.text	MCPFONT_RegisterFontTextures__Fv	MCPFONT_RegisterFontTextures(void)
+01e696b0	function	.text	MCPFONT_GetFontPage__FUc	MCPFONT_GetFontPage(unsigned char)
+01e697b0	function	.text	MCPFONT_FontStringLength__FPCc	MCPFONT_FontStringLength(char const *)
+01e697f0	function	.text	MCPFONT_FontStringPixelLength__FPCcUi	MCPFONT_FontStringPixelLength(char const *, unsigned int)
+01e698c0	function	.text	MCPFONT_FontStringPixelLength__FPCc	MCPFONT_FontStringPixelLength(char const *)
+01e69908	function	.text	MCPFONT_SetColor__FUi	MCPFONT_SetColor(unsigned int)
+01e69918	function	.text	MCPFONT_FontPrintCenterScaled__FssPCcff	MCPFONT_FontPrintCenterScaled(short, short, char const *, float, float)
+01e69cf8	function	.text	MCP_GetFontPage__FUc	MCP_GetFontPage(unsigned char)
+01e69d20	function	.text	MCP_FontStringLength__FPCc	MCP_FontStringLength(char const *)
+01e69d60	function	.text	MCP_DrawRectangleSimpleArea__FssssUi	MCP_DrawRectangleSimpleArea(short, short, short, short, unsigned int)
+01e69db8	function	.text	MCP_FontStringPixelLength__FPCcUi	MCP_FontStringPixelLength(char const *, unsigned int)
+01e69e90	function	.text	MCP_FontPrintWindowArea__FP20tFontPrintWindowData	MCP_FontPrintWindowArea(tFontPrintWindowData *)
+01e6a2b0	function	.text	GetCenterX__17HUD_BoundingBox16	HUD_BoundingBox16::GetCenterX(void)
+01e6a2e0	function	.text	GetWidth__17HUD_BoundingBox16	HUD_BoundingBox16::GetWidth(void)
+01e6a340	function	.text	MCP_FontPrintWindowSetStructDefaults__FP20tFontPrintWindowDatassssUi	MCP_FontPrintWindowSetStructDefaults(tFontPrintWindowData *, short, short, short, short, unsigned int)
+01e6a448	function	.text	_GLOBAL_$I$MCP_mcpfont.cpp44daaa	global constructors keyed to MCP_mcpfont.cpp44daaa
+01e8f9d0	function	.text	LOADER_FindAssetsBySignature__FUi14WAD_ASSET_TYPE	LOADER_FindAssetsBySignature(unsigned int, WAD_ASSET_TYPE)
+01e7e7c0	function	.text	TEXMGR_LoadTextureFromMemory__FPCUcUibPbT2N22P29tTEXMGR_ALPHA_COLOR_TOLERANCE	TEXMGR_LoadTextureFromMemory(unsigned char const *, unsigned int, bool, bool *, bool, bool, bool, tTEXMGR_ALPHA_COLOR_TOLERANCE *)
+01e6a490	function	.text	CAMERA_Reset__Fv	CAMERA_Reset(void)
+01e6a8b0	function	.text	CAMERA_SetCurrentCamera__FUi	CAMERA_SetCurrentCamera(unsigned int)
+01e6aaa8	function	.text	CAMERA_SetFov__Ff	CAMERA_SetFov(float)
+01e6aaf0	function	.text	CAMERA_SetFovX__Ff	CAMERA_SetFovX(float)
+01e6aad8	function	.text	CAMERA_StoreThisFrameLastUpdatedFov__Fv	CAMERA_StoreThisFrameLastUpdatedFov(void)
+01e6ac48	function	.text	_GLOBAL_$I$CORE_camera.cpp07daaa	global constructors keyed to CORE_camera.cpp07daaa
+01ef8670	data	.data	g_YAspectMultiplier	g_YAspectMultiplier
+01f202e0	data	.rodata	g_identityMatrix	g_identityMatrix
+01e8a8a8	function	.text	DISPLAY_SetViewMatrixFromCameraMatrix__FPC7MATRIX4	DISPLAY_SetViewMatrixFromCameraMatrix(MATRIX4 const *)
+01e8a8d0	function	.text	DISPLAY_SetupProjection__Fffff	DISPLAY_SetupProjection(float, float, float, float)
+01e8b300	function	.text	DISPLAY_CommitView__Fv	DISPLAY_CommitView(void)
+01e8a940	function	.text	DISPLAY_BuildFrustumPlanes__FP7MATRIX4N20P10ClipPlanes	DISPLAY_BuildFrustumPlanes(MATRIX4 *, MATRIX4 *, MATRIX4 *, ClipPlanes *)
+01e8a8f0	function	.text	DISPLAY_SetVisibilityPlanes__FP10ClipPlanes	DISPLAY_SetVisibilityPlanes(ClipPlanes *)
+01e86e00	function	.text	SYSTEM_UpdateMatricies__Fv	SYSTEM_UpdateMatricies(void)
+01e8b350	function	.text	DISPLAY_CalcFovX__Ff	DISPLAY_CalcFovX(float)
+01e79ab8	function	.text	Quat_Slerp__FP4QUATPC4QUATT1f	Quat_Slerp(QUAT *, QUAT const *, QUAT const *, float)
+01e79c80	function	.text	Quat_ConvertToMatrix__FP7MATRIX4PC4QUAT	Quat_ConvertToMatrix(MATRIX4 *, QUAT const *)
+01e91620	function	.text	PS2HEAP_Init__Fv	PS2HEAP_Init(void)
+01ed5a48	function	.text	sceSifInitRpc	sceSifInitRpc
+01ebd648	function	.text	ps2fioInit	ps2fioInit
+01ebeea8	function	.text	ps2fioRebootIop	ps2fioRebootIop
+01eda630	function	.text	sceSifSyncIop	sceSifSyncIop
+01ebf418	function	.text	asyncInit	asyncInit
+01ebd6e0	function	.text	ps2fioInitializeDevice	ps2fioInitializeDevice
+01ebed10	function	.text	ps2fioBuildFilesystem	ps2fioBuildFilesystem
+01e6ad18	function	.text	FastMemCopy__FPvPCvUi	FastMemCopy(void *, void const *, unsigned int)
+01ee0080	data	.data	g_fly_trans_1	g_fly_trans_1
+01ee16a0	data	.data	g_fly_trans_2	g_fly_trans_2
+01ee2cc0	data	.data	g_fly_trans_3	g_fly_trans_3
+01ee42e0	data	.data	g_fly_trans_4	g_fly_trans_4
+01ee5900	data	.data	g_fly_transitions	g_fly_transitions
+01ee5910	data	.data	g_num_fly_trans	g_num_fly_trans
+01ee5920	data	.data	g_land_trans_1	g_land_trans_1
+01ee6f40	data	.data	g_land_trans_2	g_land_trans_2
+01ee8560	data	.data	g_land_trans_3	g_land_trans_3
+01ee9b80	data	.data	g_land_transitions	g_land_transitions
+01ee9b8c	data	.data	g_num_land_trans	g_num_land_trans
+01ee9b90	data	.data	g_clank_trans_1	g_clank_trans_1
+01eeb1b0	data	.data	g_clank_trans_2	g_clank_trans_2
+01eec7d0	data	.data	g_clank_trans_3	g_clank_trans_3
+01eeddf0	data	.data	g_clank_transitions	g_clank_transitions
+01eeddfc	data	.data	g_num_clank_trans	g_num_clank_trans
+01eede00	data	.data	g_clank_land_trans_1	g_clank_land_trans_1
+01eef420	data	.data	g_clank_land_trans_2	g_clank_land_trans_2
+01ef0a40	data	.data	g_clank_land_trans_3	g_clank_land_trans_3
+01ef2060	data	.data	g_clank_land_transitions	g_clank_land_transitions
+01ef206c	data	.data	g_num_clank_land_trans	g_num_clank_land_trans
+01ef20ac	data	.data	m_bDrawParticlesCountdown	m_bDrawParticlesCountdown
+01ef22e8	data	.data	g_bSkyboardInSpace	g_bSkyboardInSpace
+01ef22ec	data	.data	g_planetTextAlpha	g_planetTextAlpha
+01e6ad80	function	.text	MCPTRANS_InitState__Fb	MCPTRANS_InitState(bool)
+01e6df90	function	.text	MCPTRANS_Fade_Init__Fv	MCPTRANS_Fade_Init(void)
+01e6c018	function	.text	MCPTRANS_UpdateStarStreaks__Fv	MCPTRANS_UpdateStarStreaks(void)
+01e6e1d8	function	.text	_GLOBAL_$I$MCP_mcptrans.cppWyeaaa	global constructors keyed to MCP_mcptrans.cppWyeaaa
+01e7c090	function	.text	PAR_Reset__Fv	PAR_Reset(void)
+01e793d8	function	.text	VEC_SetVec3__FP4VEC3fff	VEC_SetVec3(VEC3 *, float, float, float)
+01e79400	function	.text	VEC_MakeMat3x4FromYawPitch__FP7MATRIX4ff	VEC_MakeMat3x4FromYawPitch(MATRIX4 *, float, float)
+01e880b8	function	.text	sceKernelGetSystemTimeLow__Fv	sceKernelGetSystemTimeLow(void)
+01e8fa58	function	.text	LOADER_LoadGdeFile__FP15WAD_FILE_HEADERb	LOADER_LoadGdeFile(WAD_FILE_HEADER *, bool)
+01e8ed90	function	.text	WAD_NextAssetByType__FP15WAD_FILE_HEADER	WAD_NextAssetByType(WAD_FILE_HEADER *)
+01e902f8	function	.text	LOAD_CHARACTER_SkinGdeFile__FP15WAD_FILE_HEADERPP14GDE_Header_PS2	LOAD_CHARACTER_SkinGdeFile(WAD_FILE_HEADER *, GDE_Header_PS2 **)
+01e88238	function	.text	GDEMESH_GetMesh__FUi	GDEMESH_GetMesh(unsigned int)
+01e7e448	function	.text	TEXMGR_LoadTexture__FP15WAD_FILE_HEADER	TEXMGR_LoadTexture(WAD_FILE_HEADER *)
+01f69bc8	data	.bss	g_ParticleTextureHandlesInternal	g_ParticleTextureHandlesInternal
+01e71ff0	function	.text	RatchetShipExhaust_RegisterParticleSystem__Fi10DRAW_Layer17DRAW_ColorKeyMode17DRAW_AlphaKeyMode14DRAW_BloomMode14DRAW_BlendMode	RatchetShipExhaust_RegisterParticleSystem(int, DRAW_Layer, DRAW_ColorKeyMode, DRAW_AlphaKeyMode, DRAW_BloomMode, DRAW_BlendMode)
+01e76b68	function	.text	GCSPAR_StreckRegisterParticleSystem__FUi	GCSPAR_StreckRegisterParticleSystem(unsigned int)
+01e73e40	function	.text	ClankTransExhaust_RegisterParticleSystem__Fi10DRAW_Layer17DRAW_ColorKeyMode17DRAW_AlphaKeyMode14DRAW_BloomMode14DRAW_BlendMode	ClankTransExhaust_RegisterParticleSystem(int, DRAW_Layer, DRAW_ColorKeyMode, DRAW_AlphaKeyMode, DRAW_BloomMode, DRAW_BlendMode)
+01e75bf0	function	.text	SkyboardTransExhaust_RegisterParticleSystem__Fi10DRAW_Layer17DRAW_ColorKeyMode17DRAW_AlphaKeyMode14DRAW_BloomMode14DRAW_BlendMode	SkyboardTransExhaust_RegisterParticleSystem(int, DRAW_Layer, DRAW_ColorKeyMode, DRAW_AlphaKeyMode, DRAW_BloomMode, DRAW_BlendMode)
+01e926f8	function	.text	GLOBALWAD_FindSound__FUi	GLOBALWAD_FindSound(unsigned int)
+01e79728	function	.text	VEC_LookAtUpLeft__FP4VEC3T0PC4VEC3	VEC_LookAtUpLeft(VEC3 *, VEC3 *, VEC3 const *)
+01e78288	function	.text	VEC_AngleBetweenVectors__FPC4VEC3T0b	VEC_AngleBetweenVectors(VEC3 const *, VEC3 const *, bool)
+01e77038	function	.text	GCSPAR_StreckSetDragMotion__FRC4VEC3	GCSPAR_StreckSetDragMotion(VEC3 const &)
+01e98bf8	function	.text	fptodp	fptodp
+01e9f080	function	.text	sin	sin
+01e98170	function	.text	dpmul	dpmul
+01e98908	function	.text	dptofp	dptofp
+01e98b30	function	.text	fptoui	fptoui
+01e79c58	function	.text	VFPU_Slerp__FP4QUATPC4QUATT1f	VFPU_Slerp(QUAT *, QUAT const *, QUAT const *, float)
+01e79ce0	function	.text	VFPU_Quat_ConvertToMatrix__FP7MATRIX4PC4QUAT	VFPU_Quat_ConvertToMatrix(MATRIX4 *, QUAT const *)
+01e701e8	function	.text	RatchetShipExhaust_EmitParticles__FiUiP31RatchetShipExhaust_JointStorageT2f	RatchetShipExhaust_EmitParticles(int, unsigned int, RatchetShipExhaust_JointStorage *, RatchetShipExhaust_JointStorage *, float)
+01e72188	function	.text	ClankTransExhaust_EmitParticles__FiUiP30ClankTransExhaust_JointStorageT2	ClankTransExhaust_EmitParticles(int, unsigned int, ClankTransExhaust_JointStorage *, ClankTransExhaust_JointStorage *)
+01e73fd8	function	.text	SkyboardTransExhaust_EmitParticles__FiUiP33SkyboardTransExhaust_JointStorageT2	SkyboardTransExhaust_EmitParticles(int, unsigned int, SkyboardTransExhaust_JointStorage *, SkyboardTransExhaust_JointStorage *)
+01e8c018	function	.text	ANIM_SwapJointMatrixBuffers__Fi	ANIM_SwapJointMatrixBuffers(int)
+01e840a8	function	.text	Translate__Q34scee3Psp3GumPC14ScePspFVector3	scee::Psp::Gum::Translate(ScePspFVector3 const *)
+01e83e98	function	.text	RotateY__Q34scee3Psp3Gumf	scee::Psp::Gum::RotateY(float)
+01e83fa0	function	.text	RotateZ__Q34scee3Psp3Gumf	scee::Psp::Gum::RotateZ(float)
+01e88080	function	.text	UTIL_SetupTextureState__Fv	UTIL_SetupTextureState(void)
+01e837d0	function	.text	DepthMask__Q34scee3Psp2Gub	scee::Psp::Gu::DepthMask(bool)
+01e83780	function	.text	TexOffset__Q34scee3Psp2Guff	scee::Psp::Gu::TexOffset(float, float)
+01e836c8	function	.text	FlushTexTransform__Q34scee3Psp2Guv	scee::Psp::Gu::FlushTexTransform(void)
+01e87658	function	.text	SYSTEM_SetDepthWrite__Fb	SYSTEM_SetDepthWrite(bool)
+01e88688	function	.text	GDEMESH_RenderStaticMeshSimple__FP7MATRIX4UiUiUi	GDEMESH_RenderStaticMeshSimple(MATRIX4 *, unsigned int, unsigned int, unsigned int)
+01e8bf08	function	.text	ANIM_Begin__Fv	ANIM_Begin(void)
+01e8baa8	function	.text	ANIM_SetAllComponentsDefault__FP16GDE_SkeletonInfo	ANIM_SetAllComponentsDefault(GDE_SkeletonInfo *)
+01e8bf58	function	.text	ANIM_End__Fv	ANIM_End(void)
+01e83650	function	.text	Color__Q34scee3Psp2GuUi	scee::Psp::Gu::Color(unsigned int)
+01f7aa80	data	.bss	g_pPackedMatrices	g_pPackedMatrices
+01e8c130	function	.text	SKIN_DrawMesh__FP14GDE_Header_PS2PUiUiibUiffT4fT4	SKIN_DrawMesh(GDE_Header_PS2 *, unsigned int *, unsigned int, int, bool, unsigned int, float, float, bool, float, bool)
+01e78e18	function	.text	VEC_MultiplyMatrix4__FP7MATRIX4PC7MATRIX4T1	VEC_MultiplyMatrix4(MATRIX4 *, MATRIX4 const *, MATRIX4 const *)
+01e79648	function	.text	VEC_MakeScaleMat__FP4VEC3N20fff	VEC_MakeScaleMat(VEC3 *, VEC3 *, VEC3 *, float, float, float)
+01e78f78	function	.text	VEC_MultiplyMatrix4By3__FP7MATRIX4PC7MATRIX4PC7MATRIX3	VEC_MultiplyMatrix4By3(MATRIX4 *, MATRIX4 const *, MATRIX3 const *)
+01e88270	function	.text	GDEMESH_RenderTieMeshImmediate__FP7MATRIX4PC14GDE_Header_PS2UcUibN24	GDEMESH_RenderTieMeshImmediate(MATRIX4 *, GDE_Header_PS2 const *, unsigned char, unsigned int, bool, bool, bool)
+01e79280	function	.text	VEC_MulMat4Vec3__FP4VEC3PC7MATRIX4PC4VEC3	VEC_MulMat4Vec3(VEC3 *, MATRIX4 const *, VEC3 const *)
+01e7ed30	function	.text	TEXMGR_GetWidth__FUi	TEXMGR_GetWidth(unsigned int)
+01e7ed60	function	.text	TEXMGR_GetHeight__FUi	TEXMGR_GetHeight(unsigned int)
+01e83648	function	.text	Material__Q34scee3Psp2GuUiUi	scee::Psp::Gu::Material(unsigned int, unsigned int)
+01e87cb0	function	.text	UTIL_Draw3DTexturedQuad__FP4VEC3P4VEC2T0T1T0T1T0T1Ui	UTIL_Draw3DTexturedQuad(VEC3 *, VEC2 *, VEC3 *, VEC2 *, VEC3 *, VEC2 *, VEC3 *, VEC2 *, unsigned int)
+01e79578	function	.text	VEC_MakeMatFromYawPitchRoll__FP4VEC3N20fff	VEC_MakeMatFromYawPitchRoll(VEC3 *, VEC3 *, VEC3 *, float, float, float)
+01e837d8	function	.text	BlendFunc__Q34scee3Psp2GuQ44scee3Psp2Gu15EBlendOperationQ44scee3Psp2Gu14EBlendFunctionT2UiUi	scee::Psp::Gu::BlendFunc(scee::Psp::Gu::EBlendOperation, scee::Psp::Gu::EBlendFunction, scee::Psp::Gu::EBlendFunction, unsigned int, unsigned int)
+01e837a8	function	.text	ColorFunc__Q34scee3Psp2GuQ44scee3Psp2Gu13ETestFunctionUiUi	scee::Psp::Gu::ColorFunc(scee::Psp::Gu::ETestFunction, unsigned int, unsigned int)
+01e836a0	function	.text	TexWrap__Q34scee3Psp2GuQ44scee3Psp2Gu16ETextureWrapModeT1	scee::Psp::Gu::TexWrap(scee::Psp::Gu::ETextureWrapMode, scee::Psp::Gu::ETextureWrapMode)
+01e8cf98	function	.text	HUDOFFSET_GetOffset__FUi	HUDOFFSET_GetOffset(unsigned int)
+01e8bfb0	function	.text	ANIM_GetBoneMatrix__FUib	ANIM_GetBoneMatrix(unsigned int, bool)
+01e76bc8	function	.text	EmitParticles__FiPC23GCSPAR_StreckBoxEmitteriff	EmitParticles(int, GCSPAR_StreckBoxEmitter const *, int, float, float)
+01e92ce0	function	.text	SND_MCPShutdown__Fv	SND_MCPShutdown(void)
+01e6eb68	function	.text	MCPTRANS_SHRINK_StartSound__Fv	MCPTRANS_SHRINK_StartSound(void)
+01e6ec58	function	.text	_GLOBAL_$I$MCP_mcptrans_shrink.cppAaeaaa	global constructors keyed to MCP_mcptrans_shrink.cppAaeaaa
+01e77490	function	.text	ShrinkBeam_RegisterSystems__Fv	ShrinkBeam_RegisterSystems(void)
+01e780a0	function	.text	SpiralSphere_Start__FP12Spiral_GroupPC4VEC3T1UifT1i	SpiralSphere_Start(Spiral_Group *, VEC3 const *, VEC3 const *, unsigned int, float, VEC3 const *, int)
+01e77410	function	.text	Spiral_Stop__FP12Spiral_Group	Spiral_Stop(Spiral_Group *)
+01e837c8	function	.text	DepthFunc__Q34scee3Psp2GuQ44scee3Psp2Gu13ETestFunction	scee::Psp::Gu::DepthFunc(scee::Psp::Gu::ETestFunction)
+01e837b8	function	.text	StencilFunc__Q34scee3Psp2GuQ44scee3Psp2Gu13ETestFunctionUcUc	scee::Psp::Gu::StencilFunc(scee::Psp::Gu::ETestFunction, unsigned char, unsigned char)
+01e837c0	function	.text	StencilOp__Q34scee3Psp2GuQ44scee3Psp2Gu17EStencilOperationN21	scee::Psp::Gu::StencilOp(scee::Psp::Gu::EStencilOperation, scee::Psp::Gu::EStencilOperation, scee::Psp::Gu::EStencilOperation)
+01e837b0	function	.text	AlphaFunc__Q34scee3Psp2GuQ44scee3Psp2Gu13ETestFunctionUcUc	scee::Psp::Gu::AlphaFunc(scee::Psp::Gu::ETestFunction, unsigned char, unsigned char)
+01e83640	function	.text	ColorMaterial__Q34scee3Psp2GuUi	scee::Psp::Gu::ColorMaterial(unsigned int)
+01e837e0	function	.text	SetMatrix__Q34scee3Psp2GuQ44scee3Psp2Gu11EMatrixTypePC14ScePspFMatrix4	scee::Psp::Gu::SetMatrix(scee::Psp::Gu::EMatrixType, ScePspFMatrix4 const *)
+01e6f3d0	function	.text	MCPTRANS_FALL_SpeckEmitterUpdate__Fv	MCPTRANS_FALL_SpeckEmitterUpdate(void)
+01e6f598	function	.text	MCPTRANS_FALL_StartSound__Fv	MCPTRANS_FALL_StartSound(void)
+01e6f688	function	.text	_GLOBAL_$I$MCP_mcptrans_fall.cppQ4daaa	global constructors keyed to MCP_mcptrans_fall.cppQ4daaa
+01e85bd8	function	.text	SYSTEM_SetClearColor__FUi	SYSTEM_SetClearColor(unsigned int)
+01e83d90	function	.text	RotateX__Q34scee3Psp3Gumf	scee::Psp::Gum::RotateX(float)
+01e6fe40	function	.text	MCPTRANS_DREAM_SpeckEmitterUpdate__Fv	MCPTRANS_DREAM_SpeckEmitterUpdate(void)
+01e70008	function	.text	MCPTRANS_DREAM_StartSound__Fv	MCPTRANS_DREAM_StartSound(void)
+01e700f8	function	.text	_GLOBAL_$I$MCP_mcptrans_dream.cpp72caaa	global constructors keyed to MCP_mcptrans_dream.cpp72caaa
+01ef2590	data	.data	EngineParts	EngineParts
+01e704b8	function	.text	RatchetShipExhaust_EmitParticles__FiUiUiP31RatchetShipExhaust_JointStoragef	RatchetShipExhaust_EmitParticles(int, unsigned int, unsigned int, RatchetShipExhaust_JointStorage *, float)
+01e70580	function	.text	RatchetShipExhaust_EmitParticles__FiUiUifff	RatchetShipExhaust_EmitParticles(int, unsigned int, unsigned int, float, float, float)
+01e72098	function	.text	_GLOBAL_$I$particles_RatchetShipExhaust.cppiQcaaa	global constructors keyed to particles_RatchetShipExhaust.cppiQcaaa
+01e791d8	function	.text	VEC_MulMat4Vec3ZeroW__FP4VEC3PC7MATRIX4PC4VEC3	VEC_MulMat4Vec3ZeroW(VEC3 *, MATRIX4 const *, VEC3 const *)
+01e7ce68	function	.text	PAR_Emit__FPiii	PAR_Emit(int *, int, int)
+01e7c3c8	function	.text	PAR_CreateSystemInternal__FP10PAR_SystemUiPFPviPC9PAR_GroupPC29PAR_UpdateAndTesselateContext_iiiiPFP9PAR_Group_v	PAR_CreateSystemInternal(PAR_System *, unsigned int, int (*)(void *, int, PAR_Group const *, PAR_UpdateAndTesselateContext const *), int, int, int, void (*)(PAR_Group *))
+01e7c5a0	function	.text	PAR_RegisterSystem__FPC10PAR_System	PAR_RegisterSystem(PAR_System const *)
+01e72438	function	.text	ClankTransExhaust_EmitParticles__FiUiUiP30ClankTransExhaust_JointStorage	ClankTransExhaust_EmitParticles(int, unsigned int, unsigned int, ClankTransExhaust_JointStorage *)
+01e724f0	function	.text	ClankTransExhaust_EmitParticles__FiUiUiff	ClankTransExhaust_EmitParticles(int, unsigned int, unsigned int, float, float)
+01e73ee8	function	.text	_GLOBAL_$I$particles_ClankTransExhaust.cppBreaaa	global constructors keyed to particles_ClankTransExhaust.cppBreaaa
+01e74288	function	.text	SkyboardTransExhaust_EmitParticles__FiUiUiP33SkyboardTransExhaust_JointStorage	SkyboardTransExhaust_EmitParticles(int, unsigned int, unsigned int, SkyboardTransExhaust_JointStorage *)
+01e74340	function	.text	SkyboardTransExhaust_EmitParticles__FiUiUiff	SkyboardTransExhaust_EmitParticles(int, unsigned int, unsigned int, float, float)
+01e75c98	function	.text	_GLOBAL_$I$particles_SkyboardTransExhaust.cppuceaaa	global constructors keyed to particles_SkyboardTransExhaust.cppuceaaa
+01e77098	function	.text	_GLOBAL_$I$particles_GCS_STrek.cppIMdaaa	global constructors keyed to particles_GCS_STrek.cppIMdaaa
+01e79338	function	.text	VEC_MulMat4Vec3__FP4VEC3PC8MATRIX43PC4VEC3	VEC_MulMat4Vec3(VEC3 *, MATRIX43 const *, VEC3 const *)
+01e77140	function	.text	RIBBON_ClearInactiveJoints__FP20PAR_ParticleIteratorPC9PAR_Groupii	RIBBON_ClearInactiveJoints(PAR_ParticleIterator *, PAR_Group const *, int, int)
+01e772c0	function	.text	_GLOBAL_$I$particles_Ribbon.cppJaeaaa	global constructors keyed to particles_Ribbon.cppJaeaaa
+01e7ccb8	function	.text	PAR_CreateGroup__FP9PAR_Groupi13PAR_BlockMode	PAR_CreateGroup(PAR_Group *, int, PAR_BlockMode)
+01e7cea0	function	.text	PAR_Emit__FPiP9PAR_Groupi	PAR_Emit(int *, PAR_Group *, int)
+01e772e0	function	.text	Spiral_CreateGroup__FP12Spiral_Groupi	Spiral_CreateGroup(Spiral_Group *, int)
+01e77300	function	.text	Spiral_EmitJoint__FP12Spiral_GroupPC12Spiral_Pointb	Spiral_EmitJoint(Spiral_Group *, Spiral_Point const *, bool)
+01e77470	function	.text	_GLOBAL_$I$particles_Spiral.cpp5Bdaaa	global constructors keyed to particles_Spiral.cpp5Bdaaa
+01f20368	data	.rodata	G_UpVector	G_UpVector
+01e78c80	function	.text	VEC_MultiplyMatrix3__FP7MATRIX3PC7MATRIX3T1	VEC_MultiplyMatrix3(MATRIX3 *, MATRIX3 const *, MATRIX3 const *)
+01e79130	function	.text	VEC_MulMat3Vec3__FP4VEC3PC7MATRIX3PC4VEC3	VEC_MulMat3Vec3(VEC3 *, MATRIX3 const *, VEC3 const *)
+01e7ce30	function	.text	PAR_DestroyGroup__FP9PAR_Group	PAR_DestroyGroup(PAR_Group *)
+01e78030	function	.text	SpiralSphere_RegisterSystem__F10DRAW_Layeri15DRAW_ZWriteMode17DRAW_ColorKeyMode14DRAW_BloomMode14DRAW_BlendMode	SpiralSphere_RegisterSystem(DRAW_Layer, int, DRAW_ZWriteMode, DRAW_ColorKeyMode, DRAW_BloomMode, DRAW_BlendMode)
+01e78268	function	.text	_GLOBAL_$I$mobys_ShrinkBeam_ShrinkBeam.cpptqeaaa	global constructors keyed to mobys_ShrinkBeam_ShrinkBeam.cpptqeaaa
+01f20328	data	.rodata	g_identityMatrix43	g_identityMatrix43
+01f20358	data	.rodata	g_zeroVec3	g_zeroVec3
+01e78410	function	.text	VEC_ConstructRotZMat3__FP7MATRIX3f	VEC_ConstructRotZMat3(MATRIX3 *, float)
+01e784a8	function	.text	VEC_InverseMat4__FP7MATRIX4PC7MATRIX4	VEC_InverseMat4(MATRIX4 *, MATRIX4 const *)
+01e794c0	function	.text	VEC_MakeMat3FromYawPitch__FP7MATRIX3ff	VEC_MakeMat3FromYawPitch(MATRIX3 *, float, float)
+01e79d38	function	.text	Quat_ConvertToMatrixInternal__H1Z7MATRIX4_PX01PC4QUAT_v	void Quat_ConvertToMatrixInternal<MATRIX4>(MATRIX4 *, QUAT const *)
+01e79e28	function	.text	_GLOBAL_$I$SHARED_Math_quat.cpp2seaaa	global constructors keyed to SHARED_Math_quat.cpp2seaaa
+01e98698	function	.text	dpcmp	dpcmp
+01e98108	function	.text	dpsub	dpsub
+01ef2a9c	data	.data	g_draw_applyView	g_draw_applyView
+01f203f8	data	.rodata	g_draw_vertSize	g_draw_vertSize
+01f20420	data	.rodata	g_draw_vertAlign	g_draw_vertAlign
+01e79e48	function	.text	DRAW_Reset__Fv	DRAW_Reset(void)
+01f695b8	data	.bss	g_draw_endMesh	g_draw_endMesh
+01e7a378	function	.text	DRAW_AllocNextMesh__FPviUiiiPC16DRAW_ExtMaterialUi	DRAW_AllocNextMesh(void *, int, unsigned int, int, int, DRAW_ExtMaterial const *, unsigned int)
+01f695b0	data	.bss	g_draw_currentMesh	g_draw_currentMesh
+01f695a8	data	.bss	g_draw_vertSpace	g_draw_vertSpace
+01f695a0	data	.bss	g_draw_vertTail	g_draw_vertTail
+01f695e0	data	.bss	g_draw_preRenderContextTail	g_draw_preRenderContextTail
+01f695d8	data	.bss	g_draw_preRenderContextSpace	g_draw_preRenderContextSpace
+01f695c0	data	.bss	g_draw_currentMaterial	g_draw_currentMaterial
+01e7ad30	function	.text	DRAW_GetRenderContext__FUib	DRAW_GetRenderContext(unsigned int, bool)
+01e7ad58	function	.text	DRAW_GetTextureSize__FPiT0i	DRAW_GetTextureSize(int *, int *, int)
+01f695c8	data	.bss	g_draw_currentSortDepth	g_draw_currentSortDepth
+01f695d0	data	.bss	g_draw_currentVertPerPrim	g_draw_currentVertPerPrim
+01e7c070	function	.text	_GLOBAL_$I$ENGINE_draw.cppn8daaa	global constructors keyed to ENGINE_draw.cppn8daaa
+01e8e1f0	function	.text	MEM_malloc_uncached__FUi12MEMAssetTypePcUi	MEM_malloc_uncached(unsigned int, MEMAssetType, char *, unsigned int)
+01e8e238	function	.text	MEM_memalign__FUiUi12MEMAssetTypePcUi	MEM_memalign(unsigned int, unsigned int, MEMAssetType, char *, unsigned int)
+01e86bf0	function	.text	SYSTEM_BuildMatrixUploadCallList__FP6QWdata15PS2_MATRIX_SLOTPC8MATRIX43b	SYSTEM_BuildMatrixUploadCallList(QWdata *, PS2_MATRIX_SLOT, MATRIX43 const *, bool)
+01e86b38	function	.text	SYSTEM_BuildUploadVecs__FP6QWdataUiP4VEC4Ui	SYSTEM_BuildUploadVecs(QWdata *, unsigned int, VEC4 *, unsigned int)
+01e95500	function	.text	VRAM_GetViewport__FPiN30	VRAM_GetViewport(int *, int *, int *, int *)
+01e954c8	function	.text	VRAM_GetOffset__FPiT0	VRAM_GetOffset(int *, int *)
+01e871e0	function	.text	SYSTEM_SetAlphaTestMode__FbUcUi	SYSTEM_SetAlphaTestMode(bool, unsigned char, unsigned int)
+01e95218	function	.text	VRAM_RenderTo__FP12RenderTargetUi	VRAM_RenderTo(RenderTarget *, unsigned int)
+01e87008	function	.text	SYSTEM_ActivateMicrocode__F13PS2_MICROCODE	SYSTEM_ActivateMicrocode(PS2_MICROCODE)
+01ef7460	data	.data	scissor_giftag_textured_unfogged	scissor_giftag_textured_unfogged
+01e7cf48	function	.text	PAR_UnitDestroy__FPv	PAR_UnitDestroy(void *)
+01e7cd10	function	.text	PAR_ClearGroup__FP9PAR_Group	PAR_ClearGroup(PAR_Group *)
+01ef2abc	data	.data	g_TexturesLoaded	g_TexturesLoaded
+01e7dcc8	function	.text	_GLOBAL_$I$ENGINE_particle.cppazdaaa	global constructors keyed to ENGINE_particle.cppazdaaa
+01e8edc8	function	.text	WAD_FindAssetsByType__F14WAD_ASSET_TYPEP10WAD_HEADER	WAD_FindAssetsByType(WAD_ASSET_TYPE, WAD_HEADER *)
+01ef79ac	data	.data	g_pLevelWadData	g_pLevelWadData
+01ef2ad0	data	.data	GreyTexture_Size	GreyTexture_Size
+01ef2ae0	data	.data	GreyTexture_Data	GreyTexture_Data
+01ef2d44	data	.data	g_TEXMGR_DefaultTexture	g_TEXMGR_DefaultTexture
+01ef2d48	data	.data	g_TEXMGR_GreyTexture	g_TEXMGR_GreyTexture
+01ef2d54	data	.data	g_bDoubleTextures	g_bDoubleTextures
+01ef2d58	data	.data	g_TEXMGR_NextTexture	g_TEXMGR_NextTexture
+01f69ef8	data	.bss	g_Textures	g_Textures
+01e7ddf8	function	.text	TEXMGR_SetActiveTextureFromRenderTarget__FP12RenderTargetb	TEXMGR_SetActiveTextureFromRenderTarget(RenderTarget *, bool)
+01e7f018	function	.text	float_to_k__Ff	float_to_k(float)
+01e7ed90	function	.text	image_upload__FP13DLIB_DISPLISTP10PS2Textureii	image_upload(DLIB_DISPLIST *, PS2Texture *, int, int)
+01e7e508	function	.text	TEXMGR_SetColorIndexWithColorTo__FP13SceGimPictureUiUiP29tTEXMGR_ALPHA_COLOR_TOLERANCE	TEXMGR_SetColorIndexWithColorTo(SceGimPicture *, unsigned int, unsigned int, tTEXMGR_ALPHA_COLOR_TOLERANCE *)
+01e7e668	function	.text	TEXMGR_SwizzleTexture__FP13SceGimPicture	TEXMGR_SwizzleTexture(SceGimPicture *)
+01e94fe0	function	.text	VRAM_Alloc__FUi12MEMAssetType	VRAM_Alloc(unsigned int, MEMAssetType)
+01ed73d8	function	.text	sceOpen	sceOpen
+01ed77e0	function	.text	sceLseek	sceLseek
+01ed7a20	function	.text	sceRead	sceRead
+01ed7668	function	.text	sceClose	sceClose
+01e83380	function	.text	sceGimPictureLoadFile__FP13SceGimPicturePCvii	sceGimPictureLoadFile(SceGimPicture *, void const *, int, int)
+01e83428	function	.text	sceGimPictureGetImage__FP13SceGimPicture	sceGimPictureGetImage(SceGimPicture *)
+01e83458	function	.text	sceGimPictureGetImagePixels__FP13SceGimPictureii	sceGimPictureGetImagePixels(SceGimPicture *, int, int)
+01e834c8	function	.text	sceGimPictureGetPalettePixels__FP13SceGimPictureii	sceGimPictureGetPalettePixels(SceGimPicture *, int, int)
+01e8cfd8	function	.text	UTIL_32bitStringHash__FPCc	UTIL_32bitStringHash(char const *)
+01e83440	function	.text	sceGimPictureGetPalette__FP13SceGimPicture	sceGimPictureGetPalette(SceGimPicture *)
+01e8e1c0	function	.text	MEM_AddAssetUsage__F12MEMAssetTypeUi	MEM_AddAssetUsage(MEMAssetType, unsigned int)
+01ef2d64	data	.data	VignetteTexture_Size	VignetteTexture_Size
+01ef2d68	data	.data	g_VignetteHandle	g_VignetteHandle
+01ef2d80	data	.data	g_RENDEREFFECT_SWIRLY_InvFalloff	g_RENDEREFFECT_SWIRLY_InvFalloff
+01f70b20	data	.bss	g_Fog	g_Fog
+01ef2dc4	data	.data	bloomColorVal	bloomColorVal
+01ef2dc8	data	.data	bloomCompositeColor	bloomCompositeColor
+01ef2dcc	data	.data	halfOffset	halfOffset
+01ef2dd0	data	.data	halfOffset2	halfOffset2
+01ef2dd8	data	.data	g_bDoBloom	g_bDoBloom
+01e7f510	function	.text	BLOOM_Downsample__FP12RenderTargetT0	BLOOM_Downsample(RenderTarget *, RenderTarget *)
+01ef2ddc	data	.data	g_UpscaleAlpha	g_UpscaleAlpha
+01ef2de0	data	.data	upsampleXOff	upsampleXOff
+01e7f798	function	.text	BLOOM_Upsample__FP12RenderTargetT0Ui	BLOOM_Upsample(RenderTarget *, RenderTarget *, unsigned int)
+01ef2de8	data	.data	blurHalfOffset	blurHalfOffset
+01e7f958	function	.text	BLOOM_BlurHV__FP12RenderTargetUi	BLOOM_BlurHV(RenderTarget *, unsigned int)
+01e7fcf8	function	.text	DrawRenderTarget__FUiUiP12RenderTarget	DrawRenderTarget(unsigned int, unsigned int, RenderTarget *)
+01ef2dec	data	.data	g_bShowBloom	g_bShowBloom
+01ef2ded	data	.data	g_bBloomDoTexFlush	g_bBloomDoTexFlush
+01ef2df4	data	.data	g_HDR_SubColor	g_HDR_SubColor
+01ef2df8	data	.data	g_HDR_AccumColor	g_HDR_AccumColor
+01ef2dfc	data	.data	g_HDR_UpscaleAlpha	g_HDR_UpscaleAlpha
+01ef2e00	data	.data	g_HDR_showbuf	g_HDR_showbuf
+01ef2e20	data	.data	VignetteTexture_Data	VignetteTexture_Data
+01e81338	function	.text	DrawReferencedStripData__FUiP13WAVY_VERT_PS2	DrawReferencedStripData(unsigned int, WAVY_VERT_PS2 *)
+01e822b0	function	.text	GenerateNewPube__FP4PUBEUiUif	GenerateNewPube(PUBE *, unsigned int, unsigned int, float)
+01e82568	function	.text	JigglePube__FP4PUBE	JigglePube(PUBE *)
+01e827e8	function	.text	DrawPube__FP4PUBE	DrawPube(PUBE *)
+01e82810	function	.text	DrawVLINE__FP6VLINES	DrawVLINE(VLINES *)
+01f749a0	data	.bss	g_PUBES	g_PUBES
+01f75350	data	.bss	g_VLINES	g_VLINES
+01f75160	data	.bss	g_MONSTERPUBE	g_MONSTERPUBE
+01e830d0	function	.text	_GLOBAL_$I$ENGINE_rendereffect.cpp0meaaa	global constructors keyed to ENGINE_rendereffect.cpp0meaaa
+01e95490	function	.text	VRAM_RenderFrom__FP12RenderTargetb	VRAM_RenderFrom(RenderTarget *, bool)
+01e87808	function	.text	SYSTEM_SetBlendEnabled__Fb	SYSTEM_SetBlendEnabled(bool)
+01e87748	function	.text	SYSTEM_SetBloomWrite__Fb	SYSTEM_SetBloomWrite(bool)
+01e87820	function	.text	Draw2DLineStrip__FP4VEC3UiUi	Draw2DLineStrip(VEC3 *, unsigned int, unsigned int)
+01e8d598	function	.text	UTIL_Draw2DLine__FP4VEC3UiUi	UTIL_Draw2DLine(VEC3 *, unsigned int, unsigned int)
+01e830f0	function	.text	sceGimPictureCheckFileHeader__FPCvi	sceGimPictureCheckFileHeader(void const *, int)
+01e83180	function	.text	sceGimPictureGetRootChunk__FPCvi	sceGimPictureGetRootChunk(void const *, int)
+01e83148	function	.text	sceGimPictureGetChunk__FPCvii	sceGimPictureGetChunk(void const *, int, int)
+01e831a0	function	.text	sceGimPictureFindChildChunk__FPC11SceGimChunkii	sceGimPictureFindChildChunk(SceGimChunk const *, int, int)
+01e83210	function	.text	sceGimPictureReconfigure__FP13SceGimPicture	sceGimPictureReconfigure(SceGimPicture *)
+01e83218	function	.text	sceGimPictureLoad__FP13SceGimPicturePC11SceGimChunk	sceGimPictureLoad(SceGimPicture *, SceGimChunk const *)
+01ef7388	data	.data	_Q34scee3Psp2Gu$g_CurColorHack	scee::Psp::Gu::g_CurColorHack
+01e835c8	function	.text	ClearStencil__Q34scee3Psp2GuUc	scee::Psp::Gu::ClearStencil(unsigned char)
+01e835f0	function	.text	DepthRange__Q34scee3Psp2GuUsUs	scee::Psp::Gu::DepthRange(unsigned short, unsigned short)
+01e837a0	function	.text	Scissor__Q34scee3Psp2GuUsUsUsUs	scee::Psp::Gu::Scissor(unsigned short, unsigned short, unsigned short, unsigned short)
+01e869f8	function	.text	SYSTEM_UploadMatrix__F15PS2_MATRIX_SLOTP7MATRIX4	SYSTEM_UploadMatrix(PS2_MATRIX_SLOT, MATRIX4 *)
+01f77940	data	.bss	_Q34scee3Psp3Gum$s_context	scee::Psp::Gum::s_context
+01e86f58	function	.text	SYSTEM_ScreenMatrixIsDirty__Fv	SYSTEM_ScreenMatrixIsDirty(void)
+01e86ea8	function	.text	SYSTEM_ThroughmodeMatrixIsDirty__Fv	SYSTEM_ThroughmodeMatrixIsDirty(void)
+01ef7421	data	.data	g_SYSTEM_BlendEnabled	g_SYSTEM_BlendEnabled
+01ef743c	data	.data	g_videoFormat	g_videoFormat
+01ef7450	data	.data	scissor_giftag_textured	scissor_giftag_textured
+01ef7470	data	.data	MICROCODE_TABLE	MICROCODE_TABLE
+01ef74cc	data	.data	G_buffer_cache_size	G_buffer_cache_size
+01ef74d0	data	.data	G_buffer_cache_ptr	G_buffer_cache_ptr
+01e84d08	function	.text	AdjustDLISTSize__FUiPP6QWdataPUi	AdjustDLISTSize(unsigned int, QWdata **, unsigned int *)
+01e865d8	function	.text	customGsSyncPath__FiUs	customGsSyncPath(int, unsigned short)
+01e84df8	function	.text	UpdateBufferCacheState__Fv	UpdateBufferCacheState(void)
+01e84f20	function	.text	SYSTEM_InitGSSettings__FP12RenderTargetT0bUiT2	SYSTEM_InitGSSettings(RenderTarget *, RenderTarget *, bool, unsigned int, bool)
+01e85be8	function	.text	VsyncIntHand__Fi	VsyncIntHand(int)
+01e85c10	function	.text	sceDisplayGetVcount__Fv	sceDisplayGetVcount(void)
+01e85c20	function	.text	sceDisplayWaitVblankStart__Fv	sceDisplayWaitVblankStart(void)
+01e85c68	function	.text	SYSTEM_LoadIOPModule__FPc	SYSTEM_LoadIOPModule(char *)
+01e85e88	function	.text	UTIL_GS_WRITE_FIFO__FP11DLIB_GIFTAG	UTIL_GS_WRITE_FIFO(DLIB_GIFTAG *)
+01f78e00	data	.bss	g_LastDListSize	g_LastDListSize
+01ef74e8	data	.data	MatrixAddresses	MatrixAddresses
+01f78c08	data	.bss	g_STATE	g_STATE
+01e874b8	function	.text	SYSTEM_RefreshTestAndZStates__Fv	SYSTEM_RefreshTestAndZStates(void)
+01e88068	function	.text	Signal__Q34scee3Psp2GuUs	scee::Psp::Gu::Signal(unsigned short)
+01e88158	function	.text	sceKernelGetSystemTimeWide__Fv	sceKernelGetSystemTimeWide(void)
+01e88218	function	.text	_GLOBAL_$I$ENGINE_UTIL_PS2System.cppBZdaaa	global constructors keyed to ENGINE_UTIL_PS2System.cppBZdaaa
+01fd33b0	data	.bss	g_dlibBufferSize	g_dlibBufferSize
+01ef86d0	data	.data	g_dlibBuffer	g_dlibBuffer
+01e95670	function	.text	dlib_displist_init__FP13DLIB_DISPLISTP6QWdataUi	dlib_displist_init(DLIB_DISPLIST *, QWdata *, unsigned int)
+01e95938	function	.text	dlib_displist_clear__FP13DLIB_DISPLIST	dlib_displist_clear(DLIB_DISPLIST *)
+01e9dc28	function	.text	sceGsResetGraph	sceGsResetGraph
+01e9deb0	function	.text	sceGsSetDefDBuff	sceGsSetDefDBuff
+01e9ddc8	function	.text	sceGsPutDrawEnv	sceGsPutDrawEnv
+01e97a88	function	.text	exit	exit
+01eda478	function	.text	sceSifLoadModule	sceSifLoadModule
+01ed9a48	function	.text	sceSifInitIopHeap	sceSifInitIopHeap
+01ec73d8	function	.text	sceSdRemoteInit	sceSdRemoteInit
+01e8e0f0	function	.text	MEM_InitializeMemory__Fv	MEM_InitializeMemory(void)
+01e95098	function	.text	VRAM_Initialize__Fv	VRAM_Initialize(void)
+01ed2600	function	.text	AddIntcHandler	AddIntcHandler
+01ed3390	function	.text	EnableIntc	EnableIntc
+01e97c40	function	.text	__muldi3	__muldi3
+01e8df30	function	.text	STAT_CPU_DONE__Fv	STAT_CPU_DONE(void)
+01e8e020	function	.text	STAT_EndFrame__Fv	STAT_EndFrame(void)
+01e8df80	function	.text	STAT_GPU_DONE__FUi	STAT_GPU_DONE(unsigned int)
+01e951b0	function	.text	VRAM_SwapFrameBuffers__Fb	VRAM_SwapFrameBuffers(bool)
+01e8dff0	function	.text	STAT_BeginFrame__Fv	STAT_BeginFrame(void)
+01e97ba8	function	.text	__floatdidf	__floatdidf
+01e980b0	function	.text	dpadd	dpadd
+01e98418	function	.text	dpdiv	dpdiv
+01e97ab8	function	.text	__fixunsdfdi	__fixunsdfdi
+01ef7538	data	.data	gENG_nResources	gENG_nResources
+01f78e20	data	.bss	gENG_InstanceResources	gENG_InstanceResources
+01e88cb0	function	.text	GDEMESH_GetFreeMeshResourceHandle__Fv	GDEMESH_GetFreeMeshResourceHandle(void)
+01e88d18	function	.text	_GLOBAL_$I$ENGINE_gdemesh.cpp1heaaa	global constructors keyed to ENGINE_gdemesh.cpp1heaaa
+01e88f18	function	.text	LIGHT_SetupLightsNearPoint__FPC4VEC314LIGHTING_MODELUiPC9NodeLight	LIGHT_SetupLightsNearPoint(VEC3 const *, LIGHTING_MODEL, unsigned int, NodeLight const *)
+01e8c910	function	.text	MATERIAL_Activate__FPC12Material_PS2UiUib	MATERIAL_Activate(Material_PS2 const *, unsigned int, unsigned int, bool)
+01e88ee0	function	.text	LIGHT_SetAmbient__FUi	LIGHT_SetAmbient(unsigned int)
+01ef75dc	data	.data	g_LIGHT_MeshScaleValue	g_LIGHT_MeshScaleValue
+01e88da0	function	.text	_GLOBAL_$I$ENGINE_alphasort.cppYFcaaa	global constructors keyed to ENGINE_alphasort.cppYFcaaa
+01ef7584	data	.data	g_LIGHT_Ambient	g_LIGHT_Ambient
+01ef758c	data	.data	G_ShadowBlobHandle	G_ShadowBlobHandle
+01ef7590	data	.data	G_nDynamicPointLights	G_nDynamicPointLights
+01ef7594	data	.data	G_nDynamicDirectionalLights	G_nDynamicDirectionalLights
+01ef7598	data	.data	G_nDynamicSpotLights	G_nDynamicSpotLights
+01ef759c	data	.data	g_pLightTransform	g_pLightTransform
+01ef75cc	data	.data	g_LIGHTPacketBuffer	g_LIGHTPacketBuffer
+01ef75d0	data	.data	g_LIGHTPacketPtr	g_LIGHTPacketPtr
+01ef75d4	data	.data	g_LIGHTPacketBufferSpaceLeft	g_LIGHTPacketBufferSpaceLeft
+01f7a850	data	.bss	g_LIGHTcntTag	g_LIGHTcntTag
+01f79410	data	.bss	g_DynamicPointLights	g_DynamicPointLights
+01e8a7a0	function	.text	LIGHT_SetupLightsNearPoint__FPC4VEC314LIGHTING_MODELUiPC9NodeLightUiPC16DirectionalLightUiPC10PointLight	LIGHT_SetupLightsNearPoint(VEC3 const *, LIGHTING_MODEL, unsigned int, NodeLight const *, unsigned int, DirectionalLight const *, unsigned int, PointLight const *)
+01e88f58	function	.text	LIGHT_SetupLightsNearPoint__FPUiUiPC4VEC314LIGHTING_MODELUiPC9NodeLightUiPC16DirectionalLightUiPC10PointLight	LIGHT_SetupLightsNearPoint(unsigned int *, unsigned int, VEC3 const *, LIGHTING_MODEL, unsigned int, NodeLight const *, unsigned int, DirectionalLight const *, unsigned int, PointLight const *)
+01e8a888	function	.text	_GLOBAL_$I$ENGINE_light.cppP6daaa	global constructors keyed to ENGINE_light.cppP6daaa
+01e8fa30	function	.text	LOADER_LoadTexture__FUi14WAD_ASSET_TYPE	LOADER_LoadTexture(unsigned int, WAD_ASSET_TYPE)
+01ef7630	data	.data	g_CurrentDynamicColor	g_CurrentDynamicColor
+01ef7634	data	.data	g_CurrentAmbientColor	g_CurrentAmbientColor
+01ef75e8	data	.data	g_pCurrentClipPlanes	g_pCurrentClipPlanes
+01f7a880	data	.bss	g_viewMat	g_viewMat
+01f7a940	data	.bss	g_WorldClipPlanes	g_WorldClipPlanes
+01e8b698	function	.text	_GLOBAL_$I$ENGINE_DeferredRender.cppfKdaaa	global constructors keyed to ENGINE_DeferredRender.cppfKdaaa
+01ef7604	data	.data	boneWorldMatrix	boneWorldMatrix
+01f7aad0	data	.bss	g_anim_boneWorldMatrixBuffer	g_anim_boneWorldMatrixBuffer
+01ef760c	data	.data	g_JointBufferSpaceUsedMax	g_JointBufferSpaceUsedMax
+01ef7610	data	.data	g_JointBufferSpaceUsed	g_JointBufferSpaceUsed
+01ef7614	data	.data	g_JointMatrixActiveBuffer	g_JointMatrixActiveBuffer
+01ef7618	data	.data	g_JointMatrixBufferSize	g_JointMatrixBufferSize
+01ef761c	data	.data	g_animLODLevel	g_animLODLevel
+01f7cad0	data	.bss	boneComponents	boneComponents
+01f7e2d4	data	.bss	g_pSkeletonInfo	g_pSkeletonInfo
+01f7aa90	data	.bss	boneWorldMatrixIdent	boneWorldMatrixIdent
+01f7e2d0	data	.bss	g_animSkeletonID	g_animSkeletonID
+01f7e2f0	data	.bss	profNumSingleCltrs	profNumSingleCltrs
+01f7e2f8	data	.bss	profNumCacheCltrs	profNumCacheCltrs
+01f7e2f4	data	.bss	profNumSeekCltrs	profNumSeekCltrs
+01f7e2ec	data	.bss	profNumSeeks	profNumSeeks
+01f7e2e8	data	.bss	profNumBonesAnimated	profNumBonesAnimated
+01e8bae8	function	.text	ANIM_CreateOutputMatrices__FP16GDE_SkeletonInfoP18GDE_BoneComponents	ANIM_CreateOutputMatrices(GDE_SkeletonInfo *, GDE_BoneComponents *)
+01e8c060	function	.text	ANIM_AllocJointMatrices	ANIM_AllocJointMatrices
+01e8c110	function	.text	_GLOBAL_$I$ENGINE_animation.cpp4Rdaaa	global constructors keyed to ENGINE_animation.cpp4Rdaaa
+01e8c798	function	.text	_GLOBAL_$I$ENGINE_skinmesh.cpp0qeaaa	global constructors keyed to ENGINE_skinmesh.cpp0qeaaa
+01ef763a	data	.data	g_MATERIAL_bIgnoreMatBloom	g_MATERIAL_bIgnoreMatBloom
+01e8c7d0	function	.text	MATERIAL_RegisterForUpdate__FP12Material_PS2	MATERIAL_RegisterForUpdate(Material_PS2 *)
+01e8cf08	function	.text	_GLOBAL_$I$ENGINE_material.cppQ6daaa	global constructors keyed to ENGINE_material.cppQ6daaa
+01e8cf70	function	.text	_GLOBAL_$I$HUD_hudQueuedPrompter.cpp6ldaaa	global constructors keyed to HUD_hudQueuedPrompter.cpp6ldaaa
+01ef7658	data	.data	sg_HudOffsetData	sg_HudOffsetData
+01ef7938	data	.data	g_bTryAntialias	g_bTryAntialias
+01e8e4c0	function	.text	HIT_fseek__FPii9SEEKPARAM	HIT_fseek(int *, int, SEEKPARAM)
+01ef7940	data	.data	g_CPUTimeStart	g_CPUTimeStart
+01ef7948	data	.data	g_GPUTimeStart	g_GPUTimeStart
+01ef7950	data	.data	STAT_nFrames	STAT_nFrames
+01ef7954	data	.data	STAT_nLastFrame	STAT_nLastFrame
+01ef7958	data	.data	STAT_LastDListUsage	STAT_LastDListUsage
+01ef795c	data	.data	STAT_MaxDListUsage	STAT_MaxDListUsage
+01f7e4c0	data	.bss	STAT_CPUTimes	STAT_CPUTimes
+01f7e540	data	.bss	STAT_GPUTimes	STAT_GPUTimes
+01f7e440	data	.bss	STAT_FrameTimes	STAT_FrameTimes
+01e8e0b0	function	.text	sceKernelMaxFreeMemSize__Fv	sceKernelMaxFreeMemSize(void)
+01e8e0d0	function	.text	sceKernelTotalFreeMemSize__Fv	sceKernelTotalFreeMemSize(void)
+01f7e5c0	data	.bss	g_GlobalContext	g_GlobalContext
+01f7e678	data	.bss	g_text	g_text
+01f7e638	data	.bss	g_eof	g_eof
+01f7e658	data	.bss	g_err	g_err
+01e8e5e0	function	.text	HIT_freadAsync__FPvUiUiPi	HIT_freadAsync(void *, unsigned int, unsigned int, int *)
+01ed8770	function	.text	sceDopen	sceDopen
+01ed89a0	function	.text	sceDread	sceDread
+01ed8838	function	.text	sceDclose	sceDclose
+01e8e6c0	function	.text	WAD_OffsetsToPointers__FP10WAD_HEADER	WAD_OffsetsToPointers(WAD_HEADER *)
+01e8e7e0	function	.text	WAD_DecompCallback__FPUc	WAD_DecompCallback(unsigned char *)
+01e8ece0	function	.text	WAD_Load__FPCcPP10WAD_HEADERPPUc	WAD_Load(char const *, WAD_HEADER **, unsigned char **)
+01e8ed40	function	.text	WAD_Load__FPCcP10WAD_HEADER	WAD_Load(char const *, WAD_HEADER *)
+01e8ee10	function	.text	WAD_FindAssetsBySignature__FUi14WAD_ASSET_TYPEP10WAD_HEADER	WAD_FindAssetsBySignature(unsigned int, WAD_ASSET_TYPE, WAD_HEADER *)
+01e8ef10	function	.text	_GLOBAL_$I$SHARED_WAD_wadLoad.cppZ4daaa	global constructors keyed to SHARED_WAD_wadLoad.cppZ4daaa
+01e8f5f0	function	.text	TJZIP_Decompress__FPUcT0UiPUiT0PFPUc_PUc	TJZIP_Decompress(unsigned char *, unsigned char *, unsigned int, unsigned int *, unsigned char *, unsigned char *(*)(unsigned char *))
+01f212d0	data	.rodata	g_signatureTable	g_signatureTable
+01ef798c	data	.data	g_pCallback	g_pCallback
+01ef7990	data	.data	g_pCallbackAt	g_pCallbackAt
+01e8f080	function	.text	TJZIP_ParseDictionaryCode__FPPUcT0PUi	TJZIP_ParseDictionaryCode(unsigned char **, unsigned char **, unsigned int *)
+01e8f430	function	.text	TJZIP_ParseRawDataBlock__FPPUcT0PUi	TJZIP_ParseRawDataBlock(unsigned char **, unsigned char **, unsigned int *)
+01e8f878	function	.text	_GLOBAL_$I$SHARED_tjzip.cppDreaaa	global constructors keyed to SHARED_tjzip.cppDreaaa
+01e8f938	function	.text	_GLOBAL_$I$SYSTEMS_platformSysHigSys.cppW6daaa	global constructors keyed to SYSTEMS_platformSysHigSys.cppW6daaa
+01e8f9a8	function	.text	_GLOBAL_$I$SYSTEMS_powerDownCbArray.cppyueaaa	global constructors keyed to SYSTEMS_powerDownCbArray.cppyueaaa
+01e90140	function	.text	_GLOBAL_$I$SHARED_WAD_loader.cppy2daaa	global constructors keyed to SHARED_WAD_loader.cppy2daaa
+01e904f0	function	.text	_GLOBAL_$I$SHARED_WAD_loadCharacter.cppzadaaa	global constructors keyed to SHARED_WAD_loadCharacter.cppzadaaa
+01e98cb0	function	.text	__builtin_vec_new	__builtin_vec_new
+01ef79b8	data	.data	block32	block32
+01ef7a38	data	.data	columnWord32	columnWord32
+01f7e700	data	.bss	gsmem	gsmem
+01ef7a78	data	.data	block16	block16
+01ef7af8	data	.data	columnWord16	columnWord16
+01ef7b78	data	.data	columnHalf16	columnHalf16
+01ef7bf8	data	.data	block8	block8
+01ef7c78	data	.data	columnWord8	columnWord8
+01ef7e78	data	.data	columnByte8	columnByte8
+01ef7f78	data	.data	block4	block4
+01ef7ff8	data	.data	columnWord4	columnWord4
+01ef83f8	data	.data	columnByte4	columnByte4
+01fbe700	data	.bss	boxes	boxes
+01ef85fc	data	.data	higModuleSystemInitialized	higModuleSystemInitialized
+01fbe790	data	.bss	modules	modules
+01e913b0	function	.text	moduleThreadContainer__FPv	moduleThreadContainer(void *)
+01e91600	function	.text	_GLOBAL_$I$LIBHIG_modulemgr.cppIteaaa	global constructors keyed to LIBHIG_modulemgr.cppIteaaa
+01e9d808	function	.text	snDllLoaded	snDllLoaded
+01ed2730	function	.text	DeleteThread	DeleteThread
+01ed2770	function	.text	TerminateThread	TerminateThread
+01e9d950	function	.text	snDllUnload	snDllUnload
+01ef8600	data	.data	_higPs2Heap	_higPs2Heap
+01fd0878	data	.bss	gPs2HeapBlocks	gPs2HeapBlocks
+01fd0850	data	.bss	HIGPS2_HEAP_SIZE	HIGPS2_HEAP_SIZE
+01fd0858	data	.bss	gPs2Heap	gPs2Heap
+01e91aa8	function	.text	_GLOBAL_$I$CORE_higPs2Heap.cppNceaaa	global constructors keyed to CORE_higPs2Heap.cppNceaaa
+01e91ce0	function	.text	GLOBALWAD_FindAssetsInWadBySignature__FP13WadLocationIDUi14WAD_ASSET_TYPE13WadLocationID	GLOBALWAD_FindAssetsInWadBySignature(WadLocationID *, unsigned int, WAD_ASSET_TYPE, WadLocationID)
+01e92218	function	.text	GLOBALWAD_LoadTransitionWad__Fv	GLOBALWAD_LoadTransitionWad(void)
+01e91ef0	function	.text	GLOBALWAD_CopyAndFix__FP15WAD_FILE_HEADERRP15WAD_FILE_HEADERPvUiRUi	GLOBALWAD_CopyAndFix(WAD_FILE_HEADER *, WAD_FILE_HEADER *&, void *, unsigned int, unsigned int &)
+01e920b0	function	.text	GLOBALWAD_SplitWadToIOP__FP10WAD_HEADERPvUiRUi	GLOBALWAD_SplitWadToIOP(WAD_HEADER *, void *, unsigned int, unsigned int &)
+01e92750	function	.text	_GLOBAL_$I$SHARED_WAD_globalWad.cppLfeaaa	global constructors keyed to SHARED_WAD_globalWad.cppLfeaaa
+01e92780	function	.text	SND_DMAtoIOP__FPvT0Ui	SND_DMAtoIOP(void *, void *, unsigned int)
+01ed2cc0	function	.text	sceSifDmaStat	sceSifDmaStat
+01ef8650	data	.data	g_IOP_Buffer	g_IOP_Buffer
+01e93de0	function	.text	SND_ResetSoundTimeStamps__FPUi	SND_ResetSoundTimeStamps(unsigned int *)
+01ef862c	data	.data	g_VagWadBuffer	g_VagWadBuffer
+01ef8630	data	.data	g_VagWadEntries	g_VagWadEntries
+01ef8634	data	.data	g_VagWadEntryCount	g_VagWadEntryCount
+01ef8638	data	.data	g_VAGWADLOC	g_VAGWADLOC
+01ef863c	data	.data	g_music_volume	g_music_volume
+01ef8640	data	.data	g_vo_volume	g_vo_volume
+01ef8648	data	.data	g_soundOutputMode	g_soundOutputMode
+01ef8654	data	.data	g_SoundCtrl	g_SoundCtrl
+01e92a20	function	.text	SND_Init__Fv	SND_Init(void)
+01fd19c8	data	.bss	gSounds	gSounds
+01e92dc8	function	.text	SND_Shutdown__Fv	SND_Shutdown(void)
+01e92eb0	function	.text	SND_UpdateStandard__Fv	SND_UpdateStandard(void)
+01e93090	function	.text	SND_Update__FPC7MATRIX4T0	SND_Update(MATRIX4 const *, MATRIX4 const *)
+01ef865c	data	.data	g_SoundsPaused	g_SoundsPaused
+01e93aa0	function	.text	SND_IsPlaying__FPC14SND_Positional	SND_IsPlaying(SND_Positional const *)
+01e93e40	function	.text	SND_FindVag__FPCc	SND_FindVag(char const *)
+01fd3000	data	.bss	g_AtracInstances	g_AtracInstances
+01e941d8	function	.text	SND_IsATRACPaused__FP13ATRACInstance	SND_IsATRACPaused(ATRACInstance *)
+01e94fc0	function	.text	_GLOBAL_$I$ENGINE_SndScream.cppK2daaa	global constructors keyed to ENGINE_SndScream.cppK2daaa
+01ed5240	function	.text	sceSifSetDma	sceSifSetDma
+01e96060	function	.text	VID_InitBink__Fv	VID_InitBink(void)
+01e96150	function	.text	snd_StartSoundSystemEx	snd_StartSoundSystemEx
+01e97840	function	.text	snd_PreAllocReverbWorkArea	snd_PreAllocReverbWorkArea
+01e97598	function	.text	snd_InitVAGStreamingEx	snd_InitVAGStreamingEx
+01ed9ad0	function	.text	sceSifAllocIopHeap	sceSifAllocIopHeap
+01e96ab0	function	.text	snd_SetPlaybackMode	snd_SetPlaybackMode
+01e96a70	function	.text	snd_SetMasterVolume	snd_SetMasterVolume
+01e96ca8	function	.text	snd_PauseAllSoundsInGroup	snd_PauseAllSoundsInGroup
+01e96c78	function	.text	snd_StopAllSounds	snd_StopAllSounds
+01e96cd8	function	.text	snd_SoundIsStillPlaying_CB	snd_SoundIsStillPlaying_CB
+01e96bd8	function	.text	snd_SetSFXGlobalReg	snd_SetSFXGlobalReg
+01e96b20	function	.text	snd_PlaySoundVolPanPMPB_CB	snd_PlaySoundVolPanPMPB_CB
+01e96b80	function	.text	snd_StopSound	snd_StopSound
+01e96c18	function	.text	snd_PauseSound	snd_PauseSound
+01e96c48	function	.text	snd_ContinueSound	snd_ContinueSound
+01e968c8	function	.text	snd_BankLoadFromIOP_CB	snd_BankLoadFromIOP_CB
+01e97908	function	.text	snd_GetLastLoadError	snd_GetLastLoadError
+01e96a10	function	.text	snd_ResolveBankXREFS	snd_ResolveBankXREFS
+01e96798	function	.text	snd_BankLoadFromEE_CB	snd_BankLoadFromEE_CB
+01e96d08	function	.text	snd_SetSoundVolPan	snd_SetSoundVolPan
+01e97680	function	.text	snd_PlayVAGStreamByLocEx_CB	snd_PlayVAGStreamByLocEx_CB
+01e96d78	function	.text	snd_SetSoundParams_A	snd_SetSoundParams_A
+01e950e0	function	.text	VRAM_InitGraphics__Fv	VRAM_InitGraphics(void)
+01e956e0	function	.text	dlib_init__Fv	dlib_init(void)
+01e957b8	function	.text	dlib_displist_send_dma__FP13DLIB_DISPLISTi	dlib_displist_send_dma(DLIB_DISPLIST *, int)
+01e959e0	function	.text	dlib_displist_cnt_giftag_begin__FP13DLIB_DISPLISTG11DLIB_GIFTAG	dlib_displist_cnt_giftag_begin(DLIB_DISPLIST *, DLIB_GIFTAG)
+01ef86e0	data	.data	registerGifTag	registerGifTag
+01e95e38	function	.text	dlib_displist_cnt_unpack_begin__FP13DLIB_DISPLISTii	dlib_displist_cnt_unpack_begin(DLIB_DISPLIST *, int, int)
+01e95e78	function	.text	dlib_displist_cnt_unpack_end__FP13DLIB_DISPLIST	dlib_displist_cnt_unpack_end(DLIB_DISPLIST *)
+01e95f30	function	.text	dlib_displist_data_unpack_begin__FP13DLIB_DISPLISTii	dlib_displist_data_unpack_begin(DLIB_DISPLIST *, int, int)
+01e95f78	function	.text	dlib_displist_data_unpack_end__FP13DLIB_DISPLIST	dlib_displist_data_unpack_end(DLIB_DISPLIST *)
+01ef8704	data	.data	bink_iop_addr	bink_iop_addr
+01e96130	function	.text	_GLOBAL_$I$CORE_videoPlayer_App.cppuXdaaa	global constructors keyed to CORE_videoPlayer_App.cppuXdaaa
+01eb1238	function	.text	RAD_IOPMemoryAmount	RAD_IOPMemoryAmount
+01eb0860	function	.text	RAD_IOPStartUp	RAD_IOPStartUp
+01eb1400	function	.text	RAD_IOPHardwareVolumes	RAD_IOPHardwareVolumes
+01ea8fb8	function	.text	BinkSetSoundSystem	BinkSetSoundSystem
+01eb4478	function	.text	BinkOpenRAD_IOP	BinkOpenRAD_IOP
+01ef8708	data	.data	gCommBusy	gCommBusy
+01ef870c	data	.data	gAwaitingInts	gAwaitingInts
+01ef8710	data	.data	gLocalLoadError	gLocalLoadError
+01ef8714	data	.data	gStreamingInited	gStreamingInited
+01ef8718	data	.data	gCdCallback	gCdCallback
+01ef871c	data	.data	gSSRead	gSSRead
+01ef8720	data	.data	gSSReadDone	gSSReadDone
+01ef8724	data	.data	gLoadingFromFS	gLoadingFromFS
+01ef8728	data	.data	gSndCommandBuffePtr	gSndCommandBuffePtr
+01feaec0	data	.bss	gSndCommandBuffer1	gSndCommandBuffer1
+01febec0	data	.bss	gSndCommandBuffer2	gSndCommandBuffer2
+01ef8730	data	.data	gCommandBuffeBytesAvail	gCommandBuffeBytesAvail
+01ef8738	data	.data	gSndCommandReturnDefPtr	gSndCommandReturnDefPtr
+01fecec0	data	.bss	gSndCommandReturnDef1	gSndCommandReturnDef1
+01fedec0	data	.bss	gSndCommandReturnDef2	gSndCommandReturnDef2
+01ef8740	data	.data	gReturnValuesPtr	gReturnValuesPtr
+01feeec0	data	.bss	gActualReturnValues1	gActualReturnValues1
+01fef300	data	.bss	gActualReturnValues2	gActualReturnValues2
+01ef8748	data	.data	gCommandFillBuffer	gCommandFillBuffer
+01ef874c	data	.data	gCaching	gCaching
+01ef8750	data	.data	gLoadBusy	gLoadBusy
+01ef8758	data	.data	gLoadReturnDef	gLoadReturnDef
+01ef8780	data	.data	gPrefs_Silent	gPrefs_Silent
+01fef740	data	.bss	gStats	gStats
+01fef780	data	.bss	gLoadReturnValue	gLoadReturnValue
+01e96e20	function	.text	snd_SendIOPCommandAndWait	snd_SendIOPCommandAndWait
+01e96620	function	.text	snd_GotReturns	snd_GotReturns
+01fef7c0	data	.bss	gSyncBuffer	gSyncBuffer
+01e97448	function	.text	snd_SendCurrentBatch	snd_SendCurrentBatch
+01e97758	function	.text	snd_StreamSafeCdSync	snd_StreamSafeCdSync
+01e97078	function	.text	snd_SendIOPCommandNoWait	snd_SendIOPCommandNoWait
+01e96718	function	.text	snd_PrepareReturnBuffer	snd_PrepareReturnBuffer
+01fef800	data	.bss	gLoadParams	gLoadParams
+01e96d98	function	.text	snd_SetSoundParams_CB	snd_SetSoundParams_CB
+01fef840	data	.bss	gSyncSendBuffer	gSyncSendBuffer
+01e97408	function	.text	snd_PostMessage	snd_PostMessage
+01ed6090	function	.text	sceSifBindRpc	sceSifBindRpc
+01ed3290	function	.text	InvalidDCache	InvalidDCache
+01ed6470	function	.text	sceSifCheckStatRpc	sceSifCheckStatRpc
+01ed3160	function	.text	SyncDCache	SyncDCache
+01ed6270	function	.text	sceSifCallRpc	sceSifCallRpc
+01ec50b0	function	.text	sceCdRead	sceCdRead
+01ec4728	function	.text	sceCdSync	sceCdSync
+01ec5350	function	.text	sceCdGetError	sceCdGetError
+01f024a0	data	.data	simple_vu_code_microcode_end	simple_vu_code_microcode_end
+01f02b70	data	.data	skinnedmesh_vu_renderer_fast_end	skinnedmesh_vu_renderer_fast_end
+01f030e0	data	.data	skinnedmesh_vu_renderer_end	skinnedmesh_vu_renderer_end
+01f03840	data	.data	skinnedmesh_vu_renderer_clip_end	skinnedmesh_vu_renderer_clip_end
+01f03b10	data	.data	smesh_vu_renderer_end	smesh_vu_renderer_end
+01f03f90	data	.data	smesh_vu_renderer_nearclip_end	smesh_vu_renderer_nearclip_end
+01f04be0	data	.data	smesh_vu_renderer_scissoring_end	smesh_vu_renderer_scissoring_end
+01f05140	data	.data	staticmesh_vu_renderer_fast_end	staticmesh_vu_renderer_fast_end
+01f05f00	data	.data	staticmesh_vu_renderer_scissoring_end	staticmesh_vu_renderer_scissoring_end
+01f06bf0	data	.data	staticmesh_vu_renderer_scissoring_shadow_end	staticmesh_vu_renderer_scissoring_shadow_end
+01f06d80	data	.data	throughmode_vu_code_microcode_end	throughmode_vu_code_microcode_end
+01f06ea0	data	.data	PAR_throughmode_vu_code_microcode_end	PAR_throughmode_vu_code_microcode_end
+01f07af0	data	.data	PAR_vu_renderer_scissoring_end	PAR_vu_renderer_scissoring_end
+01f07e90	data	.data	PAR_vu_renderer_fast_end	PAR_vu_renderer_fast_end
+01f083e0	data	.data	shrub_vu_renderer_end	shrub_vu_renderer_end
+01f08930	data	.data	shrub_vu_renderer_fast_end	shrub_vu_renderer_fast_end
+01f08da0	data	.data	shrub_vu_renderer_shadow_end	shrub_vu_renderer_shadow_end
+01f09380	data	.data	tie_vu_renderer_end	tie_vu_renderer_end
+01f09850	data	.data	tie_vu_renderer_clip_end	tie_vu_renderer_clip_end
+01f09d80	data	.data	tie_vu_renderer_clip_normalize_end	tie_vu_renderer_clip_normalize_end
+01f0ac50	data	.data	tie_vu_renderer_scissoring_end	tie_vu_renderer_scissoring_end
+01f0bbc0	data	.data	tie_vu_renderer_scissoring_shadow_end	tie_vu_renderer_scissoring_shadow_end
+01f0c950	unmapped	None	DEFORM_vu_renderer_scissoring_end	DEFORM_vu_renderer_scissoring_end
+01e64288	function	.text	_start	_start
+01e644c8	function	.text	_exit	_exit
+01edaa00	function	.text	_InitSys	_InitSys
+01e98d28	function	.text	_init	_init
+01e98d30	function	.text	_fini	_fini
+01ec9fc8	function	.text	atexit	atexit
+01edad90	function	.text	Exit	Exit
+01e97960	function	.text	__do_global_dtors	__do_global_dtors
+01e979b8	function	.text	__do_global_ctors	__do_global_ctors
+01f0228c	data	.data	__CTOR_LIST__	__CTOR_LIST__
+01f0234c	data	.data	__DTOR_LIST__	__DTOR_LIST__
+01ec8c50	function	.text	_cleanup	_cleanup
+01e98838	function	.text	dptoul	dptoul
+01e986e8	function	.text	litodp	litodp
+01e97ca0	function	.text	__pack_d	__pack_d
+01e97dd0	function	.text	__unpack_d	__unpack_d
+01e98580	function	.text	__fpcmp_parts_d	__fpcmp_parts_d
+01e987a0	function	.text	dptoli	dptoli
+01e988d8	function	.text	__make_dp	__make_dp
+01e98bc8	function	.text	__make_fp	__make_fp
+01e98960	function	.text	__pack_f	__pack_f
+01e98a70	function	.text	__unpack_f	__unpack_f
+01ef878c	data	.data	_GLOBAL_$F$__builtin_delete.._.._src_gcc_cp_new2.cc1GeU73	_GLOBAL_$F$__builtin_delete.._.._src_gcc_cp_new2.cc1GeU73
+01e998e0	function	.text	__throw	__throw
+01e99d50	function	.text	__start_cp_handler	__start_cp_handler
+01e99fc8	function	.text	__check_eh_spec	__check_eh_spec
+01e99ed0	function	.text	__cp_pop_exception	__cp_pop_exception
+01e99ca8	function	.text	terminate__Fv	terminate(void)
+01ef87d4	data	.data	_GLOBAL_$F$__builtin_vec_new.._.._src_gcc_cp_new2.ccBLDubu	_GLOBAL_$F$__builtin_vec_new.._.._src_gcc_cp_new2.ccBLDubu
+01e9b438	function	.text	__builtin_new	__builtin_new
+01e9b3b8	function	.text	__tf9bad_alloc	bad_alloc type_info function
+01e98d38	function	.text	__default_terminate	__default_terminate
+01ef881c	data	.data	__terminate_func	__terminate_func
+01e98d48	function	.text	__terminate	__terminate
+01e98d70	function	.text	__throw_type_match	__throw_type_match
+01e98da0	function	.text	__empty	__empty
+01e98e00	function	.text	__get_eh_context	__get_eh_context
+01e98e28	function	.text	__get_eh_info	__get_eh_info
+01e98ee0	function	.text	__get_dynamic_handler_chain	__get_dynamic_handler_chain
+01e98f08	function	.text	__sjthrow	__sjthrow
+01e99080	function	.text	__sjpopnthrow	__sjpopnthrow
+01e99198	function	.text	__eh_rtime_match	__eh_rtime_match
+01e991e0	function	.text	__get_eh_table_version	__get_eh_table_version
+01e991e8	function	.text	__get_eh_table_language	__get_eh_table_language
+01e995a8	function	.text	__unwinding_cleanup	__unwinding_cleanup
+01e99ac0	function	.text	__rethrow	__rethrow
+01ef8824	data	.data	_GLOBAL_$F$__default_terminate	_GLOBAL_$F$__default_terminate
+01e9b038	function	.text	__frame_state_for	__frame_state_for
+01e99cc0	function	.text	__default_unexpected__Fv	__default_unexpected(void)
+01e99cd0	function	.text	set_terminate__FPFv_v	set_terminate(void (*)(void))
+01e99ce0	function	.text	set_unexpected__FPFv_v	set_unexpected(void (*)(void))
+01e99cf0	function	.text	unexpected__Fv	unexpected(void)
+01e99d08	function	.text	__cp_exception_info	__cp_exception_info
+01e99d30	function	.text	__cp_eh_info	__cp_eh_info
+01e99d88	function	.text	__eh_alloc	__eh_alloc
+01e99db0	function	.text	__eh_free	__eh_free
+01e99dd0	function	.text	__cplus_type_matcher	__cplus_type_matcher
+01e99e40	function	.text	__cp_push_exception	__cp_push_exception
+01e99f98	function	.text	__uncatch_exception	__uncatch_exception
+01e9a328	function	.text	__tf13bad_exception	bad_exception type_info function
+01f22470	data	.rodata	_vt$13bad_exception	bad_exception virtual table
+01f22488	data	.rodata	_vt$9exception	exception virtual table
+01e9a2e0	function	.text	_$_13bad_exception	bad_exception::~bad_exception(void)
+01e9a180	function	.text	__throw_bad_cast	__throw_bad_cast
+01e9a200	function	.text	__throw_bad_typeid	__throw_bad_typeid
+01e9a280	function	.text	uncaught_exception__Fv	uncaught_exception(void)
+01e9a2b8	function	.text	what__C9exception	exception::what(void) const
+01e9a3c0	function	.text	__tf9exception	exception type_info function
+01e9a378	function	.text	_$_9exception	exception::~exception(void)
+01e9a310	function	.text	__13bad_exception	bad_exception::bad_exception(void)
+01fefa40	data	.bss	__ti13bad_exception	bad_exception type_info node
+01fefa50	data	.bss	__ti9exception	exception type_info node
+01e9a3a8	function	.text	__9exception	exception::exception(void)
+01ef8e18	data	.data	_GLOBAL_$F$terminate__Fv	_GLOBAL_$F$terminate(void)
+01e9bc58	function	.text	__throw_type_match_rtti	__throw_type_match_rtti
+01e9c120	function	.text	__is_pointer__FPv	__is_pointer(void *)
+01f22650	data	.rodata	_vt$8bad_cast	bad_cast virtual table
+01e9bb18	function	.text	_$_8bad_cast	bad_cast::~bad_cast(void)
+01f22638	data	.rodata	_vt$10bad_typeid	bad_typeid virtual table
+01e9ba80	function	.text	_$_10bad_typeid	bad_typeid::~bad_typeid(void)
+01e9b5f8	function	.text	__rtti_si	__rtti_si
+01e9b618	function	.text	__rtti_user	__rtti_user
+01e9af98	function	.text	__register_frame_info_table	__register_frame_info_table
+01e9afc0	function	.text	__deregister_frame_info	__deregister_frame_info
+01f225a0	data	.rodata	nothrow	nothrow
+01e9b388	function	.text	set_new_handler__FPFv_v	set_new_handler(void (*)(void))
+01ef91a8	data	.data	__new_handler	__new_handler
+01f225a8	data	.rodata	_vt$9bad_alloc	bad_alloc virtual table
+01e9b408	function	.text	_$_9bad_alloc	bad_alloc::~bad_alloc(void)
+01e9b3a8	function	.text	what__C9bad_alloc	bad_alloc::what(void) const
+01e9b398	function	.text	__vn__FUiPv	operator new [](unsigned int, void *)
+01e9b3a0	function	.text	__nw__FUiPv	operator new(unsigned int, void *)
+01fefa58	data	.bss	__ti9bad_alloc	bad_alloc type_info node
+01ef91ac	data	.data	_GLOBAL_$F$nothrow	_GLOBAL_$F$nothrow
+01ef924c	data	.data	_GLOBAL_$F$__builtin_new.._.._src_gcc_cp_new1.ccKINnb5	_GLOBAL_$F$__builtin_new.._.._src_gcc_cp_new1.ccKINnb5
+01e9b560	function	.text	_$_9type_info	type_info::~type_info(void)
+01f22668	data	.rodata	_vt$9type_info	type_info virtual table
+01e9b590	function	.text	__eq__C9type_infoRC9type_info	type_info::operator==(type_info const &) const
+01e9b5d0	function	.text	__rtti_class	__rtti_class
+01f225f0	data	.rodata	_vt$17__class_type_info	__class_type_info virtual table
+01f22608	data	.rodata	_vt$14__si_type_info	__si_type_info virtual table
+01f22620	data	.rodata	_vt$16__user_type_info	__user_type_info virtual table
+01e9b638	function	.text	dcast__C16__user_type_infoRC9type_infoiPvPC9type_infoT3	__user_type_info::dcast(type_info const &, int, void *, type_info const *, void *) const
+01e9b668	function	.text	dcast__C14__si_type_infoRC9type_infoiPvPC9type_infoT3	__si_type_info::dcast(type_info const &, int, void *, type_info const *, void *) const
+01e9b700	function	.text	dcast__C17__class_type_infoRC9type_infoiPvPC9type_infoT3	__class_type_info::dcast(type_info const &, int, void *, type_info const *, void *) const
+01e9b8f8	function	.text	__tf17__class_type_info	__class_type_info type_info function
+01e9b948	function	.text	_$_17__class_type_info	__class_type_info::~__class_type_info(void)
+01e9b988	function	.text	__tf14__si_type_info	__si_type_info type_info function
+01e9b9d8	function	.text	_$_14__si_type_info	__si_type_info::~__si_type_info(void)
+01e9ba10	function	.text	__tf16__user_type_info	__user_type_info type_info function
+01e9ba60	function	.text	_$_16__user_type_info	__user_type_info::~__user_type_info(void)
+01e9bac8	function	.text	__tf10bad_typeid	bad_typeid type_info function
+01e9bb60	function	.text	__tf8bad_cast	bad_cast type_info function
+01e9bbf0	function	.text	__tf9type_info	type_info type_info function
+01e9b8d8	function	.text	__17__class_type_infoPCcPCQ217__class_type_info9base_infoUi	__class_type_info::__class_type_info(char const *, __class_type_info::base_info const *, unsigned int)
+01fefa68	data	.bss	__ti17__class_type_info	__class_type_info type_info node
+01fefa78	data	.bss	__ti16__user_type_info	__user_type_info type_info node
+01e9b968	function	.text	__14__si_type_infoPCcRC16__user_type_info	__si_type_info::__si_type_info(char const *, __user_type_info const &)
+01fefa88	data	.bss	__ti14__si_type_info	__si_type_info type_info node
+01e9b9f8	function	.text	__16__user_type_infoPCc	__user_type_info::__user_type_info(char const *)
+01fefa98	data	.bss	__ti9type_info	type_info type_info node
+01e9bab0	function	.text	__10bad_typeid	bad_typeid::bad_typeid(void)
+01fefaa0	data	.bss	__ti10bad_typeid	bad_typeid type_info node
+01e9bb48	function	.text	__8bad_cast	bad_cast::bad_cast(void)
+01fefab0	data	.bss	__ti8bad_cast	bad_cast type_info node
+01e9bbb0	function	.text	__ne__C9type_infoRC9type_info	type_info::operator!=(type_info const &) const
+01e9bbd0	function	.text	name__C9type_info	type_info::name(void) const
+01e9bbd8	function	.text	__9type_infoPCc	type_info::type_info(char const *)
+01ef92a0	data	.data	_GLOBAL_$F$_$_9type_info	_GLOBAL_$F$_$_9type_info
+01e9bc30	function	.text	before__C9type_infoRC9type_info	type_info::before(type_info const &) const
+01e9c238	function	.text	__dynamic_cast	__dynamic_cast
+01e9c940	function	.text	__tf19__pointer_type_info	__pointer_type_info type_info function
+01e9c8d0	function	.text	__tf16__attr_type_info	__attr_type_info type_info function
+01e9c2e8	function	.text	__tfv	void type_info function
+01e9c7f0	function	.text	__tf16__func_type_info	__func_type_info type_info function
+01e9c170	function	.text	__rtti_ptr	__rtti_ptr
+01f227e8	data	.rodata	_vt$19__pointer_type_info	__pointer_type_info virtual table
+01e9c190	function	.text	__rtti_attr	__rtti_attr
+01f227d8	data	.rodata	_vt$16__attr_type_info	__attr_type_info virtual table
+01e9c1b8	function	.text	__rtti_func	__rtti_func
+01f227b8	data	.rodata	_vt$16__func_type_info	__func_type_info virtual table
+01e9c1d8	function	.text	__rtti_ptmf	__rtti_ptmf
+01f227a8	data	.rodata	_vt$16__ptmf_type_info	__ptmf_type_info virtual table
+01e9c1f8	function	.text	__rtti_ptmd	__rtti_ptmd
+01f22798	data	.rodata	_vt$16__ptmd_type_info	__ptmd_type_info virtual table
+01e9c218	function	.text	__rtti_array	__rtti_array
+01f22788	data	.rodata	_vt$17__array_type_info	__array_type_info virtual table
+01ef9628	data	.data	__tiv	void type_info node
+01f227c8	data	.rodata	_vt$19__builtin_type_info	__builtin_type_info virtual table
+01e9c320	function	.text	__tfx	long long type_info function
+01ef9630	data	.data	__tix	long long type_info node
+01e9c358	function	.text	__tfl	long type_info function
+01ef9638	data	.data	__til	long type_info node
+01e9c390	function	.text	__tfi	int type_info function
+01ef9640	data	.data	__tii	int type_info node
+01e9c3c8	function	.text	__tfs	short type_info function
+01ef9648	data	.data	__tis	short type_info node
+01e9c400	function	.text	__tfb	bool type_info function
+01ef9650	data	.data	__tib	bool type_info node
+01e9c438	function	.text	__tfc	char type_info function
+01ef9658	data	.data	__tic	char type_info node
+01e9c470	function	.text	__tfw	wchar_t type_info function
+01ef9660	data	.data	__tiw	wchar_t type_info node
+01e9c4a8	function	.text	__tfr	long double type_info function
+01ef9668	data	.data	__tir	long double type_info node
+01e9c4e0	function	.text	__tfd	double type_info function
+01ef9670	data	.data	__tid	double type_info node
+01e9c518	function	.text	__tff	float type_info function
+01ef9678	data	.data	__tif	float type_info node
+01e9c550	function	.text	__tfUi	unsigned int type_info function
+01ef9680	data	.data	__tiUi	unsigned int type_info node
+01e9c588	function	.text	__tfUl	unsigned long type_info function
+01ef9688	data	.data	__tiUl	unsigned long type_info node
+01e9c5c0	function	.text	__tfUx	unsigned long long type_info function
+01ef9690	data	.data	__tiUx	unsigned long long type_info node
+01e9c5f8	function	.text	__tfUs	unsigned short type_info function
+01ef9698	data	.data	__tiUs	unsigned short type_info node
+01e9c630	function	.text	__tfUc	unsigned char type_info function
+01ef96a0	data	.data	__tiUc	unsigned char type_info node
+01e9c668	function	.text	__tfSc	signed char type_info function
+01ef96a8	data	.data	__tiSc	signed char type_info node
+01e9c6a0	function	.text	__tf17__array_type_info	__array_type_info type_info function
+01e9c6f0	function	.text	_$_17__array_type_info	__array_type_info::~__array_type_info(void)
+01e9c710	function	.text	__tf16__ptmd_type_info	__ptmd_type_info type_info function
+01e9c760	function	.text	_$_16__ptmd_type_info	__ptmd_type_info::~__ptmd_type_info(void)
+01e9c780	function	.text	__tf16__ptmf_type_info	__ptmf_type_info type_info function
+01e9c7d0	function	.text	_$_16__ptmf_type_info	__ptmf_type_info::~__ptmf_type_info(void)
+01e9c840	function	.text	_$_16__func_type_info	__func_type_info::~__func_type_info(void)
+01e9c860	function	.text	__tf19__builtin_type_info	__builtin_type_info type_info function
+01e9c8b0	function	.text	_$_19__builtin_type_info	__builtin_type_info::~__builtin_type_info(void)
+01e9c920	function	.text	_$_16__attr_type_info	__attr_type_info::~__attr_type_info(void)
+01e9c990	function	.text	_$_19__pointer_type_info	__pointer_type_info::~__pointer_type_info(void)
+01fefac0	data	.bss	__ti17__array_type_info	__array_type_info type_info node
+01fefad0	data	.bss	__ti16__ptmd_type_info	__ptmd_type_info type_info node
+01fefae0	data	.bss	__ti16__ptmf_type_info	__ptmf_type_info type_info node
+01fefaf0	data	.bss	__ti16__func_type_info	__func_type_info type_info node
+01fefb00	data	.bss	__ti19__builtin_type_info	__builtin_type_info type_info node
+01fefb10	data	.bss	__ti16__attr_type_info	__attr_type_info type_info node
+01fefb20	data	.bss	__ti19__pointer_type_info	__pointer_type_info type_info node
+01ef96b0	data	.data	_GLOBAL_$F$before__C9type_infoRC9type_info	type_info::_GLOBAL_$F$before(type_info const &) const
+01ef9b28	data	.data	SN_LOADED_RELMODS	SN_LOADED_RELMODS
+01efcb30	data	.data	notify	notify
+01e9dbb0	function	.text	snDllCacheFlush	snDllCacheFlush
+01e9dbf0	function	.text	snAllBreaksOut	snAllBreaksOut
+01e9dc00	function	.text	snAllBreaksIn	snAllBreaksIn
+01e9dbe0	function	.text	snNotifyDebugger	snNotifyDebugger
+01e9ddb8	function	.text	sceGsGetGParam	sceGsGetGParam
+01ed2c60	function	.text	GsPutIMR	GsPutIMR
+01ed3328	function	.text	DisableIntc	DisableIntc
+01ed2620	function	.text	RemoveIntcHandler	RemoveIntcHandler
+01ed2520	function	.text	SetGsCrt	SetGsCrt
+01ed5020	function	.text	scePrintf	scePrintf
+01e9e290	function	.text	sceGsSetDefDispEnv	sceGsSetDefDispEnv
+01e9e6d0	function	.text	sceGsSetDefDrawEnv	sceGsSetDefDrawEnv
+01e9e8b8	function	.text	sceGsSetDefClear	sceGsSetDefClear
+01e9e608	function	.text	sceGszbufaddr	sceGszbufaddr
+01ed2db0	function	.text	VSync	VSync
+01ed2e40	function	.text	VSync2	VSync2
+01e9ee08	function	.text	sceDmaPause	sceDmaPause
+01efcb90	data	.data	dch	dch
+01e9eba0	function	.text	sceDmaPutEnv	sceDmaPutEnv
+01eda790	function	.text	DIntr	DIntr
+01eda7e0	function	.text	EIntr	EIntr
+01ea3a60	function	.text	__kernel_sin	__kernel_sin
+01ea03f0	function	.text	__ieee754_rem_pio2	__ieee754_rem_pio2
+01ea2ca8	function	.text	__kernel_cos	__kernel_cos
+01ea3c38	function	.text	__kernel_cosf	__kernel_cosf
+01ea2790	function	.text	__ieee754_rem_pio2f	__ieee754_rem_pio2f
+01ea46e0	function	.text	__kernel_sinf	__kernel_sinf
+01ea47e8	function	.text	__kernel_tanf	__kernel_tanf
+01ea0910	function	.text	__ieee754_sqrt	__ieee754_sqrt
+01f233b8	data	.rodata	__fdlib_version	__fdlib_version
+01ea4ab8	function	.text	isnan	isnan
+01ea4af0	function	.text	matherr	matherr
+01ec7d58	function	.text	__errno	__errno
+01ea0c18	function	.text	__ieee754_acosf	__ieee754_acosf
+01ea51c0	function	.text	isnanf	isnanf
+01ea5178	function	.text	fabsf	fabsf
+01ea1048	function	.text	__ieee754_asinf	__ieee754_asinf
+01ea13e8	function	.text	__ieee754_atan2f	__ieee754_atan2f
+01ea16d0	function	.text	__ieee754_expf	__ieee754_expf
+01ea5198	function	.text	finitef	finitef
+01f233b0	data	.rodata	__infinity	__infinity
+01ea1988	function	.text	__ieee754_fmodf	__ieee754_fmodf
+01ea1bd8	function	.text	__ieee754_logf	__ieee754_logf
+01ea1f00	function	.text	__ieee754_powf	__ieee754_powf
+01ea4b18	function	.text	rint	rint
+01ea2b70	function	.text	__ieee754_sqrtf	__ieee754_sqrtf
+01ea4a80	function	.text	fabs	fabs
+01ea2ef8	function	.text	__kernel_rem_pio2	__kernel_rem_pio2
+01ea4ed0	function	.text	atanf	atanf
+01ea51e8	function	.text	scalbnf	scalbnf
+01ea3d90	function	.text	__kernel_rem_pio2f	__kernel_rem_pio2f
+01ea4d18	function	.text	scalbn	scalbn
+01ea5348	function	.text	copysign	copysign
+01ea5390	function	.text	copysignf	copysignf
+01ea60b8	function	.text	scePadSetDmaCallback	scePadSetDmaCallback
+01ed55d0	function	.text	sceSifAddCmdHandler	sceSifAddCmdHandler
+01ed5648	function	.text	sceSifRemoveCmdHandler	sceSifRemoveCmdHandler
+01ea8cf0	function	.text	BinkSetSoundOnOff	BinkSetSoundOnOff
+01ea8b60	function	.text	BinkPause	BinkPause
+01ead298	function	.text	RADCB_try_to_suspend_callback	RADCB_try_to_suspend_callback
+01eb15b0	function	.text	radmemcpy	radmemcpy
+01ead2b0	function	.text	RADCB_resume_callback	RADCB_resume_callback
+01eb3368	function	.text	BinkFileOpen	BinkFileOpen
+01eb1df8	function	.text	radmemset	radmemset
+01eb1518	function	.text	RADTimerRead	RADTimerRead
+01eacf48	function	.text	pushmalloc	pushmalloc
+01eab480	function	.text	ExpandBundleSizes	ExpandBundleSizes
+01ead148	function	.text	popmalloctotal	popmalloctotal
+01ead098	function	.text	popmalloc	popmalloc
+01eb27c0	function	.text	mult64anddiv	mult64anddiv
+01ead228	function	.text	radfree	radfree
+01eb50d0	function	.text	BinkAudioDecompressOpen	BinkAudioDecompressOpen
+01ead278	function	.text	RADCB_allocate_handler	RADCB_allocate_handler
+01ead290	function	.text	RADCB_resume_handler	RADCB_resume_handler
+01ead280	function	.text	RADCB_register_callback	RADCB_register_callback
+01eae7c0	function	.text	YUV_init	YUV_init
+01eb28f0	function	.text	mult64andshift	mult64andshift
+01ead2b8	function	.text	RADCB_idle_on_callbacks	RADCB_idle_on_callbacks
+01eafc40	function	.text	YUV_blit_32abpp	YUV_blit_32abpp
+01eafb08	function	.text	YUV_blit_32bpp	YUV_blit_32bpp
+01eafc08	function	.text	YUV_blit_16a1bpp	YUV_blit_16a1bpp
+01eafb40	function	.text	YUV_blit_16bpp	YUV_blit_16bpp
+01eafcc0	function	.text	YUV_blit_32abpp_mask	YUV_blit_32abpp_mask
+01eafb78	function	.text	YUV_blit_32bpp_mask	YUV_blit_32bpp_mask
+01eafc78	function	.text	YUV_blit_16a1bpp_mask	YUV_blit_16a1bpp_mask
+01eafbc0	function	.text	YUV_blit_16bpp_mask	YUV_blit_16bpp_mask
+01ead2a0	function	.text	RADCB_suspend_callback	RADCB_suspend_callback
+01eb53c0	function	.text	BinkAudioDecompress	BinkAudioDecompress
+01eaccf8	function	.text	ExpandBink	ExpandBink
+01ead2a8	function	.text	RADCB_suspend_2_callbacks	RADCB_suspend_2_callbacks
+01ead288	function	.text	RADCB_unregister_2_callbacks	RADCB_unregister_2_callbacks
+01eb5500	function	.text	BinkAudioDecompressClose	BinkAudioDecompressClose
+01eafa98	function	.text	FreeYUVGlobalMemory	FreeYUVGlobalMemory
+01ead158	function	.text	RADSetMemory	RADSetMemory
+01eb2028	function	.text	radmemset16	radmemset16
+01f257c0	data	.rodata	patterns	patterns
+01eb5520	function	.text	ReadBPLossless	ReadBPLossless
+01eb7700	function	.text	FastIDCT8x8d	FastIDCT8x8d
+01eb6638	function	.text	ReadBPLossyWithMotion	ReadBPLossyWithMotion
+01eb76d8	function	.text	FastIDCT8x8	FastIDCT8x8
+01eb72a0	function	.text	FastmIDCT8x8WithMotion	FastmIDCT8x8WithMotion
+01ead170	function	.text	radmalloc	radmalloc
+01efccc0	data	.data	ytable	ytable
+01efccc4	data	.data	clamp_r	clamp_r
+01efccc8	data	.data	clamp_g	clamp_g
+01efcccc	data	.data	clamp_b	clamp_b
+01efccd0	data	.data	clamp_ytable	clamp_ytable
+01efccd4	data	.data	clamptable	clamptable
+01efcce0	data	.data	S	S
+01efcd20	data	.data	YUVTables	YUVTables
+01efdd20	data	.data	RGBshift	RGBshift
+01eb3760	function	.text	YUV_32_4x2_even	YUV_32_4x2_even
+01eafd10	function	.text	YUV_32_4x2_odd	YUV_32_4x2_odd
+01eb3ad0	function	.text	YUV_32a_4x2_even	YUV_32a_4x2_even
+01eafd28	function	.text	YUV_32a_4x2_odd	YUV_32a_4x2_odd
+01eb3f00	function	.text	YUV_16_4x2_even	YUV_16_4x2_even
+01eafd08	function	.text	YUV_16_4x2_odd	YUV_16_4x2_odd
+01eafd18	function	.text	YUV_16a1_4x2_even	YUV_16a1_4x2_even
+01eafd20	function	.text	YUV_16a1_4x2_odd	YUV_16a1_4x2_odd
+01f23ae0	data	.rodata	pmemb16	pmemb16
+01f23ae8	data	.rodata	pmemwYscale	pmemwYscale
+01f23af0	data	.rodata	pmemw7F00	pmemw7F00
+01f23af8	data	.rodata	pmemwYScale	pmemwYScale
+01f23b00	data	.rodata	pmemw0080	pmemw0080
+01f23b40	data	.rodata	IOPSideData	IOPSideData
+01eb10a0	function	.text	RAD_IOPUnregisterSoundCallback	RAD_IOPUnregisterSoundCallback
+01eb0c30	function	.text	RAD_IOPCancelFileAsyncs	RAD_IOPCancelFileAsyncs
+01eb0db0	function	.text	RAD_IOPCloseFile	RAD_IOPCloseFile
+01eb0ee0	function	.text	RAD_IOPRegisterSoundCallback	RAD_IOPRegisterSoundCallback
+01eb1268	function	.text	RAD_IOPGetIOStatus	RAD_IOPGetIOStatus
+01eb1278	function	.text	RAD_IOPQueueAsyncOpenFile	RAD_IOPQueueAsyncOpenFile
+01eb1308	function	.text	RAD_IOPQueueAsyncReadAtTop	RAD_IOPQueueAsyncReadAtTop
+01eb13b8	function	.text	RAD_IOPStartSound	RAD_IOPStartSound
+01ed5810	function	.text	isceSifSendCmd	isceSifSendCmd
+01ed57d0	function	.text	sceSifSendCmd	sceSifSendCmd
+01ed52c8	function	.text	isceSifSetDma	isceSifSetDma
+01ed5300	function	.text	sceSifInitCmd	sceSifInitCmd
+01ed55b8	function	.text	sceSifSetCmdBuffer	sceSifSetCmdBuffer
+01eda228	function	.text	sceSifLoadModuleBuffer	sceSifLoadModuleBuffer
+01ed9ef0	function	.text	sceSifStopModule	sceSifStopModule
+01eda0f8	function	.text	sceSifUnloadModule	sceSifUnloadModule
+01eb2260	function	.text	radcos_no_clamp	radcos_no_clamp
+01eb2658	function	.text	radsin	radsin
+01eb2920	function	.text	radfsqrt	radfsqrt
+01eb2948	function	.text	radcos	radcos
+01eb4490	function	.text	copytoflat256format	copytoflat256format
+01eb4520	function	.text	mixtoflat256format	mixtoflat256format
+01ebc148	function	.text	simp_mix	simp_mix
+01ebc990	function	.text	init_mix_info	init_mix_info
+01ebca98	function	.text	set_mix_volume	set_mix_volume
+01eb7728	function	.text	ddct	ddct
+01ebb258	function	.text	rdft	rdft
+01efe330	data	.data	sOpControls	sOpControls
+01ebdae0	function	.text	ps2fioDclose	ps2fioDclose
+01ebda80	function	.text	ps2fioDread	ps2fioDread
+01fd4230	data	.bss	sCopyStatus	sCopyStatus
+01ebddd0	function	.text	ps2fioMkdir	ps2fioMkdir
+01ebd698	function	.text	ps2fioRegisterDevice	ps2fioRegisterDevice
+01ebd740	function	.text	ps2fioShutdownDevice	ps2fioShutdownDevice
+01ebd900	function	.text	ps2fioWrite	ps2fioWrite
+01ebd9e0	function	.text	ps2fioDopen	ps2fioDopen
+01ebdbc0	function	.text	ps2fioChStat	ps2fioChStat
+01ebdc30	function	.text	ps2fioRename	ps2fioRename
+01ebdc90	function	.text	ps2fioRemoveDir	ps2fioRemoveDir
+01ebdd80	function	.text	ps2fioRemoveFile	ps2fioRemoveFile
+01ebde30	function	.text	ps2fioFormatDevice	ps2fioFormatDevice
+01ebde80	function	.text	ps2fioUnformatDevice	ps2fioUnformatDevice
+01ebded0	function	.text	ps2fioFlush	ps2fioFlush
+01ebdf38	function	.text	ps2fioSync	ps2fioSync
+01ebdf88	function	.text	ps2fioCreatePartition	ps2fioCreatePartition
+01ebe018	function	.text	ps2fioAddSpaceToPartition	ps2fioAddSpaceToPartition
+01ebe098	function	.text	ps2fioRemovePartition	ps2fioRemovePartition
+01ebe0f8	function	.text	ps2fioFormatPartition	ps2fioFormatPartition
+01ebe178	function	.text	ps2fioMountPartition	ps2fioMountPartition
+01ebe208	function	.text	ps2fioUmountPartition	ps2fioUmountPartition
+01ebe258	function	.text	ps2fioGetFreeSpaceInMount	ps2fioGetFreeSpaceInMount
+01ebe2c8	function	.text	ps2fioOpenPartition	ps2fioOpenPartition
+01ebe398	function	.text	ps2fioClosePartition	ps2fioClosePartition
+01ebe418	function	.text	ps2fioReadPartition	ps2fioReadPartition
+01ebe478	function	.text	ps2fioWritePartition	ps2fioWritePartition
+01ebe4d8	function	.text	ps2fioLseekPartition	ps2fioLseekPartition
+01ebe528	function	.text	ps2fioCopyDir	ps2fioCopyDir
+01ebe720	function	.text	ps2fioCopyFile	ps2fioCopyFile
+01ebe8a0	function	.text	ps2fioReadFileToBuffer	ps2fioReadFileToBuffer
+01ebe938	function	.text	ps2fioWriteFileFromBuffer	ps2fioWriteFileFromBuffer
+01ebe9c8	function	.text	ps2fioVerifyDir	ps2fioVerifyDir
+01ebeaa0	function	.text	ps2fioFileCompare	ps2fioFileCompare
+01ebecb0	function	.text	ps2fioGetDeviceStatus	ps2fioGetDeviceStatus
+01ebed70	function	.text	ps2fioFreeFilesystem	ps2fioFreeFilesystem
+01ebedb8	function	.text	ps2fioLoadModule	ps2fioLoadModule
+01ebee28	function	.text	ps2fioLoadStartModule	ps2fioLoadStartModule
+01ebeef8	function	.text	ps2fioLoadExec	ps2fioLoadExec
+01ed2840	function	.text	SleepThread	SleepThread
+01ec1620	function	.text	cdvddrvRegisterDevice	cdvddrvRegisterDevice
+01ec2cc8	function	.text	hostdrvRegisterDevice	hostdrvRegisterDevice
+01ec2950	function	.text	mcdrvRegisterDevices	mcdrvRegisterDevices
+01ec06e8	function	.text	hdddrvRegisterDevice	hdddrvRegisterDevice
+01ed2850	function	.text	WakeupThread	WakeupThread
+01ed2970	function	.text	PollSema	PollSema
+01ebf8a8	function	.text	_hdddrvPowerOffThread	_hdddrvPowerOffThread
+01ed2950	function	.text	iSignalSema	iSignalSema
+01ed7050	function	.text	scePowerOffHandler	scePowerOffHandler
+01ed97a0	function	.text	sceDevctl	sceDevctl
+01ec53e8	function	.text	sceCdPowerOff	sceCdPowerOff
+01eda188	function	.text	sceSifSearchModuleByName	sceSifSearchModuleByName
+01ec31c8	function	.text	hddsvcGetFreeSpace	hddsvcGetFreeSpace
+01ed9560	function	.text	sceLseek64	sceLseek64
+01ed84e0	function	.text	sceFormat	sceFormat
+01ec31f8	function	.text	hddsvcCreatePartition	hddsvcCreatePartition
+01ec3428	function	.text	hddsvcAddSpaceToPartition	hddsvcAddSpaceToPartition
+01ed82e8	function	.text	sceRemove	sceRemove
+01ed92c0	function	.text	sceMount	sceMount
+01ed9540	function	.text	sceUmount	sceUmount
+01ed8af8	function	.text	sceGetstat	sceGetstat
+01ed8cb0	function	.text	sceChstat	sceChstat
+01ed9110	function	.text	sceSync	sceSync
+01ed8308	function	.text	sceMkdir	sceMkdir
+01ed7c90	function	.text	sceWrite	sceWrite
+01ed8f00	function	.text	sceRename	sceRename
+01ed84c0	function	.text	sceRmdir	sceRmdir
+01ec4990	function	.text	sceCdInit	sceCdInit
+01ec5328	function	.text	sceCdGetDiskType	sceCdGetDiskType
+01ec54a0	function	.text	sceCdMmode	sceCdMmode
+01ec3f18	function	.text	cdvdfsGetEntryFromPath	cdvdfsGetEntryFromPath
+01ec4138	function	.text	cdvdfsGetEntryFromIndex	cdvdfsGetEntryFromIndex
+01ec4e90	function	.text	sceCdDiskReady	sceCdDiskReady
+01ec5638	function	.text	sceCdTrayReq	sceCdTrayReq
+01ec3ce8	function	.text	cdvdfsBuildFS	cdvdfsBuildFS
+01ec3ec8	function	.text	cdvdfsFreeFS	cdvdfsFreeFS
+01eda498	function	.text	sceSifLoadStartModule	sceSifLoadStartModule
+01eda680	function	.text	sceSifRebootIop	sceSifRebootIop
+01edad48	function	.text	LoadExecPS2	LoadExecPS2
+01fdb7c0	data	.bss	sMcdrvDevDesc	sMcdrvDevDesc
+01ec59c0	function	.text	sceMcEnd	sceMcEnd
+01ec5a88	function	.text	sceMcGetSlotMax	sceMcGetSlotMax
+01ec6838	function	.text	sceMcRename	sceMcRename
+01ec6770	function	.text	sceMcFlush	sceMcFlush
+01ed7f50	function	.text	sceIoctl2	sceIoctl2
+01efe390	data	.data	SCE_CD_debug	SCE_CD_debug
+01efe3a8	data	.data	_sceCd_ncmd_semid	_sceCd_ncmd_semid
+01efe3ac	data	.data	_sceCd_scmd_semid	_sceCd_scmd_semid
+01efe3b0	data	.data	_sceCd_rcmd_semid	_sceCd_rcmd_semid
+01efe3b4	data	.data	_sceCd_c_cb_sem	_sceCd_c_cb_sem
+01efe3b8	data	.data	_sceCd_ee_read_mode	_sceCd_ee_read_mode
+01efe3c0	data	.data	_sceCd_old_module	_sceCd_old_module
+01efe3c4	data	.data	_sceCd_CdInit_ON	_sceCd_CdInit_ON
+01ec4170	function	.text	_sceCd_cd_callback	_sceCd_cd_callback
+01efe3e0	data	.data	sceCdCbfunc_num	sceCdCbfunc_num
+01efe3e4	data	.data	sceCdCbfunc_number	sceCdCbfunc_number
+01ec4218	function	.text	_sceCd_cd_read_intr	_sceCd_cd_read_intr
+01ec4538	function	.text	_sceCd_ncmd_prechk	_sceCd_ncmd_prechk
+01eff550	data	.data	_sceCd_cd_ncmd	_sceCd_cd_ncmd
+01ec4690	function	.text	sceCdNcmdDiskReady	sceCdNcmdDiskReady
+01efe400	data	.data	_sceCd_ncmdrdata	_sceCd_ncmdrdata
+01ec47c8	function	.text	sceCdSyncS	sceCdSyncS
+01efff00	data	.data	_sceCd_cd_scmd	_sceCd_cd_scmd
+01ec4838	function	.text	_sceCd_scmd_prechk	_sceCd_scmd_prechk
+01efe480	data	.data	_sceCd_ncmdsdata	_sceCd_ncmdsdata
+01eff580	data	.data	_sceCd_scmdrdata	_sceCd_scmdrdata
+01eff9c0	data	.data	_sceCd_scmdsdata	_sceCd_scmdsdata
+01ec4c78	function	.text	sceCdDiskReady_old	sceCdDiskReady_old
+01effe00	data	.data	_sceCd_rcmdrdata	_sceCd_rcmdrdata
+01eff480	data	.data	_sceCd_rd_intr_data	_sceCd_rd_intr_data
+01eff540	data	.data	_sceCd_Read_cur_pos	_sceCd_Read_cur_pos
+01ed5998	function	.text	sceSifWriteBackDCache	sceSifWriteBackDCache
+01ec5290	function	.text	sceCdGetDiskType2	sceCdGetDiskType2
+01ed6618	function	.text	sceSifRemoveRpc	sceSifRemoveRpc
+01ed66b0	function	.text	sceSifRemoveRpcQueue	sceSifRemoveRpcQueue
+01ed64b0	function	.text	sceSifSetRpcQueue	sceSifSetRpcQueue
+01ed6548	function	.text	sceSifRegisterRpc	sceSifRegisterRpc
+01ed6960	function	.text	sceSifRpcLoop	sceSifRpcLoop
+01f00070	data	.data	_sce_sdr_transIntr0Hdr	_sce_sdr_transIntr0Hdr
+01f0007c	data	.data	_sce_sdr_transIntr0Arg	_sce_sdr_transIntr0Arg
+01f00088	data	.data	_sce_sdr_transIntr0Gp	_sce_sdr_transIntr0Gp
+01f00074	data	.data	_sce_sdr_transIntr1Hdr	_sce_sdr_transIntr1Hdr
+01f00080	data	.data	_sce_sdr_transIntr1Arg	_sce_sdr_transIntr1Arg
+01f0008c	data	.data	_sce_sdr_transIntr1Gp	_sce_sdr_transIntr1Gp
+01f00078	data	.data	_sce_sdr_spu2IntrHdr	_sce_sdr_spu2IntrHdr
+01f00084	data	.data	_sce_sdr_spu2IntrArg	_sce_sdr_spu2IntrArg
+01f00090	data	.data	_sce_sdr_spu2IntrGp	_sce_sdr_spu2IntrGp
+01ec78e8	function	.text	sceScfGetTimeZone	sceScfGetTimeZone
+01ec7940	function	.text	sceScfGetSummerTime	sceScfGetSummerTime
+01ed29d0	function	.text	GetOsdConfigParam	GetOsdConfigParam
+01ed2c30	function	.text	GetOsdConfigParam2	GetOsdConfigParam2
+01f003ac	data	.data	_impure_ptr	_impure_ptr
+01ec8c30	function	.text	_cleanup_r	_cleanup_r
+01ec91a0	function	.text	__sread	__sread
+01ec9208	function	.text	__swrite	__swrite
+01ec9288	function	.text	__sseek	__sseek
+01ec92f0	function	.text	__sclose	__sclose
+01ec8c80	function	.text	_fwalk	_fwalk
+01ed0f38	function	.text	fflush	fflush
+01ed10b0	function	.text	__sinit	__sinit
+01ec8d18	function	.text	__smakebuf	__smakebuf
+01ed0d58	function	.text	_fstat_r	_fstat_r
+01ec8e70	function	.text	__srefill	__srefill
+01eccb18	function	.text	_vfprintf_r	_vfprintf_r
+01ecca48	function	.text	vfprintf	vfprintf
+01ec9310	function	.text	__svfscanf	__svfscanf
+01ed0e18	function	.text	_read_r	_read_r
+01ed0db8	function	.text	_lseek_r	_lseek_r
+01ed0ed8	function	.text	_write_r	_write_r
+01ed0d00	function	.text	_close_r	_close_r
+01ec9e20	function	.text	__sccl	__sccl
+01f00ba8	data	.data	__mb_cur_max	__mb_cur_max
+01eca148	function	.text	_mbtowc_r	_mbtowc_r
+01f28dd0	data	.rodata	_ctype_	_ctype_
+01ecfd80	function	.text	strtol	strtol
+01ecc078	function	.text	strtoul	strtoul
+01ed11b8	function	.text	fread	fread
+01ed12d0	function	.text	ungetc	ungetc
+01eca068	function	.text	atof	atof
+01ed1140	function	.text	fiprintf	fiprintf
+01ecbe30	function	.text	strtod	strtod
+01eca488	function	.text	__malloc_lock	__malloc_lock
+01ecefb8	function	.text	_malloc_r	_malloc_r
+01eca4e8	function	.text	__malloc_unlock	__malloc_unlock
+01ecf6e8	function	.text	_free_r	_free_r
+01f00c98	data	.data	__sce_sema_id	__sce_sema_id
+01ecaf38	function	.text	_strtod_r	_strtod_r
+01f29040	data	.rodata	__mprec_tens	__mprec_tens
+01f28fe0	data	.rodata	sn___infinity	sn___infinity
+01f29108	data	.rodata	__mprec_bigtens	__mprec_bigtens
+01f29130	data	.rodata	__mprec_tinytens	__mprec_tinytens
+01ed1f60	function	.text	_ulp	_ulp
+01ed1650	function	.text	_s2b	_s2b
+01ed1c10	function	.text	_lshift	_lshift
+01ed1d68	function	.text	__mcmp	__mcmp
+01ed2340	function	.text	_ratio	_ratio
+01edcc90	function	.text	__fixdfdi	__fixdfdi
+01ed1510	function	.text	_Bfree	_Bfree
+01ed1468	function	.text	_Balloc	_Balloc
+01ed21c0	function	.text	_d2b	_d2b
+01ed18d0	function	.text	_i2b	_i2b
+01ed1b10	function	.text	_pow5mult	_pow5mult
+01ed1908	function	.text	_multiply	_multiply
+01ed1dd0	function	.text	__mdiff	__mdiff
+01ecbe68	function	.text	_strtoul_r	_strtoul_r
+01edd360	function	.text	__udivdi3	__udivdi3
+01edd930	function	.text	__umoddi3	__umoddi3
+01ecfdb8	function	.text	_tolower	_tolower
+01ecc1f8	function	.text	strround	strround
+01ecc268	function	.text	strrev	strrev
+01ecc2e0	function	.text	itoa	itoa
+01ecc380	function	.text	fftoa	fftoa
+01ecdb60	function	.text	add_separators	add_separators
+01ecff08	function	.text	sn_floor	sn_floor
+01ed00f8	function	.text	sn_fmod	sn_fmod
+01ed2ee8	function	.text	write	write
+01ecde48	function	.text	_vfiprintf_r	_vfiprintf_r
+01ecfdf0	function	.text	localeconv	localeconv
+01ed0b58	function	.text	sn_log10	sn_log10
+01ecfe18	function	.text	memchr	memchr
+01ecde18	function	.text	vfiprintf	vfiprintf
+01f00750	data	.data	__malloc_av_	__malloc_av_
+01f00b58	data	.data	__malloc_trim_threshold	__malloc_trim_threshold
+01f00b60	data	.data	__malloc_top_pad	__malloc_top_pad
+01f00b68	data	.data	__malloc_sbrk_base	__malloc_sbrk_base
+01f00b70	data	.data	__malloc_max_sbrked_mem	__malloc_max_sbrked_mem
+01f00b78	data	.data	__malloc_max_total_mem	__malloc_max_total_mem
+01f00b80	data	.data	__malloc_current_mallinfo	__malloc_current_mallinfo
+01ed0e78	function	.text	_sbrk_r	_sbrk_r
+01ecf9e0	function	.text	_malloc_trim_r	_malloc_trim_r
+01ecfb50	function	.text	_strtol_r	_strtol_r
+01ecfdd8	function	.text	_localeconv_r	_localeconv_r
+01ed0540	function	.text	sn_log	sn_log
+01ed2fe0	function	.text	close	close
+01fe3188	data	.bss	errno	errno
+01ed30a0	function	.text	fstat	fstat
+01ed2fe8	function	.text	lseek	lseek
+01ed2f68	function	.text	read	read
+01ed2ff0	function	.text	sbrk	sbrk
+01ed1188	function	.text	memcpyalpha	memcpyalpha
+01ed1548	function	.text	_multadd	_multadd
+01ed1788	function	.text	_hi0bits	_hi0bits
+01ed1810	function	.text	_lo0bits	_lo0bits
+01ed2028	function	.text	_b2d	_b2d
+01ed2408	function	.text	_calloc_r	_calloc_r
+01f00bb0	data	.data	__ps2_klibinfo__	__ps2_klibinfo__
+01ed2540	function	.text	_Exit	_Exit
+01ed2560	function	.text	_LoadExecPS2	_LoadExecPS2
+01ed2610	function	.text	AddIntcHandler2	AddIntcHandler2
+01ed2630	function	.text	AddDmacHandler	AddDmacHandler
+01ed2650	function	.text	RemoveDmacHandler	RemoveDmacHandler
+01ed2660	function	.text	_EnableIntc	_EnableIntc
+01ed2670	function	.text	_DisableIntc	_DisableIntc
+01ed2680	function	.text	_EnableDmac	_EnableDmac
+01ed2690	function	.text	_DisableDmac	_DisableDmac
+01ed2740	function	.text	_StartThread	_StartThread
+01ed27d0	function	.text	RotateThreadReadyQueue	RotateThreadReadyQueue
+01ed2820	function	.text	ReferThreadStatus	ReferThreadStatus
+01ed2860	function	.text	_iWakeupThread	_iWakeupThread
+01ed2890	function	.text	SuspendThread	SuspendThread
+01ed2900	function	.text	EndOfHeap	EndOfHeap
+01ed29c0	function	.text	SetOsdConfigParam	SetOsdConfigParam
+01ed2bf0	function	.text	sceSifStopDma	sceSifStopDma
+01ed2c90	function	.text	SetVSyncFlag	SetVSyncFlag
+01ed2ce0	function	.text	_sceSifSetDma	_sceSifSetDma
+01ed2cf0	function	.text	_isceSifSetDma	_isceSifSetDma
+01ed2d00	function	.text	sceSifSetDChain	sceSifSetDChain
+01ed2d10	function	.text	isceSifSetDChain	isceSifSetDChain
+01ed2d20	function	.text	sceSifSetReg	sceSifSetReg
+01ed2d30	function	.text	sceSifGetReg	sceSifGetReg
+01ed2d50	function	.text	Deci2Call	Deci2Call
+01ed2d80	function	.text	GetMemorySize	GetMemorySize
+01ed2d90	function	.text	_InitTLB	_InitTLB
+01ed2da0	function	.text	sceResetttyinit	sceResetttyinit
+01ed3e20	function	.text	sceTtyInit	sceTtyInit
+01ed3bd8	function	.text	sceTtyWrite	sceTtyWrite
+01ed3d50	function	.text	sceTtyRead	sceTtyRead
+01ed30b8	function	.text	_sceSDC	_sceSDC
+01ed31e8	function	.text	_sceIDC	_sceIDC
+01ed3318	function	.text	QueryIntrContext	QueryIntrContext
+01ed33f8	function	.text	DisableDmac	DisableDmac
+01ed3460	function	.text	EnableDmac	EnableDmac
+01ed35a0	function	.text	InitThread	InitThread
+01ed3690	function	.text	iWakeupThread	iWakeupThread
+01ed50a0	function	.text	kprintf	kprintf
+01edbb00	function	.text	TimerUSec2BusClock	TimerUSec2BusClock
+01edbc30	function	.text	SetTimerAlarm	SetTimerAlarm
+01edbfe0	function	.text	sceDeci2ExRecv	sceDeci2ExRecv
+01edc018	function	.text	sceDeci2ExSend	sceDeci2ExSend
+01edbf80	function	.text	sceDeci2ReqSend	sceDeci2ReqSend
+01edbfb0	function	.text	sceDeci2Poll	sceDeci2Poll
+01edbf30	function	.text	sceDeci2Open	sceDeci2Open
+01edc060	function	.text	kputs	kputs
+01edccf8	function	.text	__moddi3	__moddi3
+01edc5a0	function	.text	__divdi3	__divdi3
+01ed5150	function	.text	sceSifGetSreg	sceSifGetSreg
+01ed5580	function	.text	sceSifExitCmd	sceSifExitCmd
+01ed5be8	function	.text	sceSifExitRpc	sceSifExitRpc
+01ed6740	function	.text	sceSifGetNextRequest	sceSifGetNextRequest
+01ed6798	function	.text	sceSifExecRequest	sceSifExecRequest
+01edbd60	function	.text	iSetTimerAlarm	iSetTimerAlarm
+01f00bd8	data	.data	_sceFs_q	_sceFs_q
+01ed7138	function	.text	sceFsInit	sceFsInit
+01eda4d8	function	.text	sceSifResetIop	sceSifResetIop
+01edbe88	function	.text	sceSifExecNotifyHandler	sceSifExecNotifyHandler
+01f00c9c	data	.data	__sce_eh_sema_id	__sce_eh_sema_id
+01edae28	function	.text	InitAlarm	InitAlarm
+01edafa0	function	.text	InitTimer	InitTimer
+01edb100	function	.text	StartTimerSystemTime	StartTimerSystemTime
+01edab28	function	.text	InitExecPS2	InitExecPS2
+01edc0f8	function	.text	InitTLBFunctions	InitTLBFunctions
+01edbe50	function	.text	sceSifInitRebootNotify	sceSifInitRebootNotify
+01f01448	data	.data	SysExecPS2Entry	SysExecPS2Entry
+01f01fb8	data	.data	_kExecArg	_kExecArg
+01edc1d0	function	.text	InitTLB	InitTLB
+01edaf00	function	.text	SetT2	SetT2
+01edaf70	function	.text	SetT2_COUNT	SetT2_COUNT
+01edaf80	function	.text	SetT2_MODE	SetT2_MODE
+01edaf90	function	.text	SetT2_COMP	SetT2_COMP
+01edb6a0	function	.text	iGetTimerSystemTime	iGetTimerSystemTime
+01edb770	function	.text	iAllocTimerCounter	iAllocTimerCounter
+01edb7e0	function	.text	AllocTimerCounter	AllocTimerCounter
+01edb840	function	.text	iStartTimerCounter	iStartTimerCounter
+01edb8f0	function	.text	StartTimerCounter	StartTimerCounter
+01edb970	function	.text	iSetTimerHandler	iSetTimerHandler
+01edba80	function	.text	SetTimerHandler	SetTimerHandler
+01edbb80	function	.text	_InitAlarm	_InitAlarm
+01f01f70	data	.data	_kTLBRefillHandler	_kTLBRefillHandler
+01f01f78	data	.data	_kDebugHandler	_kDebugHandler
+01f02270	data	.data	TLBInfo	TLBInfo
+01edc480	function	.text	_kExitTLBHandler	_kExitTLBHandler
+01f02360	data	.data	sn_frame_table	sn_frame_table
+01edde70	function	.text	sn_reg_frame	sn_reg_frame
+01edde88	function	.text	sn_dereg_frame	sn_dereg_frame
