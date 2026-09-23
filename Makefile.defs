@@ -31,4 +31,6 @@ clean:
 	rm -rf $(EE_OBJS_DIR)
 	rm -f $(EE_LIB)
 
+ifneq ($(MAKECMDGOALS),clean)
 -include $(EE_OBJS:.o=.d)
+endif
