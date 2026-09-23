@@ -1,2 +1,7 @@
-REGION := pal
-include Makefile.region
+EE_REGION = pal
+EE_LIB_NAME = librac5pal.a
+EE_DEFS = -DRAC5_PAL -DRAC_PAL -DPAL
+
+include $(CURDIR)/Makefile.defs
+include $(PS2SDK)/samples/Makefile.pref
+include $(CURDIR)/Makefile.eeglobal

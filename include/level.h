@@ -28,8 +28,8 @@ enum Rac5Level {
 #ifdef __cplusplus
 extern "C" {
 #endif
-const char *rac5LevelName(int discLevelId);
-const char *rac5LevelSource(int discLevelId);
+const char *levelGetNameById(int discLevelId);
+const char *levelGetSourceById(int discLevelId);
 #ifdef __cplusplus
 }
 #endif

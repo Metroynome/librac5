@@ -1,2 +1,0 @@
-REGION := auto
-include Makefile.region

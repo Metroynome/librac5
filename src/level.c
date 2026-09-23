@@ -23,5 +23,5 @@ static const Level levels[] = {
     {23, "Medical Outpost Omega - Skyboard Race", "../LEVEL_BIN/rcp1_level06_airboard_race_disc.elf"},
     {24, "HIG Treehouse - California", "../LEVEL_BIN/rcp1_HIGTreehouse_disc.elf"},
 };
-const char *rac5LevelName(int id) { unsigned i; if(id==-1) id=0; for(i=0;i<sizeof(levels)/sizeof(levels[0]);++i) if(levels[i].id==id) return levels[i].name; return 0; }
-const char *rac5LevelSource(int id) { unsigned i; if(id==-1) id=0; for(i=0;i<sizeof(levels)/sizeof(levels[0]);++i) if(levels[i].id==id) return levels[i].source; return 0; }
+const char *levelGetNameById(int id) { unsigned i; if(id==-1) id=0; for(i=0;i<sizeof(levels)/sizeof(levels[0]);++i) if(levels[i].id==id) return levels[i].name; return 0; }
+const char *levelGetSourceById(int id) { unsigned i; if(id==-1) id=0; for(i=0;i<sizeof(levels)/sizeof(levels[0]);++i) if(levels[i].id==id) return levels[i].source; return 0; }

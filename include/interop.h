@@ -1,59 +1,44 @@
 #ifndef LIBRAC5_INTEROP_H
 #define LIBRAC5_INTEROP_H
-#include "rac5.h"
+
+#include <tamtypes.h>
+
+// REL offsets indexed by the game's level ID; zero means unavailable.
+typedef struct VariableAddress {
+    u32 MainMenu; /* 0 */
+    u32 Pokitaru; /* 1 */
+    u32 Ryllus; /* 2 */
+    u32 Kalidon; /* 3 */
+    u32 Metalis; /* 4 */
+    u32 Dreamtime; /* 5 */
+    u32 MedicalOutpostOmega; /* 6 */
+    u32 Challax; /* 7 */
+    u32 DayniMoon; /* 8 */
+    u32 InsideClank; /* 9 */
+    u32 Quodrona; /* 10 */
+    u32 Roberto; /* 11 */
+    u32 JumpLevel; /* 12 */
+    u32 MungoArena; /* 13 */
+    u32 ClankSegment; /* 14 */
+    u32 MetalisGiantClank; /* 15 */
+    u32 IslandEscape; /* 16 */
+    u32 DangerValley; /* 17 */
+    u32 MegaCannons; /* 18 */
+    u32 MoonCowDisease; /* 19 */
+    u32 MPLobby; /* 20 */
+    u32 ChallaxGiantClank; /* 21 */
+    u32 KalidonSkyboard; /* 22 */
+    u32 MedicalOutpostSkyboard; /* 23 */
+    u32 HIGTreehouse; /* 24 */
+} VariableAddress_t;
+
 #ifdef __cplusplus
 extern "C" {
 #endif
-#define RAC5_LEVEL_SLOT_COUNT 25
-#define RAC5_LEVEL_UNKNOWN (-2)
-/* Absolute addresses, in the actual levelExecs index order (0..24).
- * Slots 11/12 alias LEVEL_10 on disc; 13/14 name absent RELs. No extra C slots.
- * Zero means unavailable. Clear overlay entries when their module unloads. */
-typedef struct VariableAddress {
-    Rac5Address MainMenu; /* 0 */
-    Rac5Address Pokitaru; /* 1 */
-    Rac5Address Ryllus; /* 2 */
-    Rac5Address Kalidon; /* 3 */
-    Rac5Address Metalis; /* 4 */
-    Rac5Address Dreamtime; /* 5 */
-    Rac5Address MedicalOutpostOmega; /* 6 */
-    Rac5Address Challax; /* 7 */
-    Rac5Address DayniMoon; /* 8 */
-    Rac5Address InsideClank; /* 9 */
-    Rac5Address Quodrona; /* 10 */
-    Rac5Address Roberto; /* 11 */
-    Rac5Address JumpLevel; /* 12 */
-    Rac5Address MungoArena; /* 13 */
-    Rac5Address ClankSegment; /* 14 */
-    Rac5Address MetalisGiantClank; /* 15 */
-    Rac5Address IslandEscape; /* 16 */
-    Rac5Address DangerValley; /* 17 */
-    Rac5Address MegaCannons; /* 18 */
-    Rac5Address MoonCowDisease; /* 19 */
-    Rac5Address MPLobby; /* 20 */
-    Rac5Address ChallaxGiantClank; /* 21 */
-    Rac5Address KalidonSkyboard; /* 22 */
-    Rac5Address MedicalOutpostSkyboard; /* 23 */
-    Rac5Address HIGTreehouse; /* 24 */
-} VariableAddress_t;
-Rac5Address rac5GetAddressForLevel(const VariableAddress_t *, int levelIndex);
-int rac5SetAddressForLevel(VariableAddress_t *, int levelIndex, Rac5Address);
-/* Reads the global referenced by the verified getter; never calls game code.
- * -2 means unknown/invalid; -1 is accepted only as a tooling alias in table APIs. */
-int rac5GetCurrentLevel(const Rac5Context *);
-Rac5Address rac5GetAddress(const Rac5Context *, const VariableAddress_t *);
-/* Compatibility with the sibling libraries. Bind after rac5Init/InitEE;
- * context must remain alive. NULL unbinds. No pause/loading-state gating is
- * inferred: both selectors only select by current index and return zero on failure. */
-void rac5SetAddressContext(const Rac5Context *);
-Rac5Address GetAddress(VariableAddress_t *);
-Rac5Address GetAddressImmediate(VariableAddress_t *);
-/* Store a resolved absolute address from a caller-supplied loaded module.
- * Source path must match the level; missing symbols clear that slot.
- * No module scan, rebasing guess, or automatic active-module assertion. */
-int rac5SetModuleSymbolAddress(const Rac5Context *, const Rac5Module *,
-                              VariableAddress_t *, int levelIndex, const char *name);
+u32 GetAddress(VariableAddress_t *address);
+u32 GetAddressImmediate(VariableAddress_t *address);
 #ifdef __cplusplus
 }
 #endif
+
 #endif
