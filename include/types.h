@@ -8,5 +8,4 @@
 #define __LIBRAC5_SETTER__ inline
 #define __LIBRAC5_INLINE__ inline
 
-
 #endif
