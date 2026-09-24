@@ -60,6 +60,9 @@ name: addiu $sp,$sp,-0xb0; \
     .end name; .size name,.-name; .set pop;
 
 
+//--------------------------------------------------------
+//-------------------- ADDRESS LOOKUP --------------------
+//--------------------------------------------------------
 // Tables contain REL offsets; resolve against the currently loaded module.
 .set push
 .set noreorder
@@ -129,12 +132,23 @@ GetAddressImmediate:
 .set pop
 
 #if defined(RAC5_PAL)
+//--------------------------------------------------------
+//------------------------- GAME -------------------------
+//--------------------------------------------------------
 FUNCTION(gameGetCurrentLevel, 0x01e69840)
+
+//--------------------------------------------------------
+//------------------------- MATH -------------------------
+//--------------------------------------------------------
 FUNCTION(acosf, 0x01e9d7a0)
 FUNCTION(asinf, 0x01e9d8a0)
 FUNCTION(atan2f, 0x01e9d9a0)
 FUNCTION(powf, 0x01e9dec8)
 FUNCTION(floorf, 0x01e9d430)
+
+//--------------------------------------------------------
+//------------------- STANDARD LIBRARY -------------------
+//--------------------------------------------------------
 FUNCTION(memset, 0x01ec60e4)
 FUNCTION(memcpy, 0x01ec5f3c)
 FUNCTION(memmove, 0x01ec5fe8)
@@ -151,13 +165,43 @@ FUNCTION(strchr, 0x01ec62cc)
 FUNCTION(malloc, 0x01ec81f0)
 FUNCTION(free, 0x01ec8240)
 FUNCTION(printf, 0x01ec6f28)
-FUNCTION(fileOpen, 0x01ebb8d0)
-FUNCTION(fileRead, 0x01ebb990)
-FUNCTION(fileClose, 0x01ebbaa0)
 FUNCTION(sprintf, 0x01ec71c0)
 FUNCTION(snprintf, 0x01ec7118)
 FUNCTION(atoi, 0x01ec81c8)
 FUNCTION(rand, 0x01ec9048)
+
+//--------------------------------------------------------
+//------------------------- FILE -------------------------
+//--------------------------------------------------------
+FUNCTION(fileOpen, 0x01ebb8d0)
+FUNCTION(fileRead, 0x01ebb990)
+FUNCTION(fileClose, 0x01ebbaa0)
+
+//--------------------------------------------------------
+//------------------------- SIF --------------------------
+//--------------------------------------------------------
+FUNCTION(sceSifInitRpc, 0x01ed3b88)
+FUNCTION(sceSifExitRpc, 0x01ed3d28)
+FUNCTION(sceSifLoadModule, 0x01ed85b8)
+FUNCTION(sceSifLoadStartModule, 0x01ed85d8)
+FUNCTION(sceSifLoadModuleBuffer, 0x01ed8368)
+FUNCTION(sceSifSearchModuleByName, 0x01ed82c8)
+FUNCTION(sceSifStopModule, 0x01ed8030)
+FUNCTION(sceSifUnloadModule, 0x01ed8238)
+FUNCTION(sceSifInitIopHeap, 0x01ed7b88)
+FUNCTION(sceSifAllocIopHeap, 0x01ed7c10)
+FUNCTION(sceSifResetIop, 0x01ed8618)
+FUNCTION(sceSifRebootIop, 0x01ed87c0)
+FUNCTION(sceSifSyncIop, 0x01ed8770)
+
+//--------------------------------------------------------
+//------------------------ KERNEL ------------------------
+//--------------------------------------------------------
+FUNCTION(FlushCache, 0x01ed0ce0)
+
+//--------------------------------------------------------
+//------------------------ SOUND -------------------------
+//--------------------------------------------------------
 FUNCTION(soundPlay, 0x01e91638)
 FUNCTION(soundPlayAt, 0x01e91960)
 FUNCTION(soundStop, 0x01e91a10)
@@ -173,12 +217,23 @@ FUNCTION(soundPauseAll, 0x01e91af0)
 FUNCTION(soundGetSlotCount, 0x01e914e8)
 FUNCTION(soundGetSlot, 0x01e91500)
 #elif defined(RAC5_NTSCJ)
+//--------------------------------------------------------
+//------------------------- GAME -------------------------
+//--------------------------------------------------------
 FUNCTION(gameGetCurrentLevel, 0x01e6b8d0)
+
+//--------------------------------------------------------
+//------------------------- MATH -------------------------
+//--------------------------------------------------------
 FUNCTION(acosf, 0x01e9f6a8)
 FUNCTION(asinf, 0x01e9f7a8)
 FUNCTION(atan2f, 0x01e9f8a8)
 FUNCTION(powf, 0x01e9fdd0)
 FUNCTION(floorf, 0x01e9f338)
+
+//--------------------------------------------------------
+//------------------- STANDARD LIBRARY -------------------
+//--------------------------------------------------------
 FUNCTION(memset, 0x01ec7fa4)
 FUNCTION(memcpy, 0x01ec7dfc)
 FUNCTION(memmove, 0x01ec7ea8)
@@ -195,13 +250,43 @@ FUNCTION(strchr, 0x01ec818c)
 FUNCTION(malloc, 0x01eca0b0)
 FUNCTION(free, 0x01eca100)
 FUNCTION(printf, 0x01ec8de8)
-FUNCTION(fileOpen, 0x01ebd790)
-FUNCTION(fileRead, 0x01ebd850)
-FUNCTION(fileClose, 0x01ebd960)
 FUNCTION(sprintf, 0x01ec9080)
 FUNCTION(snprintf, 0x01ec8fd8)
 FUNCTION(atoi, 0x01eca088)
 FUNCTION(rand, 0x01ecaf08)
+
+//--------------------------------------------------------
+//------------------------- FILE -------------------------
+//--------------------------------------------------------
+FUNCTION(fileOpen, 0x01ebd790)
+FUNCTION(fileRead, 0x01ebd850)
+FUNCTION(fileClose, 0x01ebd960)
+
+//--------------------------------------------------------
+//------------------------- SIF --------------------------
+//--------------------------------------------------------
+FUNCTION(sceSifInitRpc, 0x01ed5a48)
+FUNCTION(sceSifExitRpc, 0x01ed5be8)
+FUNCTION(sceSifLoadModule, 0x01eda478)
+FUNCTION(sceSifLoadStartModule, 0x01eda498)
+FUNCTION(sceSifLoadModuleBuffer, 0x01eda228)
+FUNCTION(sceSifSearchModuleByName, 0x01eda188)
+FUNCTION(sceSifStopModule, 0x01ed9ef0)
+FUNCTION(sceSifUnloadModule, 0x01eda0f8)
+FUNCTION(sceSifInitIopHeap, 0x01ed9a48)
+FUNCTION(sceSifAllocIopHeap, 0x01ed9ad0)
+FUNCTION(sceSifResetIop, 0x01eda4d8)
+FUNCTION(sceSifRebootIop, 0x01eda680)
+FUNCTION(sceSifSyncIop, 0x01eda630)
+
+//--------------------------------------------------------
+//------------------------ KERNEL ------------------------
+//--------------------------------------------------------
+FUNCTION(FlushCache, 0x01ed2ba0)
+
+//--------------------------------------------------------
+//------------------------ SOUND -------------------------
+//--------------------------------------------------------
 FUNCTION(soundPlay, 0x01e93540)
 FUNCTION(soundPlayAt, 0x01e93868)
 FUNCTION(soundStop, 0x01e93918)
@@ -217,12 +302,23 @@ FUNCTION(soundPauseAll, 0x01e939f8)
 FUNCTION(soundGetSlotCount, 0x01e933f0)
 FUNCTION(soundGetSlot, 0x01e93408)
 #else
+//--------------------------------------------------------
+//------------------------- GAME -------------------------
+//--------------------------------------------------------
 FUNCTION(gameGetCurrentLevel, 0x01e69a98)
+
+//--------------------------------------------------------
+//------------------------- MATH -------------------------
+//--------------------------------------------------------
 FUNCTION(acosf, 0x01e9d9f8)
 FUNCTION(asinf, 0x01e9daf8)
 FUNCTION(atan2f, 0x01e9dbf8)
 FUNCTION(powf, 0x01e9e120)
 FUNCTION(floorf, 0x01e9d688)
+
+//--------------------------------------------------------
+//------------------- STANDARD LIBRARY -------------------
+//--------------------------------------------------------
 FUNCTION(memset, 0x01ec62f4)
 FUNCTION(memcpy, 0x01ec614c)
 FUNCTION(memmove, 0x01ec61f8)
@@ -239,13 +335,43 @@ FUNCTION(strchr, 0x01ec64dc)
 FUNCTION(malloc, 0x01ec8400)
 FUNCTION(free, 0x01ec8450)
 FUNCTION(printf, 0x01ec7138)
-FUNCTION(fileOpen, 0x01ebbae0)
-FUNCTION(fileRead, 0x01ebbba0)
-FUNCTION(fileClose, 0x01ebbcb0)
 FUNCTION(sprintf, 0x01ec73d0)
 FUNCTION(snprintf, 0x01ec7328)
 FUNCTION(atoi, 0x01ec83d8)
 FUNCTION(rand, 0x01ec9258)
+
+//--------------------------------------------------------
+//------------------------- FILE -------------------------
+//--------------------------------------------------------
+FUNCTION(fileOpen, 0x01ebbae0)
+FUNCTION(fileRead, 0x01ebbba0)
+FUNCTION(fileClose, 0x01ebbcb0)
+
+//--------------------------------------------------------
+//------------------------- SIF --------------------------
+//--------------------------------------------------------
+FUNCTION(sceSifInitRpc, 0x01ed3d88)
+FUNCTION(sceSifExitRpc, 0x01ed3f28)
+FUNCTION(sceSifLoadModule, 0x01ed87b8)
+FUNCTION(sceSifLoadStartModule, 0x01ed87d8)
+FUNCTION(sceSifLoadModuleBuffer, 0x01ed8568)
+FUNCTION(sceSifSearchModuleByName, 0x01ed84c8)
+FUNCTION(sceSifStopModule, 0x01ed8230)
+FUNCTION(sceSifUnloadModule, 0x01ed8438)
+FUNCTION(sceSifInitIopHeap, 0x01ed7d88)
+FUNCTION(sceSifAllocIopHeap, 0x01ed7e10)
+FUNCTION(sceSifResetIop, 0x01ed8818)
+FUNCTION(sceSifRebootIop, 0x01ed89c0)
+FUNCTION(sceSifSyncIop, 0x01ed8970)
+
+//--------------------------------------------------------
+//------------------------ KERNEL ------------------------
+//--------------------------------------------------------
+FUNCTION(FlushCache, 0x01ed0ee0)
+
+//--------------------------------------------------------
+//------------------------ SOUND -------------------------
+//--------------------------------------------------------
 FUNCTION(soundPlay, 0x01e91890)
 FUNCTION(soundPlayAt, 0x01e91bb8)
 FUNCTION(soundStop, 0x01e91c68)
@@ -262,6 +388,13 @@ FUNCTION(soundGetSlotCount, 0x01e91740)
 FUNCTION(soundGetSlot, 0x01e91758)
 #endif
 
+//--------------------------------------------------------
+//----------------------- MESSAGE ------------------------
+//--------------------------------------------------------
 VARIABLE_FUNCTION(msgstr, vaMsgStr)
+
+//--------------------------------------------------------
+//------------------------- MOBY -------------------------
+//--------------------------------------------------------
 VARIABLE_FUNCTION(mobyCreate, vaMobyCreate)
 VARIABLE_FUNCTION(mobyDestroy, vaMobyDestroy)
