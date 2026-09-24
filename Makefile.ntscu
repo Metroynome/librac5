@@ -1,6 +1,6 @@
 EE_REGION = ntscu
 EE_LIB_NAME = librac5ntscu.a
-EE_DEFS = -DRAC5_NTSCU -DRAC_NTSCU -DNTSCU
+EE_DEFS = -DRAC5_NTSCU -DSM_NTSCU -DNTSCU
 
 include $(CURDIR)/Makefile.defs
 include $(PS2SDK)/samples/Makefile.pref

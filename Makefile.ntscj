@@ -1,6 +1,6 @@
 EE_REGION = ntscj
 EE_LIB_NAME = librac5ntscj.a
-EE_DEFS = -DRAC5_NTSCJ -DRAC_NTSCJ -DNTSCJ
+EE_DEFS = -DRAC5_NTSCJ -DSM_NTSCJ -DNTSCJ
 
 include $(CURDIR)/Makefile.defs
 include $(PS2SDK)/samples/Makefile.pref
