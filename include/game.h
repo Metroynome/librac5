@@ -3,12 +3,8 @@
 
 #include "level.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+#define GAME_MODE_ISLAND_ESCAPE_COOP (*(int*)0x01069C68)
+
 int gameGetCurrentLevel(void);
-#ifdef __cplusplus
-}
-#endif
 
 #endif
