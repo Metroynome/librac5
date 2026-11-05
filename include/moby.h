@@ -6,7 +6,7 @@ extern "C" {
 #endif
 typedef struct Moby Moby;
 typedef struct MobyClass MobyClass;
-extern VariableAddress_t vaMobyCreate, vaMobyDestroy;
+extern rac5VariableAddressCompact_t vaMobyCreate, vaMobyDestroy;
 /* Uses a free slot of a loaded class; transform is 16 aligned floats or NULL; group 0xff uses the class default. */
 Moby *mobyCreate(MobyClass *, unsigned int modelSignature, const float *transform, unsigned int group);
 /* effects is used by single-player; multiplayer ignores it. */

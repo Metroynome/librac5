@@ -84,9 +84,37 @@ GetAddressImmediate:
     lw $t0,GAME_LEVEL_TO_LAUNCH
     bne $t0,$v1,1f
     nop
-    sll $v1,$v1,2
-    addu $v1,$a0,$v1
-    lw $v1,0($v1)
+	lw $t0,0($a0)
+	bltz $t0,rac5CompactOffset
+	nop
+	sll $v1,$v1,2
+	addu $v1,$a0,$v1
+	b rac5OffsetReady
+	lw $v1,0($v1)
+rac5CompactOffset:
+	sll $t0,$t0,1
+	bnez $v1,rac5CompactLevel
+	srl $t0,$t0,1
+	b rac5OffsetReady
+	move $v1,$t0
+rac5CompactLevel:
+	addiu $v1,$v1,-1
+	lw $t0,4($a0)
+	bnez $v1,rac5CompactDelta
+	nop
+	b rac5OffsetReady
+	move $v1,$t0
+rac5CompactDelta:
+	sll $v1,$v1,1
+	addu $v1,$a0,$v1
+	lhu $v1,6($v1)
+	beqz $v1,1f
+	nop
+	xori $v1,$v1,0x8000
+	sll $v1,$v1,16
+	sra $v1,$v1,14
+	addu $v1,$t0,$v1
+rac5OffsetReady:
     beq $v1,$zero,1f
     nop
     lw $t0,GAME_MODULE_ID
