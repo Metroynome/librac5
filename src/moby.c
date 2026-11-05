@@ -2,8 +2,8 @@
 
 rac5VariableAddressCompact_t vaMobyCreate = {
 #if defined(RAC5_PAL)
-	.MainMenu = RAC5_VA_COMPACT_MENU(0),
-	.Pokitaru = 0x0007c708,
+	.MainMenu = 0,
+	.Pokitaru = RAC5_VA_COMPACT_BASE(0x0007c708),
 	.Ryllus = RAC5_VA_COMPACT_OFFSET(0x0007c708, 0x00082ff0),
 	.Kalidon = RAC5_VA_COMPACT_OFFSET(0x0007c708, 0x0007c500),
 	.Metalis = RAC5_VA_COMPACT_OFFSET(0x0007c708, 0x0007fb80),
@@ -26,8 +26,8 @@ rac5VariableAddressCompact_t vaMobyCreate = {
 	.MedicalOutpostSkyboard = RAC5_VA_COMPACT_OFFSET(0x0007c708, 0x00073ab8),
 	.HIGTreehouse = RAC5_VA_COMPACT_OFFSET(0x0007c708, 0x00076da0),
 #elif defined(RAC5_NTSCJ)
-	.MainMenu = RAC5_VA_COMPACT_MENU(0),
-	.Pokitaru = 0x0007c6e0,
+	.MainMenu = 0,
+	.Pokitaru = RAC5_VA_COMPACT_BASE(0x0007c6e0),
 	.Ryllus = RAC5_VA_COMPACT_OFFSET(0x0007c6e0, 0x00082ff8),
 	.Kalidon = RAC5_VA_COMPACT_OFFSET(0x0007c6e0, 0x0007c508),
 	.Metalis = RAC5_VA_COMPACT_OFFSET(0x0007c6e0, 0x0007fb40),
@@ -50,8 +50,8 @@ rac5VariableAddressCompact_t vaMobyCreate = {
 	.MedicalOutpostSkyboard = RAC5_VA_COMPACT_OFFSET(0x0007c6e0, 0x00074600),
 	.HIGTreehouse = RAC5_VA_COMPACT_OFFSET(0x0007c6e0, 0x00077308),
 #else
-	.MainMenu = RAC5_VA_COMPACT_MENU(0),
-	.Pokitaru = 0x0007c558,
+	.MainMenu = 0,
+	.Pokitaru = RAC5_VA_COMPACT_BASE(0x0007c558),
 	.Ryllus = RAC5_VA_COMPACT_OFFSET(0x0007c558, 0x00082e40),
 	.Kalidon = RAC5_VA_COMPACT_OFFSET(0x0007c558, 0x0007c350),
 	.Metalis = RAC5_VA_COMPACT_OFFSET(0x0007c558, 0x0007f9d0),
@@ -78,8 +78,8 @@ rac5VariableAddressCompact_t vaMobyCreate = {
 
 rac5VariableAddressCompact_t vaMobyDestroy = {
 #if defined(RAC5_PAL)
-	.MainMenu = RAC5_VA_COMPACT_MENU(0),
-	.Pokitaru = 0x0007c820,
+	.MainMenu = 0,
+	.Pokitaru = RAC5_VA_COMPACT_BASE(0x0007c820),
 	.Ryllus = RAC5_VA_COMPACT_OFFSET(0x0007c820, 0x00083108),
 	.Kalidon = RAC5_VA_COMPACT_OFFSET(0x0007c820, 0x0007c618),
 	.Metalis = RAC5_VA_COMPACT_OFFSET(0x0007c820, 0x0007fc98),
@@ -102,8 +102,8 @@ rac5VariableAddressCompact_t vaMobyDestroy = {
 	.MedicalOutpostSkyboard = RAC5_VA_COMPACT_OFFSET(0x0007c820, 0x00073bc8),
 	.HIGTreehouse = RAC5_VA_COMPACT_OFFSET(0x0007c820, 0x00076eb8),
 #elif defined(RAC5_NTSCJ)
-	.MainMenu = RAC5_VA_COMPACT_MENU(0),
-	.Pokitaru = 0x0007c7f8,
+	.MainMenu = 0,
+	.Pokitaru = RAC5_VA_COMPACT_BASE(0x0007c7f8),
 	.Ryllus = RAC5_VA_COMPACT_OFFSET(0x0007c7f8, 0x00083110),
 	.Kalidon = RAC5_VA_COMPACT_OFFSET(0x0007c7f8, 0x0007c620),
 	.Metalis = RAC5_VA_COMPACT_OFFSET(0x0007c7f8, 0x0007fc58),
@@ -126,8 +126,8 @@ rac5VariableAddressCompact_t vaMobyDestroy = {
 	.MedicalOutpostSkyboard = RAC5_VA_COMPACT_OFFSET(0x0007c7f8, 0x00074718),
 	.HIGTreehouse = RAC5_VA_COMPACT_OFFSET(0x0007c7f8, 0x00077420),
 #else
-	.MainMenu = RAC5_VA_COMPACT_MENU(0),
-	.Pokitaru = 0x0007c670,
+	.MainMenu = 0,
+	.Pokitaru = RAC5_VA_COMPACT_BASE(0x0007c670),
 	.Ryllus = RAC5_VA_COMPACT_OFFSET(0x0007c670, 0x00082f58),
 	.Kalidon = RAC5_VA_COMPACT_OFFSET(0x0007c670, 0x0007c468),
 	.Metalis = RAC5_VA_COMPACT_OFFSET(0x0007c670, 0x0007fae8),

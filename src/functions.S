@@ -85,25 +85,18 @@ GetAddressImmediate:
     bne $t0,$v1,1f
     nop
 	lw $t0,0($a0)
-	bltz $t0,rac5CompactOffset
+	bgez $t0,rac5FullOffset
 	nop
-	sll $v1,$v1,2
-	addu $v1,$a0,$v1
-	b rac5OffsetReady
-	lw $v1,0($v1)
-rac5CompactOffset:
-	sll $t0,$t0,1
-	bnez $v1,rac5CompactLevel
-	srl $t0,$t0,1
-	b rac5OffsetReady
-	move $v1,$t0
-rac5CompactLevel:
+	beqz $v1,rac5MenuOffset
+	nop
+	sll $t1,$t0,1
+	sll $t0,$t0,2
+	srl $t0,$t0,2
+	bltz $t1,rac5CompactDelta
+	nop
 	addiu $v1,$v1,-1
-	lw $t0,4($a0)
-	bnez $v1,rac5CompactDelta
+	beqz $v1,rac5BaseOffset
 	nop
-	b rac5OffsetReady
-	move $v1,$t0
 rac5CompactDelta:
 	sll $v1,$v1,1
 	addu $v1,$a0,$v1
@@ -113,7 +106,17 @@ rac5CompactDelta:
 	xori $v1,$v1,0x8000
 	sll $v1,$v1,16
 	sra $v1,$v1,14
+	b rac5OffsetReady
 	addu $v1,$t0,$v1
+rac5MenuOffset:
+	lw $t0,4($a0)
+rac5BaseOffset:
+	b rac5OffsetReady
+	move $v1,$t0
+rac5FullOffset:
+	sll $v1,$v1,2
+	addu $v1,$a0,$v1
+	lw $v1,0($v1)
 rac5OffsetReady:
     beq $v1,$zero,1f
     nop

@@ -32,8 +32,14 @@ typedef struct VariableAddress {
     u32 HIGTreehouse; /* 24 */
 } VariableAddress_t;
 
-/* REL-relative offsets; MainMenu carries the format tag, Pokitaru is the base. */
-#define RAC5_VA_COMPACT_MENU(address) ((u32)(address) | (u32)0x80000000)
+/* The first word tags the layout: BASE selects the fixed map base,
+ * CUSTOM_BASE selects an explicit Base followed by offsets for every map.
+ * Lobby/MainMenu, when present, is an ordinary address at byte 4.
+ * Full tables keep their original layout. Rebuild unpublished compact users.
+ * Offsets are signed words biased by 0x8000; zero means unavailable.
+ */
+#define RAC5_VA_COMPACT_BASE(address) ((u32)(address) | (u32)0x80000000)
+#define RAC5_VA_COMPACT_CUSTOM_BASE(address) ((u32)(address) | (u32)0xc0000000)
 #define RAC5_VA_COMPACT_OFFSET(base, address) ((address) == 0 ? 0 : \
 	(u16)(((s32)(address) - (s32)(base)) / 4 + 0x8000 + \
 	0 * sizeof(char[((address) == 0 || (((s32)(address) - (s32)(base)) % 4 == 0 && \
@@ -41,8 +47,8 @@ typedef struct VariableAddress {
 	((s32)(address) - (s32)(base)) / 4 <= 32767)) ? 1 : -1])))
 
 typedef struct rac5VariableAddressCompact {
-	/* 0x00 */ u32 MainMenu;
-	/* 0x04 */ u32 Pokitaru;
+	/* 0x00 */ u32 Pokitaru;
+	/* 0x04 */ u32 MainMenu;
 	/* 0x08 */ u16 Ryllus;
 	/* 0x0a */ u16 Kalidon;
 	/* 0x0c */ u16 Metalis;
@@ -68,6 +74,35 @@ typedef struct rac5VariableAddressCompact {
 	/* 0x34 */ u16 HIGTreehouse;
 	/* 0x36: two bytes of EE alignment padding. */
 } rac5VariableAddressCompact_t;
+
+typedef struct rac5VariableAddressCompactBase {
+	/* 0x00 */ u32 Base;
+	/* 0x04 */ u32 MainMenu;
+	/* 0x08 */ u16 Pokitaru;
+	/* 0x0a */ u16 Ryllus;
+	/* 0x0c */ u16 Kalidon;
+	/* 0x0e */ u16 Metalis;
+	/* 0x10 */ u16 Dreamtime;
+	/* 0x12 */ u16 MedicalOutpostOmega;
+	/* 0x14 */ u16 Challax;
+	/* 0x16 */ u16 DayniMoon;
+	/* 0x18 */ u16 InsideClank;
+	/* 0x1a */ u16 Quodrona;
+	/* 0x1c */ u16 Roberto;
+	/* 0x1e */ u16 JumpLevel;
+	/* 0x20 */ u16 MungoArena;
+	/* 0x22 */ u16 ClankSegment;
+	/* 0x24 */ u16 MetalisGiantClank;
+	/* 0x26 */ u16 IslandEscape;
+	/* 0x28 */ u16 DangerValley;
+	/* 0x2a */ u16 MegaCannons;
+	/* 0x2c */ u16 MoonCowDisease;
+	/* 0x2e */ u16 MPLobby;
+	/* 0x30 */ u16 ChallaxGiantClank;
+	/* 0x32 */ u16 KalidonSkyboard;
+	/* 0x34 */ u16 MedicalOutpostSkyboard;
+	/* 0x36 */ u16 HIGTreehouse;
+} rac5VariableAddressCompactBase_t;
 
 #ifdef __cplusplus
 extern "C" {
